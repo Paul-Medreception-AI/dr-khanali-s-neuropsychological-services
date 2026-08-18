@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Therapy vs. Medication for Anxiety: Comparing Treatment Approaches | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Compare therapy and medication for anxiety treatment. Learn about effectiveness, side effects, costs, and which approach may be right for you in Arlington, VA.',
+  title: 'Therapy vs. Medication for Anxiety: Comparing Treatment Approaches',
+  description: 'Compare therapy and medication for anxiety treatment. Learn about effectiveness, side effects, costs, and which approach may be right for you in Fredericksburg, VA.',
 }
 
 export default function TherapyVsMedicationAnxietyPage() {
@@ -22,7 +22,7 @@ export default function TherapyVsMedicationAnxietyPage() {
             Therapy vs. Medication for Anxiety: Comparing Treatment Approaches
           </h1>
           <p className="text-xl opacity-90 max-w-3xl mx-auto">
-            Understanding your options is the first step toward effective anxiety treatment in Arlington, VA
+            Understanding your options is the first step toward effective anxiety treatment in Fredericksburg, VA
           </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function TherapyVsMedicationAnxietyPage() {
                 Cognitive Behavioral Therapy (CBT) and other evidence-based psychotherapies address anxiety by helping you understand and change the thought patterns and behaviors that maintain anxious feelings. Research consistently shows that therapy produces lasting changes in brain function and anxiety responses that persist long after treatment ends.
               </p>
               <p>
-                In therapy, you'll learn specific techniques like cognitive restructuring (identifying and challenging anxious thoughts), exposure therapy (gradually facing feared situations), and relaxation training. These become lifelong skills you can apply whenever anxiety resurfaces. Studies show that 60-80% of people with anxiety disorders significantly improve with therapy.
+                In therapy, you'll learn specific techniques like cognitive restructuring (identifying and challenging anxious thoughts), exposure therapy (gradually facing feared situations), and relaxation training. These become lifelong skills you can apply whenever anxiety resurfaces. Studies show that most people with anxiety disorders improve significantly with therapy.
               </p>
               <p>
                 Therapy is particularly effective for those who prefer an active, skill-building approach to treatment. It works well for people motivated to understand the roots of their anxiety and willing to practice new strategies between sessions. The typical course involves 12-20 weekly sessions, though some people benefit from shorter or longer treatment depending on symptom severity and personal goals.
@@ -156,7 +156,7 @@ export default function TherapyVsMedicationAnxietyPage() {
                 Anti-anxiety medications work by altering brain chemistry to reduce anxiety symptoms. SSRIs (Selective Serotonin Reuptake Inhibitors) like Zoloft and Lexapro are typically first-line medications, increasing serotonin availability in the brain. Benzodiazepines like Xanax and Ativan work faster but carry dependency risks with long-term use.
               </p>
               <p>
-                Medication can be highly effective for providing symptom relief, especially when anxiety is severe enough to interfere with daily functioning or prevent engagement in therapy. About 50-60% of people with anxiety disorders respond well to medication. The effects typically last as long as the medication is taken, and discontinuation often requires gradual tapering under medical supervision to avoid withdrawal symptoms.
+                Medication can be highly effective for providing symptom relief, especially when anxiety is severe enough to interfere with daily functioning or prevent engagement in therapy. Many people with anxiety disorders respond well to medication. The effects typically last as long as the medication is taken, and discontinuation often requires gradual tapering under medical supervision to avoid withdrawal symptoms.
               </p>
               <p>
                 Medication is often recommended when anxiety has strong biological components (such as panic disorder or generalized anxiety disorder), when symptoms are severe, or when quick relief is needed. Many clinicians recommend combining medication with therapy for optimal outcomes, using medication to reduce symptoms enough to engage meaningfully in therapeutic work. Side effects vary by medication type but can include nausea, fatigue, sleep changes, and sexual side effects.
@@ -350,13 +350,13 @@ export default function TherapyVsMedicationAnxietyPage() {
 
             <details className="group bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md">
               <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                <span className="font-semibold text-[var(--color-ink)] pr-4">How do I find the right provider to discuss these options in Arlington, VA?</span>
+                <span className="font-semibold text-[var(--color-ink)] pr-4">How do I find the right provider to discuss these options in Fredericksburg, VA?</span>
                 <svg className="w-5 h-5 text-[var(--color-accent)] transition-transform duration-300 group-open:rotate-180 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-ink)] leading-relaxed">
-                <p>Look for a licensed psychologist or therapist who specializes in anxiety disorders and uses evidence-based treatments like CBT. A comprehensive evaluation should include a discussion of both therapy and medication options, and your provider should respect your treatment preferences. At Dr. Khanali's Neuropsychological Services in Arlington, VA, we provide thorough assessments to help you understand which treatment approach or combination is most likely to help you achieve your goals. We can also coordinate with psychiatrists if medication becomes part of your treatment plan.</p>
+                <p>Look for a licensed psychologist or therapist who specializes in anxiety disorders and uses evidence-based treatments like CBT. A comprehensive evaluation should include a discussion of both therapy and medication options, and your provider should respect your treatment preferences. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we provide thorough assessments to help you understand which treatment approach or combination is most likely to help you achieve your goals. We can also coordinate with psychiatrists if medication becomes part of your treatment plan.</p>
               </div>
             </details>
           </div>
@@ -374,7 +374,7 @@ export default function TherapyVsMedicationAnxietyPage() {
               Ready to Discuss Your Treatment Options?
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Schedule a consultation to explore which approach—or combination—is right for your unique situation in Arlington, VA
+              Schedule a consultation to explore which approach—or combination—is right for your unique situation in Fredericksburg, VA
             </p>
             <a 
               href="/contact" 

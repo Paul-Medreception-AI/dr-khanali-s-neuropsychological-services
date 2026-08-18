@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'In-Person vs. Telehealth Psychological Services: Which is Right for You? | Dr. Khanali Arlington VA',
-  description: 'Compare in-person and telehealth psychological services. Learn about effectiveness, convenience, cost, and which option best fits your mental health needs in Arlington, VA.',
-  keywords: 'in-person therapy vs telehealth, online therapy vs in-person, telepsychology effectiveness, virtual therapy Arlington VA, neuropsychological assessment telehealth',
+  title: 'In-Person vs. Telehealth Psychology',
+  description: 'Compare in-person and telehealth psychological services. Learn about effectiveness, convenience, cost, and which option best fits your mental health needs in Fredericksburg, VA.',
+  keywords: 'in-person therapy vs telehealth, online therapy vs in-person, telepsychology effectiveness, virtual therapy Fredericksburg VA, neuropsychological assessment telehealth',
 }
 
 export default function ComparePage() {
@@ -20,10 +20,10 @@ export default function ComparePage() {
             <span>Comparison</span>
           </nav>
           <h1 className="font-cormorant text-5xl md:text-6xl font-light leading-tight mb-6">
-            In-Person vs. Telehealth Psychological Services: Which is Right for You?
+            In-Person vs. Telehealth Psychology
           </h1>
           <p className="text-xl opacity-95 max-w-3xl mx-auto leading-relaxed">
-            A comprehensive comparison to help you make an informed decision about your mental health care in Arlington, VA
+            A comprehensive comparison to help you make an informed decision about your mental health care in Fredericksburg, VA
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function ComparePage() {
             Choosing between in-person and telehealth psychological services is an important decision that can significantly impact your treatment experience and outcomes. Both modalities offer unique advantages, and understanding these differences can help you select the approach that best aligns with your needs, lifestyle, and therapeutic goals.
           </p>
           <p className="text-lg text-[var(--color-ink)] leading-relaxed">
-            At Dr. Khanali's Neuropsychological Services in Arlington, VA, we offer both in-person and telehealth options to provide flexible, accessible care that meets you where you are.
+            At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we offer both in-person and telehealth options to provide flexible, accessible care that meets you where you are.
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function ComparePage() {
             <div className="grid grid-cols-3 border-b border-[var(--color-border)]">
               <div className="p-6 font-semibold text-[var(--color-primary)] bg-[var(--color-light)]">Convenience</div>
               <div className="p-6 border-l border-[var(--color-border)]">
-                <p className="text-[var(--color-ink)]">Requires travel to Arlington, VA office. Dedicated therapeutic environment with no home distractions.</p>
+                <p className="text-[var(--color-ink)]">Requires travel to Fredericksburg, VA office. Dedicated therapeutic environment with no home distractions.</p>
               </div>
               <div className="p-6 border-l border-[var(--color-border)] bg-[var(--color-cream)]">
                 <p className="text-[var(--color-ink)]">Access from anywhere with internet. Eliminates commute time and travel barriers. Flexible scheduling options.</p>
@@ -145,7 +145,7 @@ export default function ComparePage() {
                   In-person sessions are particularly valuable for comprehensive neuropsychological assessments, which often require hands-on testing materials, precise observation of test-taking behaviors, and the ability to adapt assessment protocols in real-time based on client responses. The controlled office environment ensures standardized testing conditions, which is critical for accurate interpretation of results. Additionally, some therapeutic interventions—particularly those involving experiential techniques or exposure therapy—may be more effectively delivered in person.
                 </p>
                 <p className="text-lg text-[var(--color-ink)] leading-relaxed">
-                  Research consistently demonstrates the effectiveness of in-person psychological services across a wide range of conditions, from anxiety and depression to complex neuropsychological disorders. The face-to-face format allows clinicians to pick up on subtle cues—changes in posture, facial expressions, tone of voice—that may not be as readily apparent through a screen. For clients who value this traditional approach or who have conditions that benefit from in-person interaction, our Arlington, VA office provides a comfortable, confidential space designed specifically for psychological work.
+                  Research consistently demonstrates the effectiveness of in-person psychological services across a wide range of conditions, from anxiety and depression to complex neuropsychological disorders. The face-to-face format allows clinicians to pick up on subtle cues—changes in posture, facial expressions, tone of voice—that may not be as readily apparent through a screen. For clients who value this traditional approach or who have conditions that benefit from in-person interaction, our Fredericksburg, VA office provides a comfortable, confidential space designed specifically for psychological work.
                 </p>
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function ComparePage() {
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[var(--color-ink)] text-lg">You live or work in the Arlington, VA area and can easily access our office</span>
+                    <span className="text-[var(--color-ink)] text-lg">You live or work in the Fredericksburg, VA area and can easily access our office</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -263,7 +263,7 @@ export default function ComparePage() {
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[var(--color-ink)] text-lg">You have transportation challenges, mobility limitations, or live outside the Arlington area</span>
+                    <span className="text-[var(--color-ink)] text-lg">You have transportation challenges, mobility limitations, or live outside the Fredericksburg area</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -315,7 +315,7 @@ export default function ComparePage() {
                 Multiple meta-analyses and randomized controlled trials have demonstrated that telehealth psychotherapy produces outcomes equivalent to in-person treatment for depression, anxiety disorders, PTSD, and many other conditions.
               </p>
               <p className="text-[var(--color-ink)] leading-relaxed">
-                Studies show satisfaction rates of 80-95% among telehealth clients, with many reporting increased comfort and reduced stigma compared to traditional office visits.
+                Studies report high satisfaction among telehealth clients, with many reporting increased comfort and reduced stigma compared to traditional office visits.
               </p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-sm animate-fade-up">
@@ -375,7 +375,7 @@ export default function ComparePage() {
               </summary>
               <div className="px-6 pb-6">
                 <p className="text-[var(--color-ink)] leading-relaxed">
-                  Absolutely. Many clients benefit from a flexible, hybrid approach—for example, conducting comprehensive initial assessments in person at our Arlington, VA office, then transitioning to telehealth for ongoing therapy sessions. Others prefer to alternate based on their schedule, weather conditions, or personal preference. We're happy to accommodate your needs and can adjust the format of your appointments as circumstances change. This flexibility ensures you receive consistent care regardless of your location or situation.
+                  Absolutely. Many clients benefit from a flexible, hybrid approach—for example, conducting comprehensive initial assessments in person at our Fredericksburg, VA office, then transitioning to telehealth for ongoing therapy sessions. Others prefer to alternate based on their schedule, weather conditions, or personal preference. We're happy to accommodate your needs and can adjust the format of your appointments as circumstances change. This flexibility ensures you receive consistent care regardless of your location or situation.
                 </p>
               </div>
             </details>
@@ -427,7 +427,7 @@ export default function ComparePage() {
             Discuss Your Options
           </a>
           <p className="mt-6 text-sm opacity-90">
-            Serving Arlington, VA and surrounding areas • In-person and telehealth appointments available
+            Serving Fredericksburg, VA and surrounding areas • In-person and telehealth appointments available
           </p>
         </div>
       </section>

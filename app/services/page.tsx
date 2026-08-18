@@ -23,7 +23,7 @@ export default function ServicesPage() {
             Comprehensive Care for Every Need
           </h2>
           <p className="text-[var(--color-muted)] text-center mb-16 max-w-2xl mx-auto">
-            Providing evidence-based assessments and therapy in English and Farsi to serve diverse communities across Arlington, VA and beyond
+            Providing evidence-based assessments and therapy in English and Farsi to serve diverse communities across Fredericksburg, VA and beyond
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

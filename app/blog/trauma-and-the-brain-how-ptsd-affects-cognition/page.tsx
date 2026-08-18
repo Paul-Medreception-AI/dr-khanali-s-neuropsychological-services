@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Trauma and the Brain: How PTSD Affects Cognition | Dr. Khanali Neuropsychological Services',
-  description: 'Understand how trauma and PTSD affect cognitive function, memory, and emotional processing. Evidence-based insights from neuropsychology experts in Arlington, VA.',
-  keywords: 'PTSD, trauma, cognitive function, brain health, neuropsychology, trauma therapy, Arlington VA, mental health',
+  title: 'Trauma and the Brain: How PTSD Affects Cognition',
+  description: 'Understand how trauma and PTSD affect cognitive function, memory, and emotional processing. Evidence-based insights from neuropsychology experts in Fredericksburg, VA.',
+  keywords: 'PTSD, trauma, cognitive function, brain health, neuropsychology, trauma therapy, Fredericksburg VA, mental health',
 }
 
 export default function BlogPost() {
@@ -44,7 +44,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            In Arlington, VA and beyond, millions of individuals cope with the cognitive aftermath of trauma. Whether the trauma stems from combat exposure, childhood adversity, accidents, assault, or other distressing events, the brain's response follows recognizable patterns that neuropsychology can help us understand and address.
+            In Fredericksburg, VA and beyond, many individuals cope with the cognitive aftermath of trauma. Whether the trauma stems from combat exposure, childhood adversity, accidents, assault, or other distressing events, the brain's response follows recognizable patterns that neuropsychology can help us understand and address.
           </p>
 
           <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">
@@ -112,7 +112,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For many clients at our Arlington, VA practice, neuropsychological testing serves several important purposes. It helps differentiate PTSD-related cognitive changes from other potential causes, validates the very real cognitive struggles individuals are experiencing, identifies specific areas of strength and difficulty, and guides treatment planning with personalized recommendations.
+            For many clients at our Fredericksburg, VA practice, neuropsychological testing serves several important purposes. It helps differentiate PTSD-related cognitive changes from other potential causes, validates the very real cognitive struggles individuals are experiencing, identifies specific areas of strength and difficulty, and guides treatment planning with personalized recommendations.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -189,7 +189,7 @@ export default function BlogPost() {
 
           <div className="bg-[var(--color-cream)] border border-[var(--color-border)] rounded-lg p-8 my-12">
             <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mb-4">
-              Expert Neuropsychological Care in Arlington, VA
+              Expert Neuropsychological Care in Fredericksburg, VA
             </h3>
             <p className="text-[var(--color-ink)] leading-relaxed mb-6">
               At Dr. Khanali Neuropsychological Services, we specialize in comprehensive assessment and treatment planning for individuals experiencing cognitive symptoms related to trauma and PTSD. Our evidence-based approach combines thorough neuropsychological evaluation with compassionate, personalized care.
@@ -245,7 +245,7 @@ export default function BlogPost() {
             Related Articles
           </h2>
           <div className="grid md:grid-cols-3 gap-8 mt-8">
-            <a href="/blog/understanding-neuropsychological-evaluation" className="block bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors">
+            <a href="/blog/what-to-expect-during-a-neuropsychological-evaluation" className="block bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                 Understanding Neuropsychological Evaluation
               </h3>
@@ -253,7 +253,7 @@ export default function BlogPost() {
                 Learn what to expect during a comprehensive assessment
               </p>
             </a>
-            <a href="/blog/cognitive-rehabilitation-strategies" className="block bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors">
+            <a href="/blog/cognitive-rehabilitation-retraining-your-brain" className="block bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                 Cognitive Rehabilitation Strategies
               </h3>
@@ -261,7 +261,7 @@ export default function BlogPost() {
                 Practical techniques to support cognitive recovery
               </p>
             </a>
-            <a href="/blog/when-to-seek-neuropsychological-assessment" className="block bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors">
+            <a href="/blog/what-to-expect-during-a-neuropsychological-evaluation" className="block bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                 When to Seek Assessment
               </h3>

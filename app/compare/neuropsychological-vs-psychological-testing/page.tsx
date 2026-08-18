@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Neuropsychological Evaluation vs. Standard Psychological Testing | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding the key differences between neuropsychological evaluation and standard psychological testing in Arlington, VA. Learn which assessment is right for your needs.',
+  title: 'Neuropsychological Evaluation vs. Standard Psychological Testing',
+  description: 'Understanding the key differences between neuropsychological evaluation and standard psychological testing in Fredericksburg, VA. Learn which assessment is right for your needs.',
 }
 
 export default function ComparisonPage() {
@@ -15,7 +15,7 @@ export default function ComparisonPage() {
           <nav className="text-sm mb-8 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
-            <Link href="/resources" className="hover:underline">Resources</Link>
+            <Link href="/conditions" className="hover:underline">Resources</Link>
             <span className="mx-2">›</span>
             <span>Comparison</span>
           </nav>
@@ -23,7 +23,7 @@ export default function ComparisonPage() {
             Neuropsychological Evaluation vs. Standard Psychological Testing: What's the Difference?
           </h1>
           <p className="text-xl opacity-90 max-w-3xl mx-auto">
-            A comprehensive guide to help you understand which assessment is right for your needs in Arlington, VA
+            A comprehensive guide to help you understand which assessment is right for your needs in Fredericksburg, VA
           </p>
         </div>
       </section>
@@ -399,7 +399,7 @@ export default function ComparisonPage() {
             Ready to Discuss Your Options?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Schedule a consultation to determine which assessment is right for you in Arlington, VA
+            Schedule a consultation to determine which assessment is right for you in Fredericksburg, VA
           </p>
           <Link 
             href="/contact" 
@@ -408,7 +408,7 @@ export default function ComparisonPage() {
             Schedule Your Consultation
           </Link>
           <p className="mt-6 text-sm opacity-75">
-            Serving Arlington, VA and surrounding communities
+            Serving Fredericksburg, VA and surrounding communities
           </p>
         </div>
       </section>

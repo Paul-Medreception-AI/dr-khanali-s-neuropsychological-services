@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Bilingual Therapy vs. Using an Interpreter: The Impact on Treatment | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Compare bilingual therapy and interpreter-assisted treatment. Understand the clinical differences, effectiveness, and cultural considerations for mental health care in Arlington, VA.',
+  title: 'Bilingual Therapy vs. Using an Interpreter: The Impact on Treatment',
+  description: 'Compare bilingual therapy and interpreter-assisted treatment. Understand the clinical differences, effectiveness, and cultural considerations for mental health care in Fredericksburg, VA.',
 }
 
 export default function CompareBilingualTherapyVsInterpreter() {
@@ -31,7 +31,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
       <section className="py-20 px-6 max-w-4xl mx-auto">
         <div className="animate-fade-up">
           <p className="text-lg text-[var(--color-ink)] leading-relaxed mb-6">
-            Language is far more than a communication tool in therapy—it shapes how we express emotions, process trauma, and connect with our inner experiences. For bilingual and multilingual individuals seeking mental health care in Arlington, VA, the question of whether to work with a bilingual therapist or use an interpreter can significantly impact treatment outcomes.
+            Language is far more than a communication tool in therapy—it shapes how we express emotions, process trauma, and connect with our inner experiences. For bilingual and multilingual individuals seeking mental health care in Fredericksburg, VA, the question of whether to work with a bilingual therapist or use an interpreter can significantly impact treatment outcomes.
           </p>
           <p className="text-lg text-[var(--color-ink)] leading-relaxed">
             At Dr. Khanali's Neuropsychological Services, we understand that this decision involves clinical, cultural, and practical considerations. This comprehensive comparison will help you understand the meaningful differences between these two approaches and guide you toward the option that best supports your healing journey.
@@ -214,7 +214,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
             </p>
 
             <p className="text-lg text-[var(--color-ink)] leading-relaxed">
-              At Dr. Khanali's Neuropsychological Services in Arlington, VA, our bilingual approach integrates language accessibility with evidence-based neuropsychological treatment. We understand that true bilingual competency means more than vocabulary—it requires deep cultural knowledge, awareness of historical context, and sensitivity to the unique experiences of immigrant and multilingual communities. This comprehensive approach results in stronger therapeutic relationships, better treatment adherence, and more meaningful clinical outcomes.
+              At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, our bilingual approach integrates language accessibility with evidence-based neuropsychological treatment. We understand that true bilingual competency means more than vocabulary—it requires deep cultural knowledge, awareness of historical context, and sensitivity to the unique experiences of immigrant and multilingual communities. This comprehensive approach results in stronger therapeutic relationships, better treatment adherence, and more meaningful clinical outcomes.
             </p>
           </div>
 
@@ -327,7 +327,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
                     <svg className="w-5 h-5 text-[var(--color-accent)] mr-3 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                       <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-[var(--color-ink)] leading-relaxed">No bilingual therapist is available for your language in Arlington, VA or via telehealth</span>
+                    <span className="text-[var(--color-ink)] leading-relaxed">No bilingual therapist is available for your language in Fredericksburg, VA or via telehealth</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-[var(--color-accent)] mr-3 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -413,7 +413,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
                 Interpreter Impact on Treatment Process
               </h3>
               <p className="text-[var(--color-ink)] leading-relaxed">
-                While interpreter-assisted therapy provides essential language access, studies indicate challenges including reduced session efficiency (translation consumes 30-40% of session time), potential loss of emotional nuance, impacts on rapport development, and clients' reluctance to disclose sensitive information in front of a third party. These factors are mitigated by interpreter training, but remain inherent limitations of the three-person therapeutic structure.
+                While interpreter-assisted therapy provides essential language access, studies indicate challenges including reduced session efficiency, since translation consumes part of every session, potential loss of emotional nuance, impacts on rapport development, and clients' reluctance to disclose sensitive information in front of a third party. These factors are mitigated by interpreter training, but remain inherent limitations of the three-person therapeutic structure.
               </p>
             </div>
 
@@ -491,7 +491,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
                   If you need interpreter-assisted therapy, look for certified medical interpreters with mental health specialization. Key qualifications include certification from organizations like the National Board of Certification for Medical Interpreters (NBCMI) or Certification Commission for Healthcare Interpreters (CCHI), training in mental health terminology and confidentiality, and experience with therapeutic settings.
                 </p>
                 <p>
-                  Many hospitals, community mental health centers, and healthcare systems in Arlington, VA have relationships with interpreter services. Your therapist's office may also coordinate with professional interpretation services. Avoid using family members or untrained individuals as interpreters—this compromises confidentiality, accuracy, and therapeutic boundaries. Professional interpreters are trained to maintain neutrality, preserve confidentiality, and interpret meaning rather than just words.
+                  Many hospitals, community mental health centers, and healthcare systems in Fredericksburg, VA have relationships with interpreter services. Your therapist's office may also coordinate with professional interpretation services. Avoid using family members or untrained individuals as interpreters—this compromises confidentiality, accuracy, and therapeutic boundaries. Professional interpreters are trained to maintain neutrality, preserve confidentiality, and interpret meaning rather than just words.
                 </p>
               </div>
             </details>
@@ -508,7 +508,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
                   Coverage varies significantly by insurance plan and state. Under the Affordable Care Act and Section 1557 of the ACA, healthcare providers receiving federal funding are required to provide language assistance services at no cost to patients with limited English proficiency. This includes mental health services. Many major insurance plans cover professional interpretation services as part of language access requirements.
                 </p>
                 <p>
-                  However, implementation varies. Some insurance plans directly contract with interpreter services, while others may require prior authorization or documentation of medical necessity. Contact your insurance provider to understand your specific benefits, or speak with our administrative team at Dr. Khanali's Neuropsychological Services—we can help verify your coverage and explain your options for language-accessible care in Arlington, VA.
+                  However, implementation varies. Some insurance plans directly contract with interpreter services, while others may require prior authorization or documentation of medical necessity. Contact your insurance provider to understand your specific benefits, or speak with our administrative team at Dr. Khanali's Neuropsychological Services—we can help verify your coverage and explain your options for language-accessible care in Fredericksburg, VA.
                 </p>
               </div>
             </details>
@@ -546,7 +546,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
             Discuss Your Language and Cultural Needs
           </h2>
           <p className="text-xl mb-8 leading-relaxed opacity-95 max-w-2xl mx-auto">
-            At Dr. Khanali's Neuropsychological Services in Arlington, VA, we understand that language accessibility is fundamental to effective mental health care. Let's discuss which approach will best support your healing journey.
+            At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we understand that language accessibility is fundamental to effective mental health care. Let's discuss which approach will best support your healing journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -563,7 +563,7 @@ export default function CompareBilingualTherapyVsInterpreter() {
             </a>
           </div>
           <p className="mt-8 text-sm opacity-75">
-            Serving Arlington, VA and surrounding communities with culturally responsive, evidence-based mental health care
+            Serving Fredericksburg, VA and surrounding communities with culturally responsive, evidence-based mental health care
           </p>
         </div>
       </section>

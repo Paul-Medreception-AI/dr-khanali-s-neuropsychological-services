@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What Your Insurance Covers for Psychological Testing | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding insurance coverage for psychological testing in Arlington, VA. Learn what\'s typically covered, how to verify benefits, and what to expect from the billing process.',
-  keywords: 'insurance coverage, psychological testing, neuropsychological assessment, mental health insurance, Arlington VA',
+  title: 'What Your Insurance Covers for Psychological Testing',
+  description: 'Understanding insurance coverage for psychological testing in Fredericksburg, VA. Learn what\'s typically covered, how to verify benefits, and what to expect from the billing process.',
+  keywords: 'insurance coverage, psychological testing, neuropsychological assessment, mental health insurance, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -51,7 +51,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            Insurance coverage for psychological and neuropsychological testing can be complex, varying significantly between plans, providers, and the specific type of assessment needed. Whether you're seeking testing for ADHD, learning disabilities, cognitive concerns, or mental health conditions in Arlington, VA, this guide will help you understand what's typically covered and how to maximize your benefits.
+            Insurance coverage for psychological and neuropsychological testing can be complex, varying significantly between plans, providers, and the specific type of assessment needed. Whether you're seeking testing for ADHD, learning disabilities, cognitive concerns, or mental health conditions in Fredericksburg, VA, this guide will help you understand what's typically covered and how to maximize your benefits.
           </p>
 
           {/* Section 1 */}
@@ -234,7 +234,7 @@ export default function BlogPost() {
           </ul>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            Out-of-network benefits often have higher deductibles and lower reimbursement rates than in-network care, but they can still significantly reduce your out-of-pocket costs. Some patients recover 50-80% of their expenses through out-of-network reimbursement.
+            Out-of-network benefits often have higher deductibles and lower reimbursement rates than in-network care, but they can still significantly reduce your out-of-pocket costs. Some patients recover part of their expenses through out-of-network reimbursement.
           </p>
 
           {/* Section 6 */}
@@ -291,7 +291,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            At Dr. Khanali's Neuropsychological Services in Arlington, VA, our team is experienced in working with insurance companies and helping patients maximize their benefits. We can verify your coverage, assist with prior authorization, provide detailed superbills for reimbursement, and support you through the appeals process if needed. Your mental health is worth investing in—and with the right information and support, you can access the comprehensive testing you deserve.
+            At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, our team is experienced in working with insurance companies and helping patients maximize their benefits. We can verify your coverage, assist with prior authorization, provide detailed superbills for reimbursement, and support you through the appeals process if needed. Your mental health is worth investing in—and with the right information and support, you can access the comprehensive testing you deserve.
           </p>
         </div>
       </article>
@@ -310,7 +310,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
               </p>
             </div>
           </div>
@@ -351,7 +351,7 @@ export default function BlogPost() {
                 Preparing for Your First Assessment
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mb-4">
-                Practical tips to help you feel confident and prepared for your psychological testing appointment in Arlington.
+                Practical tips to help you feel confident and prepared for your psychological testing appointment in Fredericksburg.
               </p>
               <span className="text-[var(--color-accent)] text-sm font-medium group-hover:underline">
                 Read More →

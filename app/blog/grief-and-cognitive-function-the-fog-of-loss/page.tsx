@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Grief and Cognitive Function: The Fog of Loss | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding how grief affects memory, concentration, and cognitive function. Learn about the neuropsychological impact of loss and strategies for healing in Arlington, VA.',
-  keywords: 'grief cognitive function, memory loss grief, grief brain fog, bereavement cognitive impairment, grief and concentration, neuropsychology of grief, Arlington VA grief counseling',
+  title: 'Grief and Cognitive Function: The Fog of Loss',
+  description: 'Understanding how grief affects memory, concentration, and cognitive function. Learn about the neuropsychological impact of loss and strategies for healing in Fredericksburg, VA.',
+  keywords: 'grief cognitive function, memory loss grief, grief brain fog, bereavement cognitive impairment, grief and concentration, neuropsychology of grief, Fredericksburg VA grief counseling',
 }
 
 export default function BlogPost() {
@@ -52,7 +52,7 @@ export default function BlogPost() {
               You walk into a room and forget why you're there. You read the same paragraph three times without absorbing a single word. Someone asks you a question, and you struggle to find words that usually come effortlessly. If you're grieving, these experiences aren't signs of cognitive decline—they're normal neurological responses to profound loss. Yet for many people navigating bereavement, this mental fog becomes an additional source of worry and isolation.
             </p>
             <p className="mb-6">
-              Grief doesn't just hurt emotionally; it fundamentally alters how our brains function. Understanding the neuropsychological impact of loss can help normalize these unsettling experiences and provide a roadmap for healing. At <span className="font-cormorant text-xl font-semibold text-[var(--color-primary)]">Dr. Khanali's Neuropsychological Services</span> in Arlington, VA, we help individuals understand and navigate the cognitive changes that accompany grief.
+              Grief doesn't just hurt emotionally; it fundamentally alters how our brains function. Understanding the neuropsychological impact of loss can help normalize these unsettling experiences and provide a roadmap for healing. At <span className="font-cormorant text-xl font-semibold text-[var(--color-primary)]">Dr. Khanali's Neuropsychological Services</span> in Fredericksburg, VA, we help individuals understand and navigate the cognitive changes that accompany grief.
             </p>
           </div>
 
@@ -137,7 +137,7 @@ export default function BlogPost() {
               Third, grief commonly disrupts sleep—both in terms of quantity and quality. Sleep deprivation is one of the most powerful disruptors of cognitive function, affecting nearly every aspect of mental performance. When grief prevents restorative sleep over extended periods, cognitive impairment becomes more pronounced.
             </p>
             <p className="mb-6">
-              Finally, complicated grief—a condition affecting about 10-20% of bereaved individuals—involves persistent, intense yearning and preoccupation that doesn't diminish over time. Neuroimaging studies show that complicated grief is associated with activation patterns similar to addiction, suggesting the brain's reward system becomes dysregulated in ways that further compromise cognitive function.
+              Finally, complicated grief involves persistent, intense yearning and preoccupation that doesn't diminish over time. Neuroimaging studies show that complicated grief is associated with activation patterns similar to addiction, suggesting the brain's reward system becomes dysregulated in ways that further compromise cognitive function.
             </p>
           </div>
 
@@ -268,7 +268,7 @@ export default function BlogPost() {
               The cognitive fog of grief can feel frightening and isolating, but understanding its neurological basis can provide reassurance that what you're experiencing is both normal and temporary. Your brain is doing exactly what it's supposed to do—processing profound loss while gradually adapting to a changed world.
             </p>
             <p className="mb-6">
-              If you're struggling with grief-related cognitive symptoms in Arlington, VA, or need professional assessment to understand your cognitive changes, <span className="font-cormorant text-xl font-semibold text-[var(--color-primary)]">Dr. Khanali's Neuropsychological Services</span> offers comprehensive evaluation and compassionate support. You don't have to navigate this fog alone.
+              If you're struggling with grief-related cognitive symptoms in Fredericksburg, VA, or need professional assessment to understand your cognitive changes, <span className="font-cormorant text-xl font-semibold text-[var(--color-primary)]">Dr. Khanali's Neuropsychological Services</span> offers comprehensive evaluation and compassionate support. You don't have to navigate this fog alone.
             </p>
           </div>
         </div>
@@ -288,7 +288,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological evaluation and therapeutic support in Arlington, VA.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, offering comprehensive neuropsychological evaluation and therapeutic support in Fredericksburg, VA.
               </div>
             </div>
           </div>

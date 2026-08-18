@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Autism in Adulthood: Late Diagnosis Considerations | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding autism spectrum disorder in adults, the unique challenges of late diagnosis, and pathways to support. Expert insights from Dr. Khanali\'s Neuropsychological Services in Arlington, VA.',
-  keywords: 'autism in adults, late autism diagnosis, adult autism assessment, ASD in adulthood, neuropsychological evaluation Arlington VA',
+  title: 'Autism in Adulthood: Late Diagnosis Considerations',
+  description: 'Understanding autism spectrum disorder in adults, the unique challenges of late diagnosis, and pathways to support. Expert insights from Dr. Khanali\'s Neuropsychological Services in Fredericksburg, VA.',
+  keywords: 'autism in adults, late autism diagnosis, adult autism assessment, ASD in adulthood, neuropsychological evaluation Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -124,7 +124,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            It's important to seek evaluation from professionals experienced in adult autism, as the presentation can differ significantly from childhood and requires specialized knowledge. In Arlington, VA and the surrounding area, neuropsychological services can provide thorough assessments tailored to adult presentations.
+            It's important to seek evaluation from professionals experienced in adult autism, as the presentation can differ significantly from childhood and requires specialized knowledge. In Fredericksburg, VA and the surrounding area, neuropsychological services can provide thorough assessments tailored to adult presentations.
           </p>
 
           {/* Section 5 */}
@@ -198,7 +198,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base">
-            If you're in Arlington, VA and considering an autism evaluation or would like to discuss your experiences, reaching out to a qualified neuropsychological services provider can be a meaningful first step. Understanding your neurological profile can open doors to support, self-acceptance, and a life that feels more authentically yours.
+            If you're in Fredericksburg, VA and considering an autism evaluation or would like to discuss your experiences, reaching out to a qualified neuropsychological services provider can be a meaningful first step. Understanding your neurological profile can open doors to support, self-acceptance, and a life that feels more authentically yours.
           </p>
         </div>
       </article>
@@ -216,7 +216,7 @@ export default function BlogPost() {
               Written by the Dr. Khanali's Neuropsychological Services Clinical Team
             </div>
             <div className="text-[var(--color-muted)] text-sm">
-              Board-certified providers specializing in Mental Health
+              Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
             </div>
           </div>
         </div>

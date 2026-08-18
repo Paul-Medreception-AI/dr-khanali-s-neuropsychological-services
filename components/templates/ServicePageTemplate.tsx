@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import { withBrand } from '@/lib/practice'
 
 export type FAQ = { q: string; a: string }
 export type RelatedLink = { href: string; label: string; eyebrow?: string; body?: string }
@@ -51,7 +52,9 @@ export type ServicePageContent = {
 
 export function buildServiceMetadata(c: ServicePageContent): Metadata {
   return {
-    title: c.metaTitle || (c.title + ' | ' + c.siteName),
+    // withBrand appends the SHORT brand only when the title has room, so
+    // titles stay inside Google's ~65-char display limit.
+    title: withBrand(c.metaTitle || c.title),
     description: c.description,
     alternates: { canonical: c.siteUrl + c.hubHref + '/' + c.slug },
   }

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Patient Form | Dr. Khanali&apos;s Neuropsychological Services',
+  title: 'Patient Form | Dr. Khanali, PsyD',
   robots: { index: false, follow: false },
 }
 

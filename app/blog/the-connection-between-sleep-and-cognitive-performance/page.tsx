@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Connection Between Sleep and Cognitive Performance | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Discover how sleep quality impacts memory, focus, and mental clarity. Learn evidence-based strategies to improve cognitive function through better sleep habits in Arlington, VA.',
-  keywords: 'sleep and cognition, cognitive performance, memory and sleep, brain health, neuropsychology, Arlington VA, sleep quality, mental clarity',
+  title: 'The Connection Between Sleep and Cognitive Performance',
+  description: 'Discover how sleep quality impacts memory, focus, and mental clarity. Learn evidence-based strategies to improve cognitive function through better sleep habits in Fredericksburg, VA.',
+  keywords: 'sleep and cognition, cognitive performance, memory and sleep, brain health, neuropsychology, Fredericksburg VA, sleep quality, mental clarity',
 }
 
 export default function BlogPost() {
@@ -186,7 +186,7 @@ export default function BlogPost() {
               The good news is that for most people, improving sleep quality is achievable through consistent application of evidence-based strategies. Prioritizing sleep isn't self-indulgent; it's an investment in your cognitive health, productivity, and quality of life.
             </p>
             <p className="mb-6">
-              If you're experiencing persistent cognitive difficulties or suspect that sleep problems may be affecting your mental performance, our team in Arlington, VA specializes in comprehensive neuropsychological evaluations that can identify contributing factors and guide effective interventions. Quality sleep is the foundation of cognitive wellness—don't let another night of poor rest compromise your potential.
+              If you're experiencing persistent cognitive difficulties or suspect that sleep problems may be affecting your mental performance, our team in Fredericksburg, VA specializes in comprehensive neuropsychological evaluations that can identify contributing factors and guide effective interventions. Quality sleep is the foundation of cognitive wellness—don't let another night of poor rest compromise your potential.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, dedicated to helping patients in Arlington, VA achieve optimal cognitive wellness and mental health.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, dedicated to helping patients in Fredericksburg, VA achieve optimal cognitive wellness and mental health.
               </p>
             </div>
           </div>

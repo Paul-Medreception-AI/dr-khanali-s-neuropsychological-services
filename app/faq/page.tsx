@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Frequently Asked Questions | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Find answers to common questions about neuropsychological evaluations, ADHD testing, therapy services, insurance, appointments, and telehealth options at Dr. Khanali\'s practice in Arlington, VA.',
+  title: 'Frequently Asked Questions',
+  description: 'Find answers to common questions about neuropsychological evaluations, ADHD testing, therapy services, insurance, appointments, and telehealth options at Dr. Khanali\'s practice in Fredericksburg, VA.',
 }
 
 export default function FAQPage() {
@@ -286,7 +286,7 @@ export default function FAQPage() {
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                Dr. Khanali's practice is based in Arlington, VA, serving the greater Washington, D.C. metropolitan area. We offer both in-person and telehealth services depending on the type of evaluation or therapy being provided. Through PSYPACT licensure, Dr. Khanali is authorized to provide telepsychology services to clients in 38 participating states, which expands access to our bilingual neuropsychological and therapy services for clients who may not be able to travel to our Arlington office. When you contact our office to schedule services, we will provide detailed location information for in-person appointments or technical instructions for telehealth sessions. We strive to make our services accessible and convenient for all clients we serve.
+                Dr. Khanali's practice is based in Fredericksburg, VA, serving the greater Washington, D.C. metropolitan area. We offer both in-person and telehealth services depending on the type of evaluation or therapy being provided. Through PSYPACT licensure, Dr. Khanali is authorized to provide telepsychology services to clients in 38 participating states, which expands access to our bilingual neuropsychological and therapy services for clients who may not be able to travel to our Fredericksburg office. When you contact our office to schedule services, we will provide detailed location information for in-person appointments or technical instructions for telehealth sessions. We strive to make our services accessible and convenient for all clients we serve.
               </div>
             </details>
 

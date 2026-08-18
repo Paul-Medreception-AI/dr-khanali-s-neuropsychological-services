@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Understanding Learning Disabilities in Adolescents | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Comprehensive guide to recognizing, understanding, and supporting adolescents with learning disabilities. Expert insights from neuropsychology specialists in Arlington, VA.',
-  keywords: 'learning disabilities, adolescents, teenagers, dyslexia, ADHD, neuropsychological evaluation, Arlington VA, educational support',
+  title: 'Understanding Learning Disabilities in Adolescents',
+  description: 'Comprehensive guide to recognizing, understanding, and supporting adolescents with learning disabilities. Expert insights from neuropsychology specialists in Fredericksburg, VA.',
+  keywords: 'learning disabilities, adolescents, teenagers, dyslexia, ADHD, neuropsychological evaluation, Fredericksburg VA, educational support',
 }
 
 export default function BlogPost() {
@@ -570,19 +570,19 @@ export default function BlogPost() {
           <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mb-6">Related Resources</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/neuropsychological-evaluation" className="bg-white p-6 hover:shadow-lg transition-shadow">
+            <Link href="/services/neuropsychological-evaluations" className="bg-white p-6 hover:shadow-lg transition-shadow">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-3">Neuropsychological Evaluations</h3>
               <p className="text-sm text-[var(--color-muted)] mb-4">Learn about our comprehensive assessment process</p>
               <span className="text-[var(--color-primary)] text-sm font-medium">Learn More →</span>
             </Link>
 
-            <Link href="/blog/adhd-academic-performance" className="bg-white p-6 hover:shadow-lg transition-shadow">
+            <Link href="/blog/workplace-accommodations-for-adhd-your-rights" className="bg-white p-6 hover:shadow-lg transition-shadow">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-3">ADHD & Academic Performance</h3>
               <p className="text-sm text-[var(--color-muted)] mb-4">Understanding the overlap between ADHD and learning challenges</p>
               <span className="text-[var(--color-primary)] text-sm font-medium">Read Article →</span>
             </Link>
 
-            <Link href="/resources/parent-resources" className="bg-white p-6 hover:shadow-lg transition-shadow">
+            <Link href="/conditions" className="bg-white p-6 hover:shadow-lg transition-shadow">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-3">Parent Resources</h3>
               <p className="text-sm text-[var(--color-muted)] mb-4">Tools and information for supporting your child</p>
               <span className="text-[var(--color-primary)] text-sm font-medium">View Resources →</span>

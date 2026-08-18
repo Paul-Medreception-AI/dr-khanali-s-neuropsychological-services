@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Value of Comprehensive Psychological Reports | Dr. Khanali\'s Neuropsychological Services',
+  title: 'The Value of Comprehensive Psychological Reports',
   description: 'Discover how comprehensive psychological reports provide critical insights for diagnosis, treatment planning, and long-term care in mental health and neuropsychological assessment.',
-  keywords: 'psychological reports, neuropsychological assessment, mental health evaluation, psychological testing Arlington VA, comprehensive assessment',
+  keywords: 'psychological reports, neuropsychological assessment, mental health evaluation, psychological testing Fredericksburg VA, comprehensive assessment',
 }
 
 export default function BlogPost() {
@@ -255,7 +255,7 @@ export default function BlogPost() {
           </ul>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The entire process is collaborative, with the psychologist working closely with the patient and family to ensure the evaluation addresses the most pressing concerns. In Arlington, VA and surrounding areas, experienced clinicians like those at Dr. Khanali's Neuropsychological Services take pride in creating reports that are not only thorough but also compassionate and accessible.
+            The entire process is collaborative, with the psychologist working closely with the patient and family to ensure the evaluation addresses the most pressing concerns. In Fredericksburg, VA and surrounding areas, experienced clinicians like those at Dr. Khanali's Neuropsychological Services take pride in creating reports that are not only thorough but also compassionate and accessible.
           </p>
 
           {/* Closing */}
@@ -291,7 +291,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, delivering compassionate, evidence-based neuropsychological services in Arlington, VA.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, delivering compassionate, evidence-based neuropsychological services in Fredericksburg, VA.
               </div>
             </div>
           </div>

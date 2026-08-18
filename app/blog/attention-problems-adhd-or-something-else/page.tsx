@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Attention Problems: ADHD or Something Else? | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Not all attention problems are ADHD. Learn about the many conditions that can cause focus and concentration difficulties, and when to seek professional evaluation in Arlington, VA.',
-  keywords: 'ADHD, attention problems, focus issues, concentration difficulties, neuropsychological evaluation, Arlington VA, mental health',
+  title: 'Attention Problems: ADHD or Something Else?',
+  description: 'Not all attention problems are ADHD. Learn about the many conditions that can cause focus and concentration difficulties, and when to seek professional evaluation in Fredericksburg, VA.',
+  keywords: 'ADHD, attention problems, focus issues, concentration difficulties, neuropsychological evaluation, Fredericksburg VA, mental health',
 }
 
 export default function BlogPost() {

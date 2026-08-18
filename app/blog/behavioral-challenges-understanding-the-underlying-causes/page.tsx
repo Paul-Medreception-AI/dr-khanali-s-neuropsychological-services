@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Behavioral Challenges: Understanding the Underlying Causes | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Explore the root causes of behavioral challenges in children and adults. Learn how neuropsychological factors, environment, and development influence behavior with expert insights from Arlington, VA.',
-  keywords: 'behavioral challenges, behavioral problems, emotional regulation, neuropsychological assessment, child behavior, adult behavior, Arlington VA, mental health',
+  title: 'Behavioral Challenges: Understanding the Underlying Causes',
+  description: 'Explore the root causes of behavioral challenges in children and adults. Learn how neuropsychological factors, environment, and development influence behavior with expert insights from Fredericksburg, VA.',
+  keywords: 'behavioral challenges, behavioral problems, emotional regulation, neuropsychological assessment, child behavior, adult behavior, Fredericksburg VA, mental health',
 }
 
 export default function BlogPostPage() {
@@ -214,7 +214,7 @@ export default function BlogPostPage() {
             If you or someone you care about is struggling with behavioral challenges, know that help is available. Professional evaluation and support can clarify underlying causes, guide effective interventions, and restore hope. You don't have to navigate this alone.
           </p>
           <p className="text-lg font-semibold text-[var(--color-primary)]">
-            Our team in Arlington, VA specializes in comprehensive neuropsychological assessments and evidence-based interventions for individuals of all ages. Contact us today to learn how we can support you or your loved one.
+            Our team in Fredericksburg, VA specializes in comprehensive neuropsychological assessments and evidence-based interventions for individuals of all ages. Contact us today to learn how we can support you or your loved one.
           </p>
         </div>
 
@@ -234,7 +234,7 @@ export default function BlogPostPage() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Mental Health, serving the Arlington, VA community with compassionate, evidence-based care.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, serving the Fredericksburg, VA community with compassionate, evidence-based care.
               </div>
             </div>
           </div>

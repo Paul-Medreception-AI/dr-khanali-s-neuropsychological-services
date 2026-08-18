@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Disability Evaluations: Understanding the Process | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Comprehensive guide to disability evaluations in Arlington, VA. Learn about the neuropsychological assessment process, eligibility criteria, and what to expect during your evaluation.',
-  keywords: 'disability evaluation, neuropsychological assessment, disability benefits, SSI evaluation, SSDI, cognitive assessment, Arlington VA',
+  title: 'Disability Evaluations: Understanding the Process',
+  description: 'Comprehensive guide to disability evaluations in Fredericksburg, VA. Learn about the neuropsychological assessment process, eligibility criteria, and what to expect during your evaluation.',
+  keywords: 'disability evaluation, neuropsychological assessment, disability benefits, SSI evaluation, SSDI, cognitive assessment, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -51,7 +51,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            At Dr. Khanali's Neuropsychological Services in Arlington, VA, we specialize in comprehensive disability evaluations that provide objective, evidence-based documentation of cognitive and psychological functioning. This guide will walk you through the entire process, from initial referral to final report, helping you prepare for what lies ahead.
+            At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we specialize in comprehensive disability evaluations that provide objective, evidence-based documentation of cognitive and psychological functioning. This guide will walk you through the entire process, from initial referral to final report, helping you prepare for what lies ahead.
           </p>
 
           {/* Section 1 */}
@@ -340,7 +340,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            When it comes to disability evaluations, the expertise of your evaluator matters. Board-certified neuropsychologists bring specialized training in brain-behavior relationships, standardized assessment procedures, and the specific documentation requirements of disability agencies. At Dr. Khanali's Neuropsychological Services in Arlington, VA, we understand what decision-makers look for in disability documentation and how to present findings in a clear, compelling manner.
+            When it comes to disability evaluations, the expertise of your evaluator matters. Licensed clinical psychologists bring specialized training in brain-behavior relationships, standardized assessment procedures, and the specific documentation requirements of disability agencies. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we understand what decision-makers look for in disability documentation and how to present findings in a clear, compelling manner.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -372,7 +372,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Mental Health
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
               </div>
             </div>
           </div>

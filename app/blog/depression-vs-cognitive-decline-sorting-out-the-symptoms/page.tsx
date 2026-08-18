@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Depression vs. Cognitive Decline: Sorting Out the Symptoms | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn how to distinguish between depression and cognitive decline. Expert insights on overlapping symptoms, diagnostic approaches, and when to seek professional evaluation in Arlington, VA.',
-  keywords: 'depression, cognitive decline, memory problems, mental health Arlington VA, neuropsychological assessment, dementia vs depression, pseudodementia',
+  title: 'Depression vs. Cognitive Decline: Sorting Out the Symptoms',
+  description: 'Learn how to distinguish between depression and cognitive decline. Expert insights on overlapping symptoms, diagnostic approaches, and when to seek professional evaluation in Fredericksburg, VA.',
+  keywords: 'depression, cognitive decline, memory problems, mental health Fredericksburg VA, neuropsychological assessment, dementia vs depression, pseudodementia',
 }
 
 export default function BlogPost() {
@@ -283,7 +283,7 @@ export default function BlogPost() {
               Distinguishing between depression and cognitive decline requires clinical expertise, comprehensive assessment, and often time to observe how symptoms evolve. But the effort is worthwhile. For many patients, what appears to be devastating cognitive loss turns out to be treatable depression—a diagnosis that transforms despair into hope.
             </p>
             <p className="mb-6">
-              If you're concerned about cognitive changes in yourself or a loved one in Arlington, VA, comprehensive neuropsychological evaluation can provide the clarity you need. Our team specializes in carefully distinguishing between these complex presentations, ensuring you receive an accurate diagnosis and appropriate treatment recommendations.
+              If you're concerned about cognitive changes in yourself or a loved one in Fredericksburg, VA, comprehensive neuropsychological evaluation can provide the clarity you need. Our team specializes in carefully distinguishing between these complex presentations, ensuring you receive an accurate diagnosis and appropriate treatment recommendations.
             </p>
           </div>
 
@@ -304,7 +304,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Mental Health
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
               </div>
             </div>
           </div>

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Cognitive Rehabilitation: Retraining Your Brain | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn how cognitive rehabilitation helps retrain the brain after injury or illness. Evidence-based approaches to restore cognitive function in Arlington, VA.',
-  keywords: 'cognitive rehabilitation, brain retraining, neuroplasticity, brain injury recovery, cognitive therapy, Arlington VA, neuropsychological rehabilitation',
+  title: 'Cognitive Rehabilitation: Retraining Your Brain',
+  description: 'Learn how cognitive rehabilitation helps retrain the brain after injury or illness. Evidence-based approaches to restore cognitive function in Fredericksburg, VA.',
+  keywords: 'cognitive rehabilitation, brain retraining, neuroplasticity, brain injury recovery, cognitive therapy, Fredericksburg VA, neuropsychological rehabilitation',
 }
 
 export default function BlogPost() {
@@ -55,7 +55,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            Imagine losing the ability to remember where you placed your keys, struggling to follow a conversation, or finding it difficult to plan your day. For millions of individuals recovering from stroke, traumatic brain injury, illness, or neurological conditions, these challenges are daily realities. But here's the remarkable truth: the brain possesses an extraordinary capacity to heal, adapt, and rewire itself—a process that cognitive rehabilitation harnesses to restore lost function and rebuild independence.
+            Imagine losing the ability to remember where you placed your keys, struggling to follow a conversation, or finding it difficult to plan your day. For individuals recovering from stroke, traumatic brain injury, illness, or neurological conditions, these challenges are daily realities. But here's the remarkable truth: the brain possesses an extraordinary capacity to heal, adapt, and rewire itself—a process that cognitive rehabilitation harnesses to restore lost function and rebuild independence.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -237,7 +237,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            If you or someone you care about is experiencing cognitive difficulties, know that specialized help is available. Our team in Arlington, VA provides comprehensive neuropsychological assessment and evidence-based cognitive rehabilitation tailored to your unique needs and goals. Together, we can harness your brain's natural capacity for healing and chart a course toward meaningful recovery.
+            If you or someone you care about is experiencing cognitive difficulties, know that specialized help is available. Our team in Fredericksburg, VA provides comprehensive neuropsychological assessment and evidence-based cognitive rehabilitation tailored to your unique needs and goals. Together, we can harness your brain's natural capacity for healing and chart a course toward meaningful recovery.
           </p>
         </div>
       </article>
@@ -256,7 +256,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, committed to delivering evidence-based neuropsychological assessment and cognitive rehabilitation services to the Arlington, VA community.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, committed to delivering evidence-based neuropsychological assessment and cognitive rehabilitation services to the Fredericksburg, VA community.
               </p>
             </div>
           </div>

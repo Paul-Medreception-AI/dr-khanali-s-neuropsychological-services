@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Bilingual Therapy: The Benefits of Treatment in Your Native Language | Dr. Khanali\'s Neuropsychological Services',
+  title: 'Bilingual Therapy: The Benefits of Treatment in Your Native Language',
   description: 'Discover how receiving mental health treatment in your native language can improve therapeutic outcomes, build trust, and help you express complex emotions more effectively.',
-  keywords: 'bilingual therapy, therapy in native language, multicultural counseling, mental health Arlington VA, language in therapy, culturally responsive care',
+  keywords: 'bilingual therapy, therapy in native language, multicultural counseling, mental health Fredericksburg VA, language in therapy, culturally responsive care',
 }
 
 export default function BlogPost() {
@@ -45,11 +45,11 @@ export default function BlogPost() {
           
           <div className="text-[var(--color-ink)] leading-loose text-base">
             <p className="text-xl leading-relaxed mb-6 font-cormorant">
-              Imagine trying to describe the deepest parts of your emotional experience in a language that isn't truly yours. For millions of bilingual and multilingual individuals, this is the reality of seeking mental health care. While many people can function perfectly well in their second language for daily tasks, therapy demands something more intimate—the ability to express nuanced feelings, childhood memories, and cultural experiences that often exist most vividly in one's native tongue.
+              Imagine trying to describe the deepest parts of your emotional experience in a language that isn't truly yours. For bilingual and multilingual individuals, this is often the reality of seeking mental health care. While many people can function perfectly well in their second language for daily tasks, therapy demands something more intimate—the ability to express nuanced feelings, childhood memories, and cultural experiences that often exist most vividly in one's native tongue.
             </p>
             
             <p className="mb-6">
-              Research increasingly shows that receiving therapy in your native language isn't just a matter of convenience—it can significantly impact therapeutic outcomes, the depth of emotional processing, and the overall effectiveness of treatment. In Arlington, VA and surrounding communities, where linguistic diversity is a defining characteristic, understanding the benefits of bilingual therapy has never been more important.
+              Research increasingly shows that receiving therapy in your native language isn't just a matter of convenience—it can significantly impact therapeutic outcomes, the depth of emotional processing, and the overall effectiveness of treatment. In Fredericksburg, VA and surrounding communities, where linguistic diversity is a defining characteristic, understanding the benefits of bilingual therapy has never been more important.
             </p>
 
             <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">
@@ -250,7 +250,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Mental Health in Arlington, VA
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner in Fredericksburg, VA
               </div>
             </div>
           </div>

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Persian Cultural Considerations in Mental Health Treatment | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding how Persian cultural values, family dynamics, and beliefs shape mental health treatment. Learn culturally sensitive approaches to therapy in Arlington, VA.',
-  keywords: 'Persian mental health, Iranian cultural therapy, culturally sensitive treatment, Persian psychology, Iranian American mental health, Arlington VA',
+  title: 'Persian Cultural Considerations in Mental Health Treatment',
+  description: 'Understanding how Persian cultural values, family dynamics, and beliefs shape mental health treatment. Learn culturally sensitive approaches to therapy in Fredericksburg, VA.',
+  keywords: 'Persian mental health, Iranian cultural therapy, culturally sensitive treatment, Persian psychology, Iranian American mental health, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -41,7 +41,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-[var(--color-ink)] leading-loose text-lg mb-8">
             <p className="mb-6">
-              When Maryam first walked into a therapist&apos;s office in Arlington, she carried not just her own struggles with anxiety, but the weight of generations—unspoken family expectations, cultural values around shame and honor, and the silent belief that seeking help meant betraying her heritage. Her story is not unique. For many in the Persian community, the journey to mental wellness is intricately woven with cultural threads that Western therapeutic approaches often fail to recognize.
+              When Maryam first walked into a therapist&apos;s office in Fredericksburg, she carried not just her own struggles with anxiety, but the weight of generations—unspoken family expectations, cultural values around shame and honor, and the silent belief that seeking help meant betraying her heritage. Her story is not unique. For many in the Persian community, the journey to mental wellness is intricately woven with cultural threads that Western therapeutic approaches often fail to recognize.
             </p>
             <p>
               Understanding Persian cultural considerations in mental health treatment isn&apos;t just about providing better care—it&apos;s about honoring the lived experience of a community that navigates between two worlds, holding onto treasured traditions while adapting to life in America. This cultural competence can mean the difference between effective healing and another door closed on hope.
@@ -87,7 +87,7 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-4">
-              Many Persian families in the United States carry the complex trauma of migration, often having fled political upheaval, war, or persecution. The 1979 Iranian Revolution displaced hundreds of thousands, creating a diaspora community that has navigated profound loss—of homeland, status, professional identity, and extended family connections.
+              Many Persian families in the United States carry the complex trauma of migration, often having fled political upheaval, war, or persecution. The 1979 Iranian Revolution displaced a great many people, creating a diaspora community that has navigated profound loss—of homeland, status, professional identity, and extended family connections.
             </p>
             <p className="mb-4">
               First-generation immigrants may experience what psychologists call &quot;ambiguous loss&quot;—grieving a homeland that still exists but is no longer accessible. This grief is often unprocessed, as survival and establishing stability in a new country take precedence over emotional processing. The pressure to succeed and prove one&apos;s worth in the adopted country can create additional stress that manifests in anxiety, depression, and physical health problems.
@@ -189,13 +189,13 @@ export default function BlogPost() {
               Community education and outreach are essential for reducing stigma and increasing treatment utilization. When mental health information is presented in culturally relevant ways—through community centers, mosques, or Persian cultural organizations—it reaches people where they are and in contexts they trust. Normalizing therapy as a sign of strength and wisdom rather than weakness can gradually shift community attitudes.
             </p>
             <p>
-              For the Persian community in Arlington and beyond, access to culturally competent care isn&apos;t a luxury—it&apos;s a necessity. When therapy respects cultural values, incorporates cultural strengths, and addresses the unique challenges faced by Iranian Americans, it becomes not a betrayal of heritage but an extension of the community&apos;s deep values of wisdom, growth, and care for one another.
+              For the Persian community in Fredericksburg and beyond, access to culturally competent care isn&apos;t a luxury—it&apos;s a necessity. When therapy respects cultural values, incorporates cultural strengths, and addresses the unique challenges faced by Iranian Americans, it becomes not a betrayal of heritage but an extension of the community&apos;s deep values of wisdom, growth, and care for one another.
             </p>
           </div>
 
           <div className="bg-[var(--color-cream)] border border-[var(--color-border)] rounded-lg p-8 my-12">
             <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mb-4">
-              Culturally Informed Care in Arlington, VA
+              Culturally Informed Care in Fredericksburg, VA
             </h3>
             <p className="text-[var(--color-ink)] leading-loose mb-4">
               At Dr. Khanali&apos;s Neuropsychological Services, we understand the unique cultural considerations that Persian families bring to mental health treatment. Our approach integrates cultural awareness with evidence-based psychological care, creating a safe space where your heritage is honored and your healing is prioritized.

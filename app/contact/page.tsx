@@ -1,6 +1,8 @@
+import { OFFICES, formatOffice, PHONE_DISPLAY, PHONE_TEL, FAX_DISPLAY, EMAIL_MAIN, EMAIL_ADMIN, HOURS } from '@/lib/practice'
+
 export const metadata = {
-  title: 'Contact Us | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Get in touch with Dr. Khanali\'s practice in Arlington, VA. Schedule a neuropsychological evaluation, ADHD testing, or therapy appointment. Bilingual services available in English and Farsi.',
+  title: 'Contact Us',
+  description: 'Get in touch with Dr. Khanali\'s practice in Fredericksburg, VA. Schedule a neuropsychological evaluation, ADHD testing, or therapy appointment. Bilingual services available in English and Farsi.',
 }
 
 export default function ContactPage() {
@@ -112,20 +114,24 @@ export default function ContactPage() {
 
             {/* Right Column - Contact Information */}
             <div className="space-y-8 animate-fade-up">
-              {/* TODO(optimize): fill in real NAP (name/address/phone) before launch */}
-              
               {/* Visit Us */}
               <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)]">
                 <svg className="w-8 h-8 mb-4 stroke-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
-                <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">Visit Us</h3>
-                <p className="text-[var(--color-ink)]">
-                  [Address to be added]
-                  <br />
-                  Arlington, VA
-                </p>
+                <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">Our Offices</h3>
+                <ul className="space-y-4 text-[var(--color-ink)]">
+                  {OFFICES.map(o => (
+                    <li key={o.slug}>
+                      <a href={`/locations/${o.slug}`} className="hover:text-[var(--color-primary)] transition-colors">
+                        <span className="font-medium">{o.city}, {o.state}</span>
+                        <br />
+                        <span className="text-sm text-[var(--color-muted)]">{formatOffice(o)}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* Call or Fax */}
@@ -133,11 +139,17 @@ export default function ContactPage() {
                 <svg className="w-8 h-8 mb-4 stroke-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                 </svg>
-                <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">Call Us</h3>
+                <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">Call or Fax</h3>
                 <p className="font-cormorant text-2xl text-[var(--color-ink)] mb-1">
-                  [Phone to be added]
+                  <a href={`tel:${PHONE_TEL}`} className="hover:text-[var(--color-primary)] transition-colors">{PHONE_DISPLAY}</a>
                 </p>
-                <p className="text-[var(--color-muted)] text-sm">Email: [Email to be added]</p>
+                <p className="text-[var(--color-muted)] text-sm mb-3">Fax: {FAX_DISPLAY}</p>
+                <p className="text-[var(--color-muted)] text-sm break-all">
+                  <a href={`mailto:${EMAIL_MAIN}`} className="hover:text-[var(--color-primary)] transition-colors">{EMAIL_MAIN}</a>
+                </p>
+                <p className="text-[var(--color-muted)] text-sm break-all">
+                  <a href={`mailto:${EMAIL_ADMIN}`} className="hover:text-[var(--color-primary)] transition-colors">{EMAIL_ADMIN}</a>
+                </p>
               </div>
 
               {/* Hours */}
@@ -146,7 +158,14 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">Office Hours</h3>
-                <p className="text-[var(--color-ink)]">[Hours to be added]</p>
+                <dl className="space-y-2 text-[var(--color-ink)]">
+                  {HOURS.map(h => (
+                    <div key={h.days} className="flex justify-between gap-4">
+                      <dt className="font-medium">{h.days}</dt>
+                      <dd className="text-[var(--color-muted)]">{h.hours}</dd>
+                    </div>
+                  ))}
+                </dl>
               </div>
 
               {/* Book Appointment */}

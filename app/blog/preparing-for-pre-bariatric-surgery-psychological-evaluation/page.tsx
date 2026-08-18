@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Preparing for Pre-Bariatric Surgery Psychological Evaluation | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn how to prepare for your pre-bariatric surgery psychological evaluation. Expert guidance on what to expect, how to prepare, and why this assessment is crucial for surgical success in Arlington, VA.',
-  keywords: 'pre-bariatric surgery evaluation, psychological assessment, bariatric surgery preparation, weight loss surgery psychology, Arlington VA, Dr. Khanali',
+  title: 'Preparing for Pre-Bariatric Surgery Psychological Evaluation',
+  description: 'Learn how to prepare for your pre-bariatric surgery psychological evaluation. Expert guidance on what to expect, how to prepare, and why this assessment is crucial for surgical success in Fredericksburg, VA.',
+  keywords: 'pre-bariatric surgery evaluation, psychological assessment, bariatric surgery preparation, weight loss surgery psychology, Fredericksburg VA, Dr. Khanali',
 }
 
 export default function BlogPost() {
@@ -172,7 +172,7 @@ export default function BlogPost() {
             </p>
 
             <p className="mb-6">
-              If you have questions about the psychological evaluation process or would like to schedule your assessment, our experienced team in Arlington, VA is here to help guide you through every step of your bariatric surgery journey.
+              If you have questions about the psychological evaluation process or would like to schedule your assessment, our experienced team in Fredericksburg, VA is here to help guide you through every step of your bariatric surgery journey.
             </p>
           </div>
 
@@ -193,7 +193,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, serving Arlington, VA and surrounding communities with comprehensive neuropsychological assessment and therapeutic services.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, serving Fredericksburg, VA and surrounding communities with comprehensive neuropsychological assessment and therapeutic services.
               </div>
             </div>
           </div>

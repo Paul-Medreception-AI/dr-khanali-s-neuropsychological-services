@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Workplace Accommodations for ADHD: Your Rights | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn about your legal rights to workplace accommodations for ADHD under the ADA. Discover practical examples of accommodations and how to request them in Arlington, VA.',
-  keywords: 'ADHD workplace accommodations, ADA rights ADHD, workplace disability accommodations, ADHD at work, reasonable accommodations ADHD, Arlington VA ADHD services',
+  title: 'Workplace Accommodations for ADHD: Your Rights',
+  description: 'Learn about your legal rights to workplace accommodations for ADHD under the ADA. Discover practical examples of accommodations and how to request them in Fredericksburg, VA.',
+  keywords: 'ADHD workplace accommodations, ADA rights ADHD, workplace disability accommodations, ADHD at work, reasonable accommodations ADHD, Fredericksburg VA ADHD services',
 }
 
 export default function BlogPost() {
@@ -227,7 +227,7 @@ export default function BlogPost() {
               Remember that advocating for yourself isn't a sign of weakness. It's a demonstration of self-awareness and professionalism. By understanding your rights and communicating your needs clearly, you're not only helping yourself but also potentially paving the way for other employees with ADHD to receive the support they need.
             </p>
             <p className="mb-6">
-              If you're in the Arlington, VA area and would like to explore whether a neuropsychological evaluation could support your accommodation request, or if you're seeking strategies to manage ADHD symptoms in the workplace, professional guidance can help you create a comprehensive plan for workplace success.
+              If you're in the Fredericksburg, VA area and would like to explore whether a neuropsychological evaluation could support your accommodation request, or if you're seeking strategies to manage ADHD symptoms in the workplace, professional guidance can help you create a comprehensive plan for workplace success.
             </p>
           </div>
 
@@ -248,7 +248,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological evaluations and evidence-based care in Arlington, VA.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, offering comprehensive neuropsychological evaluations and evidence-based care in Fredericksburg, VA.
               </p>
             </div>
           </div>

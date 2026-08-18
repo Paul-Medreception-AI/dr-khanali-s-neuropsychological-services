@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Psychological Preparation for Major Surgery | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn evidence-based strategies for mentally preparing for major surgery. Expert guidance on reducing anxiety, improving recovery outcomes, and building psychological resilience in Arlington, VA.',
-  keywords: 'psychological preparation surgery, preoperative anxiety, surgery mental health, surgical recovery, health psychology, Arlington VA',
+  title: 'Psychological Preparation for Major Surgery',
+  description: 'Learn evidence-based strategies for mentally preparing for major surgery. Expert guidance on reducing anxiety, improving recovery outcomes, and building psychological resilience in Fredericksburg, VA.',
+  keywords: 'psychological preparation surgery, preoperative anxiety, surgery mental health, surgical recovery, health psychology, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -61,7 +61,7 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Feeling anxious before surgery is not only common—it's nearly universal. Studies suggest that between 60-80% of surgical patients experience significant preoperative anxiety. This psychological response is a natural reaction to facing uncertainty, potential pain, loss of control, and concerns about outcomes.
+              Feeling anxious before surgery is not only common—it's nearly universal. Studies suggest that most surgical patients experience significant preoperative anxiety. This psychological response is a natural reaction to facing uncertainty, potential pain, loss of control, and concerns about outcomes.
             </p>
             <p className="mb-6">
               However, excessive anxiety can have measurable physiological effects. Elevated stress hormones like cortisol can compromise immune function, increase inflammation, affect wound healing, and even influence how your body responds to anesthesia. Anxiety can also contribute to higher blood pressure, increased heart rate, and muscle tension—all factors that may complicate the surgical process and recovery.
@@ -290,7 +290,7 @@ export default function BlogPost() {
               Facing major surgery requires courage, and attending to your psychological preparation is an act of self-care and wisdom. By understanding the mind-body connection, employing evidence-based coping strategies, and seeking support when needed, you're taking active steps to optimize your surgical experience and recovery.
             </p>
             <p className="mb-6">
-              If you're preparing for surgery and struggling with anxiety or would like professional guidance in developing psychological preparation strategies, our team at Dr. Khanali's Neuropsychological Services in Arlington, VA specializes in helping patients navigate medical challenges with greater psychological resilience and confidence. You don't have to face this alone.
+              If you're preparing for surgery and struggling with anxiety or would like professional guidance in developing psychological preparation strategies, our team at Dr. Khanali's Neuropsychological Services in Fredericksburg, VA specializes in helping patients navigate medical challenges with greater psychological resilience and confidence. You don't have to face this alone.
             </p>
           </div>
         </div>
@@ -307,7 +307,7 @@ export default function BlogPost() {
               Written by the Dr. Khanali's Neuropsychological Services Clinical Team
             </div>
             <div className="text-sm text-[var(--color-muted)]">
-              Board-certified providers specializing in Mental Health
+              Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
             </div>
           </div>
         </div>

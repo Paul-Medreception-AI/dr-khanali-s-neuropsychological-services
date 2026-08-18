@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Telehealth Psychology: Quality Care from Anywhere | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Discover how telehealth psychology provides accessible, effective mental health care. Learn about the benefits, research, and what to expect from virtual therapy sessions in Arlington, VA.',
-  keywords: 'telehealth psychology, virtual therapy, online mental health, telepsychology, remote counseling, Arlington VA',
+  title: 'Telehealth Psychology: Quality Care from Anywhere',
+  description: 'Discover how telehealth psychology provides accessible, effective mental health care. Learn about the benefits, research, and what to expect from virtual therapy sessions in Fredericksburg, VA.',
+  keywords: 'telehealth psychology, virtual therapy, online mental health, telepsychology, remote counseling, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -176,7 +176,7 @@ export default function BlogPost() {
               </div>
 
               <p className="mb-6">
-                In Arlington, VA and surrounding areas, where traffic and work demands can make scheduling difficult, telehealth psychology offers a practical solution without sacrificing quality of care.
+                In Fredericksburg, VA and surrounding areas, where traffic and work demands can make scheduling difficult, telehealth psychology offers a practical solution without sacrificing quality of care.
               </p>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function BlogPost() {
                 Whether you're managing depression, anxiety, trauma, cognitive concerns, or simply seeking support during a difficult time, virtual care can provide the same comprehensive, personalized treatment you would receive in person. The therapeutic relationship, the evidence-based interventions, and the compassionate support all translate seamlessly to the virtual environment.
               </p>
               <p className="mb-6">
-                If you've been putting off seeking help because of logistical challenges, or if you're simply curious about whether telehealth might be right for you, we encourage you to reach out. Our team in Arlington, VA is here to answer your questions, address your concerns, and help you determine the best approach for your unique situation.
+                If you've been putting off seeking help because of logistical challenges, or if you're simply curious about whether telehealth might be right for you, we encourage you to reach out. Our team in Fredericksburg, VA is here to answer your questions, address your concerns, and help you determine the best approach for your unique situation.
               </p>
               <p className="text-lg font-semibold">
                 Quality mental health care is no longer limited by geography or circumstance. It's available wherever you are, whenever you need it.
@@ -317,10 +317,10 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm mb-3">
-                Board-certified providers specializing in Mental Health
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
               </p>
               <p className="text-[var(--color-ink)] text-sm leading-relaxed">
-                Our team of experienced psychologists and mental health professionals is dedicated to providing evidence-based, compassionate care to individuals and families in Arlington, VA and beyond. We stay current with the latest research and best practices to ensure our patients receive the highest quality treatment.
+                Our team of experienced psychologists and mental health professionals is dedicated to providing evidence-based, compassionate care to individuals and families in Fredericksburg, VA and beyond. We stay current with the latest research and best practices to ensure our patients receive the highest quality treatment.
               </p>
             </div>
           </div>

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Accommodation Letters: How Evaluations Support Your Needs | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn how comprehensive neuropsychological evaluations lead to effective accommodation letters that support your academic, workplace, and testing needs in Arlington, VA.',
-  keywords: 'accommodation letters, neuropsychological evaluation, academic accommodations, workplace accommodations, testing accommodations, Arlington VA, disability services',
+  title: 'Accommodation Letters: How Evaluations Support Your Needs',
+  description: 'Learn how comprehensive neuropsychological evaluations lead to effective accommodation letters that support your academic, workplace, and testing needs in Fredericksburg, VA.',
+  keywords: 'accommodation letters, neuropsychological evaluation, academic accommodations, workplace accommodations, testing accommodations, Fredericksburg VA, disability services',
 }
 
 export default function AccommodationLettersBlogPost() {
@@ -193,7 +193,7 @@ export default function AccommodationLettersBlogPost() {
             </div>
 
             <p className="mb-6">
-              In Arlington, VA, where academic and professional standards are high, having documentation that meets these criteria is essential for successful accommodation requests at local universities, testing centers, and workplaces.
+              In Fredericksburg, VA, where academic and professional standards are high, having documentation that meets these criteria is essential for successful accommodation requests at local universities, testing centers, and workplaces.
             </p>
           </div>
 
@@ -238,7 +238,7 @@ export default function AccommodationLettersBlogPost() {
               If you're struggling in academic, testing, or workplace settings and suspect an underlying condition may be contributing, seeking a comprehensive neuropsychological evaluation is an important step toward accessing the support you need. With proper documentation, accommodation letters open doors to equal opportunity and allow you to demonstrate your true abilities.
             </p>
             <p className="mb-6">
-              At Dr. Khanali's Neuropsychological Services in Arlington, VA, our team provides thorough evaluations that meet institutional standards while honoring your individual experience. We work collaboratively with you to ensure you have the documentation and understanding needed to advocate for accommodations and make informed decisions about your future. If you're ready to explore how evaluation can support your goals, we invite you to reach out and begin the conversation.
+              At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, our team provides thorough evaluations that meet institutional standards while honoring your individual experience. We work collaboratively with you to ensure you have the documentation and understanding needed to advocate for accommodations and make informed decisions about your future. If you're ready to explore how evaluation can support your goals, we invite you to reach out and begin the conversation.
             </p>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function AccommodationLettersBlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, serving the Arlington, VA community with comprehensive neuropsychological evaluations and evidence-based care.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, serving the Fredericksburg, VA community with comprehensive neuropsychological evaluations and evidence-based care.
               </div>
             </div>
           </div>

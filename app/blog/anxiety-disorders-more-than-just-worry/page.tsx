@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Anxiety Disorders: More Than Just Worry | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn about anxiety disorders, their symptoms, causes, and treatment options. Discover how professional care can help you manage anxiety and improve quality of life in Arlington, VA.',
-  keywords: 'anxiety disorders, anxiety symptoms, anxiety treatment, mental health, neuropsychological services, Arlington VA',
+  title: 'Anxiety Disorders: More Than Just Worry',
+  description: 'Learn about anxiety disorders, their symptoms, causes, and treatment options. Discover how professional care can help you manage anxiety and improve quality of life in Fredericksburg, VA.',
+  keywords: 'anxiety disorders, anxiety symptoms, anxiety treatment, mental health, neuropsychological services, Fredericksburg VA',
 }
 
 export default function AnxietyDisordersPage() {
@@ -60,7 +60,7 @@ export default function AnxietyDisordersPage() {
         {/* Opening Hook */}
         <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
           <p className="mb-6">
-            Your heart races. Your palms sweat. Your mind spirals through worst-case scenarios even though, logically, you know everything is probably fine. If this sounds familiar, you're not alone. Anxiety is one of the most common mental health experiences, affecting millions of people worldwide. But when does normal worry cross the line into something more serious?
+            Your heart races. Your palms sweat. Your mind spirals through worst-case scenarios even though, logically, you know everything is probably fine. If this sounds familiar, you're not alone. Anxiety is one of the most common mental health experiences. But when does normal worry cross the line into something more serious?
           </p>
           <p className="mb-6">
             Anxiety disorders are more than just occasional nervousness before a big presentation or butterflies before a first date. They represent persistent, excessive worry that interferes with daily life, relationships, and overall well-being. Understanding the difference between everyday anxiety and an anxiety disorder is the first step toward getting the help you need.
@@ -112,19 +112,19 @@ export default function AnxietyDisordersPage() {
         </h2>
         <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
           <p className="mb-6">
-            Anxiety disorders are among the most prevalent mental health conditions in the United States, affecting approximately 40 million adults—nearly 20% of the population. They can develop at any age, though many begin in childhood, adolescence, or early adulthood.
+            Anxiety disorders are among the most prevalent mental health conditions in the United States, affecting a large number of adults. They can develop at any age, though many begin in childhood, adolescence, or early adulthood.
           </p>
           <p className="mb-6">
             Women are twice as likely as men to be diagnosed with an anxiety disorder, though this may partly reflect differences in help-seeking behavior and symptom reporting. Anxiety disorders also frequently co-occur with other mental health conditions, including depression, substance use disorders, and other anxiety disorders.
           </p>
           <p className="mb-6">
-            Here in Arlington, VA, our diverse community faces unique stressors—from the fast-paced professional environment to the challenges of balancing work and family life. These factors can contribute to or exacerbate anxiety symptoms, making professional support particularly valuable.
+            Here in Fredericksburg, VA, our diverse community faces unique stressors—from the fast-paced professional environment to the challenges of balancing work and family life. These factors can contribute to or exacerbate anxiety symptoms, making professional support particularly valuable.
           </p>
         </div>
 
         {/* Pull Quote */}
         <blockquote className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8 text-[var(--color-ink)] italic text-xl font-cormorant">
-          "Anxiety disorders are highly treatable, yet only about 37% of those affected receive treatment. Seeking help is not a sign of weakness—it's a courageous step toward reclaiming your life."
+          "Anxiety disorders are highly treatable, yet many of those affected never receive treatment. Seeking help is not a sign of weakness—it's a courageous step toward reclaiming your life."
         </blockquote>
 
         {/* Section 3 */}
@@ -307,7 +307,7 @@ export default function AnxietyDisordersPage() {
             </li>
           </ul>
           <p className="mb-6">
-            At Dr. Khanali's Neuropsychological Services in Arlington, VA, we specialize in comprehensive assessment and treatment of anxiety disorders. Our team understands the complex interplay of factors contributing to anxiety and works collaboratively with you to develop effective, evidence-based treatment strategies tailored to your unique needs.
+            At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we specialize in comprehensive assessment and treatment of anxiety disorders. Our team understands the complex interplay of factors contributing to anxiety and works collaboratively with you to develop effective, evidence-based treatment strategies tailored to your unique needs.
           </p>
           <p className="mb-6">
             You deserve to live a life not dominated by fear and worry. With the right support, that life is within reach.
@@ -329,7 +329,7 @@ export default function AnxietyDisordersPage() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, dedicated to providing compassionate, evidence-based care to the Arlington, VA community.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, dedicated to providing compassionate, evidence-based care to the Fredericksburg, VA community.
               </p>
             </div>
           </div>

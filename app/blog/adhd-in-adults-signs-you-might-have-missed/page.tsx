@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'ADHD in Adults: Signs You Might Have Missed | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn the often-overlooked signs of ADHD in adults. Expert insights on symptoms, diagnosis, and treatment options from Dr. Khanali\'s team in Arlington, VA.',
-  keywords: 'ADHD in adults, adult ADHD symptoms, ADHD diagnosis, neuropsychological evaluation, Arlington VA, attention deficit disorder',
+  title: 'ADHD in Adults: Signs You Might Have Missed',
+  description: 'Learn the often-overlooked signs of ADHD in adults. Expert insights on symptoms, diagnosis, and treatment options from Dr. Khanali\'s team in Fredericksburg, VA.',
+  keywords: 'ADHD in adults, adult ADHD symptoms, ADHD diagnosis, neuropsychological evaluation, Fredericksburg VA, attention deficit disorder',
 }
 
 export default function BlogPost() {
@@ -61,7 +61,7 @@ export default function BlogPost() {
           </h2>
           
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For years, ADHD was viewed primarily as a childhood condition that people would "grow out of." We now know that approximately 60% of children with ADHD continue to experience symptoms into adulthood. Yet many adults remain undiagnosed because their symptoms manifest differently than they did in childhood, or because they've developed sophisticated compensation strategies that mask the underlying challenges.
+            For years, ADHD was viewed primarily as a childhood condition that people would "grow out of." We now know that many children with ADHD continue to experience symptoms into adulthood. Yet many adults remain undiagnosed because their symptoms manifest differently than they did in childhood, or because they've developed sophisticated compensation strategies that mask the underlying challenges.
           </p>
           
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -209,7 +209,7 @@ export default function BlogPost() {
           </p>
           
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            You've worked hard to cope with these challenges on your own. You don't have to anymore. In Arlington, VA and surrounding areas, comprehensive neuropsychological evaluation can provide the clarity you need and connect you with evidence-based treatment that makes daily life significantly easier.
+            You've worked hard to cope with these challenges on your own. You don't have to anymore. In Fredericksburg, VA and surrounding areas, comprehensive neuropsychological evaluation can provide the clarity you need and connect you with evidence-based treatment that makes daily life significantly easier.
           </p>
 
         </div>
@@ -229,7 +229,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological evaluations and evidence-based treatment in Arlington, VA.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, offering comprehensive neuropsychological evaluations and evidence-based treatment in Fredericksburg, VA.
               </p>
             </div>
           </div>

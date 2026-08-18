@@ -1,17 +1,36 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function HomePage() {
   return (
     <main>
-      {/* Hero */}
-      <section className="min-h-[90vh] bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] flex items-center text-white">
-        <div className="max-w-5xl mx-auto px-6 text-center py-20">
-          {/* optimize-skill target: pure-gradient hero (no real photo was found on the prior site) */}
+      {/* Hero — licensed Pexels photograph behind a dark gradient scrim so the
+          headline keeps its contrast. The prior site had no usable hero image;
+          the three real photographs it did have are provider headshots, which
+          are used on /team and /about rather than stretched full-bleed here. */}
+      <section className="relative min-h-[90vh] flex items-center text-white">
+        <Image
+          src="/images/hero-consultation.jpg"
+          alt=""
+          aria-hidden="true"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div
+          className="absolute inset-0 bg-gradient-to-br from-[var(--color-dark)]/95 to-[var(--color-primary)]/85"
+          aria-hidden="true"
+        />
+        <div className="relative max-w-5xl mx-auto px-6 text-center py-20">
           <h1 className="font-cormorant text-6xl sm:text-7xl font-light tracking-tight leading-tight">
             Comprehensive Neuropsychological Evaluations and Therapy for Adolescents and Adults
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-            Dr. Khanali's practice offers bilingual clinical psychology services including ADHD assessments, disability evaluations, and pre-bariatric surgery evaluations. We provide culturally sensitive care with expertise in serving diverse communities across multiple states.
+            Dr. Khanali&apos;s practice offers bilingual clinical psychology services including ADHD
+            assessments, neuropsychological, disability and pre-bariatric surgery evaluations, in
+            English and Persian/Farsi. Offices in Fredericksburg and Woodbridge, Virginia and
+            Philadelphia, Pennsylvania.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
             <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">

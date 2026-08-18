@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Telehealth Services | Dr. Khanali\'s Neuropsychological Services',
+  title: 'Telehealth Services',
   description: 'Expert neuropsychological evaluations and therapy available via secure telehealth. Serving clients across 38 states through PSYPACT with bilingual English and Farsi services.',
 }
 

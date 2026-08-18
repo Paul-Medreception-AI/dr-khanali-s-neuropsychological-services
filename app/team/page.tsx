@@ -1,67 +1,110 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
+import { PROVIDERS, PRACTICE_SHORT, SITE_URL, POPULATION } from '@/lib/practice'
 
 export const metadata: Metadata = {
-  title: 'Meet Our Team | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Meet the experienced team at Dr. Khanali\'s Neuropsychological Services providing expert bilingual care in Arlington, VA.',
+  title: `Meet Our Team | ${PRACTICE_SHORT}`,
+  description:
+    'Meet Dr. Roya Khanali, PsyD, Dr. Nicole Carey, PsyD, and Anais Schultz, MSN. Bilingual psychological care in English, Persian/Farsi and Spanish for adolescents and adults.',
+  alternates: { canonical: `${SITE_URL}/team` },
+}
+
+// Real providers only, sourced from lib/practice.ts (transcribed from the
+// practice's own site). The autobuild shipped a single silhouette card reading
+// "Full provider profiles are coming soon" while three real, fully-written bios
+// existed on the live site.
+
+// Real headshots, scraped from the practice's own site. Fixed height rather than
+// aspect-ratio: `aspect-[X/Y]` breaks `Image fill` in this template.
+function Portrait({ provider }: { provider: (typeof PROVIDERS)[number] }) {
+  if (!provider.photo) {
+    const initials = provider.name
+      .replace(/^Dr\.\s*/, '')
+      .split(/\s+/)
+      .map(w => w[0])
+      .join('')
+      .slice(0, 2)
+      .toUpperCase()
+    return (
+      <div className="relative bg-[var(--color-light)] h-80 flex items-center justify-center">
+        <span className="font-cormorant text-6xl text-[var(--color-primary)] opacity-70" aria-hidden="true">
+          {initials}
+        </span>
+      </div>
+    )
+  }
+  return (
+    <div className="relative h-80 md:h-full md:min-h-[22rem] bg-[var(--color-light)]">
+      <Image
+        src={provider.photo.src}
+        alt={provider.photo.alt}
+        fill
+        sizes="(min-width: 768px) 16rem, 100vw"
+        className="object-cover object-top"
+      />
+    </div>
+  )
 }
 
 export default function TeamPage() {
   return (
-    <main>
-      {/* Hero */}
+    <main className="min-h-screen">
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="font-cormorant text-6xl font-light mb-6">Meet Our Team</h1>
-          <p className="text-xl leading-relaxed opacity-90">
-            Dedicated professionals providing compassionate, culturally sensitive neuropsychological care
+          <p className="text-xl opacity-95 leading-relaxed">
+            Clinical psychology, neuropsychological assessment and psychiatric medication management,
+            delivered in English, Persian/Farsi and Spanish. {POPULATION}.
           </p>
         </div>
       </section>
 
-      {/* Team Grid */}
-      <section className="bg-[var(--color-cream)] py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl text-center text-[var(--color-ink)] mb-16">Our Providers & Staff</h2>
-          
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* TODO(optimize): replace with real provider bios + headshots once supplied */}
-            <div className="bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] shadow-sm hover:shadow-lg transition-shadow animate-fade-up">
-              <div className="relative bg-[var(--color-light)] h-72 flex items-center justify-center">
-                <svg 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  strokeWidth={1.5} 
-                  className="w-20 h-20 opacity-40 text-[var(--color-primary)]"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                </svg>
+      <section className="bg-[var(--color-cream)] py-20">
+        <div className="max-w-5xl mx-auto px-6 space-y-12">
+          {PROVIDERS.map(p => (
+            <article
+              key={p.name}
+              className="bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] hover:shadow-lg transition-shadow duration-200 md:flex"
+            >
+              <div className="md:w-64 md:shrink-0">
+                <Portrait provider={p} />
               </div>
-              <div className="p-6">
-                <h3 className="font-cormorant text-2xl text-[var(--color-ink)]">Our Provider Team</h3>
-                <p className="text-sm text-[var(--color-primary)] font-semibold uppercase tracking-wide mt-2">Clinical Staff</p>
-                <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                  Full provider profiles are coming soon. Please call to learn more about our team.
+              <div className="p-8">
+                <h2 className="font-cormorant text-3xl text-[var(--color-ink)]">
+                  {p.name}
+                  {p.credentials ? <span className="text-[var(--color-muted)] text-2xl">, {p.credentials}</span> : null}
+                </h2>
+                <p className="text-sm text-[var(--color-primary)] font-semibold uppercase tracking-wide mt-2">
+                  {p.role}
                 </p>
+                {p.languages && p.languages.length > 0 && (
+                  <p className="mt-3 text-sm text-[var(--color-muted)]">
+                    Speaks {p.languages.join(' and ')}
+                  </p>
+                )}
+                <div className="mt-5 space-y-4 text-[var(--color-ink)] leading-relaxed">
+                  {p.bio.map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+                </div>
               </div>
-            </div>
-          </div>
+            </article>
+          ))}
         </div>
       </section>
 
-      {/* CTA */}
       <section className="bg-[var(--color-ink)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-cormorant text-5xl font-light mb-6">Ready to Get Started?</h2>
           <p className="text-lg mb-8 opacity-90">
-            Schedule your comprehensive neuropsychological evaluation or therapy consultation today
+            Contact the office to ask about an evaluation, therapy, or medication management.
           </p>
-          <Link 
-            href="/contact" 
+          <Link
+            href="/contact"
             className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-semibold px-8 py-4 rounded-full transition-colors"
           >
-            Schedule an Evaluation
+            Contact Us
           </Link>
         </div>
       </section>
