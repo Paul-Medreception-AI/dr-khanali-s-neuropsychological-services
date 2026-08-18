@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
+import Script from 'next/script'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { OFFICES, formatOffice, PHONE_DISPLAY, PHONE_TEL, FAX_DISPLAY, EMAIL_ADMIN, HOURS } from '@/lib/practice'
 import { SERVICES } from '@/lib/data/services'
@@ -137,6 +138,14 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        {/* MedReception AI patient-access widget. Renders only once the backend
+            config for client-id 'dr-khanali-s-neuropsychological-services' is
+            deployed in lambdaWidget.js; silent otherwise. */}
+        <Script
+          src="https://widget.medreception.ai/embed.js"
+          data-client-id="dr-khanali-s-neuropsychological-services"
+          strategy="afterInteractive"
+        />
       </body>
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
 
