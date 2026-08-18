@@ -5,15 +5,20 @@ import { OFFICES } from '@/lib/practice'
 export default function HomePage() {
   return (
     <main>
-      {/* Hero — licensed Pexels photograph (pexels.com/photo/29060759), free for
-          commercial use. Swapped 2026-08-18 at the practice's request; the
-          previous consultation-room photo was also Pexels, not taken from
-          TherapyNotes or any other site. A calm water texture avoids depicting
-          patients, sits in the brand's blue family, and reads as deliberate
-          rather than as generic therapy stock. */}
+      {/* Hero — an ORIGINAL composition generated for this practice, not stock.
+          Source geometry and build script: see the repo history / scratch notes.
+          Topographic iso-lines traced by marching squares over a radial value-
+          noise field, layered with translucent strata, sweeping pathway curves
+          and film grain, in the practice's own palette.
+
+          Two reasons it is vector-generated rather than photographic: there is
+          no licensing question of any kind (the practice asked whether the
+          previous image came from another site — it was licensed Pexels, but
+          this one is wholly ours), and the quiet low-contrast centre the panel
+          needs is enforced by a mask rather than hoped for. Rendered at 3840x2160. */}
       <section className="relative min-h-[90vh] flex items-center text-white">
         <Image
-          src="/images/hero-calm-water.jpg"
+          src="/images/hero-editorial.jpg"
           alt=""
           aria-hidden="true"
           fill
@@ -25,26 +30,29 @@ export default function HomePage() {
           className="hero-scrim"
           aria-hidden="true"
         />
-        <div className="relative max-w-4xl mx-auto px-6 py-20">
+        <div className="relative max-w-5xl mx-auto px-6 py-20">
           <div className="hero-panel text-center px-5 py-10 sm:px-12 sm:py-14">
-            <h1 className="font-cormorant text-3xl sm:text-5xl md:text-6xl font-light tracking-tight leading-tight [hyphens:auto] break-words">
-              Comprehensive Neuropsychological Evaluations and Therapy for Adolescents and Adults
+            {/* "Comprehensive" led the headline and made the reader work before
+                they knew what the practice does; it now sits in the supporting
+                line, where the service already implies it. */}
+            <h1 className="font-cormorant text-3xl sm:text-4xl md:text-5xl font-light tracking-tight leading-[1.15] [hyphens:auto] break-words">
+              <span className="block">Neuropsychological Evaluations &amp; Therapy</span>
+              <span className="block">for Adolescents and Adults</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-              Bilingual clinical psychology for adolescents and adults, in English and Persian/Farsi.
+              Comprehensive, personalized care in English and Persian/Farsi.
             </p>
 
-            {/* The services were a run-on sentence; as a checked list they scan in
-                one pass. Sourced by hand rather than from SERVICES so the hero shows
-                the four evaluations the practice leads with, not all eight pages. */}
+            {/* Five lines, grouped so related evaluations share one row rather than
+                listing every service page. Hand-written rather than mapped from
+                SERVICES: the hero is a summary, not an index. */}
             <ul className="mt-8 grid sm:grid-cols-2 gap-x-8 gap-y-3 text-left max-w-xl mx-auto">
               {[
-                'ADHD assessments',
-                'Neuropsychological evaluations',
+                'ADHD & neuropsychological evaluations',
                 'Disability evaluations',
-                'Pre-bariatric surgery evaluations',
-                'Medication management',
                 'Immigration evaluations',
+                'Pre-bariatric evaluations',
+                'Therapy & medication management',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-white/95">
                   <svg
@@ -67,7 +75,7 @@ export default function HomePage() {
                 Schedule an Evaluation
               </Link>
               <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
-                View Our Services
+                Explore Our Services
               </Link>
             </div>
 
