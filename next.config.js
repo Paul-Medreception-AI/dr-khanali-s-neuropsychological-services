@@ -9,6 +9,10 @@ const nextConfig = {
       { source: '/terms', destination: '/terms-sms', permanent: true },
       { source: '/terms-of-service', destination: '/terms-sms', permanent: true },
       { source: '/sms-terms', destination: '/terms-sms', permanent: true },
+      // /reviews removed 2026-08-17: the practice has no published reviews and
+      // almost no search footprint, so the page was an empty shell. Redirect
+      // rather than 404 in case the preview URL was ever linked.
+      { source: '/reviews', destination: '/contact', permanent: true },
       // Legacy Wix URLs. Point each at its real successor rather than dumping
       // everything on the homepage — /adh was the practice's "ADHD and Cognitive
       // Assessment" page and /ketamine-treatment now has a direct equivalent.

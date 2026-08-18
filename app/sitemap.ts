@@ -19,7 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/new-patients`, priority: 0.7, changeFrequency: 'monthly' as const },
     { url: `${base}/telehealth`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${base}/blog`, priority: 0.7, changeFrequency: 'weekly' as const },
-    { url: `${base}/reviews`, priority: 0.6, changeFrequency: 'monthly' as const },
     { url: `${base}/privacy-sms`, priority: 0.3, changeFrequency: 'yearly' as const },
     { url: `${base}/terms-sms`, priority: 0.3, changeFrequency: 'yearly' as const },
   ].map(p => ({ ...p, lastModified: now }))

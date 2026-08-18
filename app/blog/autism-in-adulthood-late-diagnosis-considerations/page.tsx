@@ -216,7 +216,7 @@ export default function BlogPost() {
               Written by the Dr. Khanali's Neuropsychological Services Clinical Team
             </div>
             <div className="text-[var(--color-muted)] text-sm">
-              Board-certified providers specializing in Mental Health
+              Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
             </div>
           </div>
         </div>

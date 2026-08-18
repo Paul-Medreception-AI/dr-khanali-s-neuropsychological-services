@@ -317,7 +317,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm mb-3">
-                Board-certified providers specializing in Mental Health
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
               </p>
               <p className="text-[var(--color-ink)] text-sm leading-relaxed">
                 Our team of experienced psychologists and mental health professionals is dedicated to providing evidence-based, compassionate care to individuals and families in Fredericksburg, VA and beyond. We stay current with the latest research and best practices to ensure our patients receive the highest quality treatment.

@@ -340,7 +340,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            When it comes to disability evaluations, the expertise of your evaluator matters. Board-certified neuropsychologists bring specialized training in brain-behavior relationships, standardized assessment procedures, and the specific documentation requirements of disability agencies. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we understand what decision-makers look for in disability documentation and how to present findings in a clear, compelling manner.
+            When it comes to disability evaluations, the expertise of your evaluator matters. Licensed clinical psychologists bring specialized training in brain-behavior relationships, standardized assessment procedures, and the specific documentation requirements of disability agencies. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we understand what decision-makers look for in disability documentation and how to present findings in a clear, compelling manner.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -372,7 +372,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Mental Health
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner
               </div>
             </div>
           </div>

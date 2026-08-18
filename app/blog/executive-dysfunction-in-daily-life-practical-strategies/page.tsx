@@ -366,7 +366,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, neuropsychological assessment, and evidence-based interventions for cognitive and emotional well-being.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, neuropsychological assessment, and evidence-based interventions for cognitive and emotional well-being.
               </p>
             </div>
           </div>

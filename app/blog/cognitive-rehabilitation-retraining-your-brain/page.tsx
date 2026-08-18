@@ -256,7 +256,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, committed to delivering evidence-based neuropsychological assessment and cognitive rehabilitation services to the Fredericksburg, VA community.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, committed to delivering evidence-based neuropsychological assessment and cognitive rehabilitation services to the Fredericksburg, VA community.
               </p>
             </div>
           </div>

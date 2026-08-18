@@ -329,7 +329,7 @@ export default function AnxietyDisordersPage() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, dedicated to providing compassionate, evidence-based care to the Fredericksburg, VA community.
+                Licensed clinical psychologists and a board-certified psychiatric nurse practitioner, dedicated to providing compassionate, evidence-based care to the Fredericksburg, VA community.
               </p>
             </div>
           </div>
