@@ -254,7 +254,9 @@ export default function PrivacySmsPage() {
             If you have questions about this Privacy Policy or how your information is handled, contact us at:
           </p>
           <div className="bg-[var(--color-cream)] border border-[var(--color-border)] rounded-lg p-6 mb-8">
-            <p className="text-[var(--color-ink)] font-semibold mb-2">Dr. Khanali&apos;s Neuropsychological Services</p>
+            <p className="text-[var(--color-ink)] font-semibold mb-2">Dr. Khanali&apos;s Neuropsychological Services, LLC</p>
+            <p className="text-[var(--color-muted)] mb-2">1320 Central Park Blvd, Ste 200, Fredericksburg, VA 22401</p>
+            <p className="text-[var(--color-muted)] mb-2">Phone: (571) 317-1386</p>
             <p className="text-[var(--color-muted)] mb-2">Email: drkhanali@drkhanalineuropsychologicalservicesllc.com</p>
             <p className="text-[var(--color-muted)]">Website: https://www.drkhanalineuropsychologicalservicesllc.com</p>
           </div>
