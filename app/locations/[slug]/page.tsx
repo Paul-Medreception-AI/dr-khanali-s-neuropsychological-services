@@ -111,10 +111,10 @@ export default async function OfficePage({ params }: Props) {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {services.map(s => (
-              <div key={s.href} className="bg-[var(--color-cream)] rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+              <div key={s.href} className="relative bg-[var(--color-cream)] rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
                 <h3 className="font-cormorant text-2xl text-[var(--color-primary)] mb-3">{s.title}</h3>
                 <p className="text-[var(--color-ink)] mb-4 leading-relaxed">{s.body}</p>
-                <Link href={s.href} className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-medium transition-colors duration-300">
+                <Link href={s.href} className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-medium transition-colors duration-300">
                   Learn More →
                 </Link>
               </div>

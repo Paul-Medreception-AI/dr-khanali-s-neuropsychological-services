@@ -18,7 +18,7 @@ export default function BlogPage() {
       {/* Featured Article */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="bg-white rounded-2xl p-10 border border-[var(--color-border)] shadow-sm animate-fade-up">
+          <div className="relative bg-white rounded-2xl p-10 border border-[var(--color-border)] shadow-sm animate-fade-up">
             <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-4">
               Featured Article
             </div>
@@ -38,7 +38,7 @@ export default function BlogPage() {
             </div>
             <Link 
               href="/blog/what-to-expect-during-a-neuropsychological-evaluation"
-              className="inline-block mt-8 text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-medium transition-colors"
+              className="stretch-link inline-block mt-8 text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-medium transition-colors"
             >
               Read More →
             </Link>
@@ -47,7 +47,7 @@ export default function BlogPage() {
           {/* Articles Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             {/* Article 1 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 ADHD
               </div>
@@ -59,14 +59,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/adhd-in-adults-signs-you-might-have-missed"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 2 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Mental Health
               </div>
@@ -78,14 +78,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/what-to-expect-during-a-neuropsychological-evaluation"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 3 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Therapy
               </div>
@@ -97,14 +97,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/the-importance-of-culturally-sensitive-mental-health-care"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 4 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Assessment
               </div>
@@ -116,14 +116,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/preparing-for-pre-bariatric-surgery-psychological-evaluation"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 5 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Mental Health
               </div>
@@ -135,14 +135,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/finding-meaning-after-loss-the-grief-journey"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 6 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Disability
               </div>
@@ -154,14 +154,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/disability-evaluations-understanding-the-process"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 7 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Anxiety
               </div>
@@ -173,14 +173,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/anxiety-disorders-more-than-just-worry"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 8 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Telehealth
               </div>
@@ -192,14 +192,14 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/telehealth-psychology-quality-care-from-anywhere"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>
             </article>
 
             {/* Article 9 */}
-            <article className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
+            <article className="relative bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg transition-all animate-fade-up">
               <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-3">
                 Trauma
               </div>
@@ -211,7 +211,7 @@ export default function BlogPage() {
               </p>
               <Link 
                 href="/blog/trauma-and-the-brain-how-ptsd-affects-cognition"
-                className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
+                className="stretch-link text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
               </Link>

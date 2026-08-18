@@ -39,3 +39,14 @@ body { background-color: var(--color-cream); color: var(--color-ink); }
   animation-timeline: view();
   animation-range: entry 0% entry 35%;
 }
+/* Stretched link: makes an entire card clickable while the visible CTA stays a
+   real <a>. The card gets `relative`; the CTA gets `stretch-link`, whose
+   ::after covers the card. Avoids nesting <a> inside <a>, which is invalid HTML
+   and breaks keyboard navigation. Anything inside the card that must stay
+   separately clickable needs its own `relative z-10`. */
+.stretch-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
