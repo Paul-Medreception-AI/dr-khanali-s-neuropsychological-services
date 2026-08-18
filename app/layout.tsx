@@ -42,10 +42,10 @@ export default function RootLayout({
       <body className="font-[family-name:var(--font-dm-sans)] bg-[var(--color-cream)] text-[var(--color-ink)]">
         <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)] shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="/" className="font-cormorant text-xl font-semibold text-[var(--color-primary)]">
+            <a href="/" className="font-cormorant text-lg xl:text-xl font-semibold text-[var(--color-primary)] leading-tight max-w-[55%] lg:max-w-none">
               Dr. Khanali's Neuropsychological Services
             </a>
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
               <NavDropdown
                 label="Services"
                 href="/services"
@@ -60,7 +60,7 @@ export default function RootLayout({
               <a href="/about" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">About</a>
               <a href="/team" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Team</a>
               <a href="/contact" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Contact</a>
-              <a href="/contact" className="ml-8 bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Schedule an Evaluation</a>
+              <a href="/contact" className="ml-2 xl:ml-6 whitespace-nowrap bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Schedule an Evaluation</a>
             </nav>
           </div>
         </header>

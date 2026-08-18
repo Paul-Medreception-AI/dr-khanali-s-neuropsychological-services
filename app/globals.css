@@ -58,19 +58,24 @@ body { background-color: var(--color-cream); color: var(--color-ink); }
    renders fully transparent. That shipped a white-on-white hero on 2026-08-18.
 
    Contrast, measured against a worst case of pure white photo behind:
-     scrim 0.35–0.55  +  panel 0.60  ->  white text at 5.31:1 (WCAG AA is 4.5). */
+     scrim 0.10–0.16  +  panel 0.70  ->  white text at 5.15:1 (WCAG AA is 4.5).
+   The panel alone clears AA even with NO scrim at all (4.72:1), so the scrim
+   is purely cosmetic and can be dropped without hurting legibility. */
 .hero-scrim {
   position: absolute;
   inset: 0;
+  /* Deliberately very subtle: the photograph should read at close to full
+     brightness. All of the text contrast is carried by .hero-panel below, so
+     this only takes the harshest edge off the brightest parts of the image. */
   background: linear-gradient(
     to bottom right,
-    rgba(7, 63, 86, 0.62) 0%,
-    rgba(10, 106, 142, 0.40) 100%
+    rgba(7, 63, 86, 0.16) 0%,
+    rgba(10, 106, 142, 0.10) 100%
   );
 }
 
 .hero-panel {
-  background: rgba(7, 63, 86, 0.60);
+  background: rgba(7, 63, 86, 0.70);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -80,5 +85,16 @@ body { background-color: var(--color-cream); color: var(--color-ink); }
 
 /* Browsers without backdrop-filter get a denser panel so contrast still holds. */
 @supports not ((backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px))) {
-  .hero-panel { background: rgba(7, 63, 86, 0.78); }
+  .hero-panel { background: rgba(7, 63, 86, 0.82); }
+}
+
+/* This practice's copy is full of long compound words — "Neuropsychological",
+   "Attention-Deficit/Hyperactivity" — and the autobuild set fixed heading sizes
+   like text-5xl with no mobile step-down. At 375px a single word was wider than
+   its container and pushed the whole page into horizontal scroll. Breaking and
+   hyphenating headings fixes it everywhere at once, rather than hand-tuning a
+   size on each of ~90 pages. */
+h1, h2, h3, h4 {
+  overflow-wrap: break-word;
+  hyphens: auto;
 }

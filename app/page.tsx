@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { OFFICES } from '@/lib/practice'
 
 export default function HomePage() {
   return (
@@ -23,23 +24,65 @@ export default function HomePage() {
           aria-hidden="true"
         />
         <div className="relative max-w-4xl mx-auto px-6 py-20">
-          <div className="hero-panel text-center px-6 py-12 sm:px-12 sm:py-14">
-          <h1 className="font-cormorant text-6xl sm:text-7xl font-light tracking-tight leading-tight">
-            Comprehensive Neuropsychological Evaluations and Therapy for Adolescents and Adults
-          </h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-            Dr. Khanali&apos;s practice offers bilingual clinical psychology services including ADHD
-            assessments, neuropsychological, disability and pre-bariatric surgery evaluations, in
-            English and Persian/Farsi. Offices in Fredericksburg and Woodbridge, Virginia and
-            Philadelphia, Pennsylvania.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-            <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
-              Schedule an Evaluation
-            </Link>
-            <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
-              View Our Services
-            </Link>
+          <div className="hero-panel text-center px-5 py-10 sm:px-12 sm:py-14">
+            <h1 className="font-cormorant text-3xl sm:text-5xl md:text-6xl font-light tracking-tight leading-tight [hyphens:auto] break-words">
+              Comprehensive Neuropsychological Evaluations and Therapy for Adolescents and Adults
+            </h1>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
+              Bilingual clinical psychology for adolescents and adults, in English and Persian/Farsi.
+            </p>
+
+            {/* The services were a run-on sentence; as a checked list they scan in
+                one pass. Sourced by hand rather than from SERVICES so the hero shows
+                the four evaluations the practice leads with, not all eight pages. */}
+            <ul className="mt-8 grid sm:grid-cols-2 gap-x-8 gap-y-3 text-left max-w-xl mx-auto">
+              {[
+                'ADHD assessments',
+                'Neuropsychological evaluations',
+                'Disability evaluations',
+                'Pre-bariatric surgery evaluations',
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-white/95">
+                  <svg
+                    className="w-5 h-5 mt-0.5 flex-shrink-0 text-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2.5}
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M20 6L9 17l-5-5" />
+                  </svg>
+                  <span className="text-base sm:text-lg leading-snug">{item}</span>
+                </li>
+              ))}
+            </ul>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+              <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
+                Schedule an Evaluation
+              </Link>
+              <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
+                View Our Services
+              </Link>
+            </div>
+
+            {/* Offices as tags along the bottom of the panel, generated from
+                lib/practice.ts so they cannot drift from the real address list. */}
+            <div className="mt-10 pt-6 border-t border-white/20 flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
+              <svg className="w-4 h-4 text-white/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              {OFFICES.map((o) => (
+                <Link
+                  key={o.slug}
+                  href={`/locations/${o.slug}`}
+                  className="rounded-full border border-white/30 bg-white/10 px-3.5 py-1.5 text-sm text-white/90 hover:bg-white/20 hover:text-white transition-colors"
+                >
+                  {o.city}, {o.state}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
