@@ -126,6 +126,6 @@ for li, lv in enumerate(levels):
     for pts in chain(contour_segments(field, lv)):
         contour_paths.append((to_svg_path(pts, sx, sy), li / len(levels)))
 print(f"contours: {len(contour_paths)} paths")
-np.save('/private/tmp/claude-501/-Users-paultoomey/8949e8d0-7e14-4c16-aeec-79507f258b31/scratchpad/hero/field.npy', field)
+np.save('field.npy', field)
 import json
-json.dump(contour_paths, open('/private/tmp/claude-501/-Users-paultoomey/8949e8d0-7e14-4c16-aeec-79507f258b31/scratchpad/hero/contours.json','w'))
+json.dump(contour_paths, open('contours.json','w'))

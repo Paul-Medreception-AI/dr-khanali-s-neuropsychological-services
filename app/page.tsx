@@ -32,15 +32,15 @@ export default function HomePage() {
         />
         <div className="relative max-w-5xl mx-auto px-6 py-20">
           <div className="hero-panel text-center px-5 py-10 sm:px-12 sm:py-14">
-            {/* "Comprehensive" led the headline and made the reader work before
-                they knew what the practice does; it now sits in the supporting
-                line, where the service already implies it. */}
+            {/* The headline already names the service, so the supporting line
+                does positioning work instead: "Specialized" signals that this is
+                not a general counselling practice. */}
             <h1 className="font-cormorant text-3xl sm:text-4xl md:text-5xl font-light tracking-tight leading-[1.15] [hyphens:auto] break-words">
               <span className="block">Neuropsychological Evaluations &amp; Therapy</span>
               <span className="block">for Adolescents and Adults</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-              Comprehensive, personalized care in English and Persian/Farsi.
+              Specialized neuropsychological care in English and Persian/Farsi.
             </p>
 
             {/* Five lines, grouped so related evaluations share one row rather than

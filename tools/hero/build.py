@@ -31,15 +31,15 @@ for k in range(9):
 contour_svg = []
 for d, t in contours:
     if not d: continue
-    op = 0.05 + 0.16 * t
-    wdt = 1.1 + 1.5 * (1 - t)
+    op = 0.065 + 0.205 * t
+    wdt = 1.2 + 1.7 * (1 - t)
     contour_svg.append(f'<path d="{d}" fill="none" stroke="{IVORY}" stroke-opacity="{op:.3f}" stroke-width="{wdt:.2f}"/>')
 
 path_svg = "".join(
-    f'<path d="{d}" fill="none" stroke="{OCEAN_HI}" stroke-opacity="{0.10 + 0.05*(i%3)}" stroke-width="{1.6 + (i%3)*0.9:.1f}"/>'
+    f'<path d="{d}" fill="none" stroke="{OCEAN_HI}" stroke-opacity="{0.13 + 0.065*(i%3)}" stroke-width="{1.6 + (i%3)*0.9:.1f}"/>'
     for i, d in enumerate(paths))
 node_svg = "".join(
-    f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r:.1f}" fill="{IVORY}" fill-opacity="0.14"/>' for x, y, r in nodes)
+    f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r:.1f}" fill="{IVORY}" fill-opacity="0.18"/>' for x, y, r in nodes)
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <defs>
@@ -51,16 +51,16 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     </linearGradient>
 
     <radialGradient id="bloomA" cx="24%" cy="18%" r="52%">
-      <stop offset="0%"   stop-color="{IVORY}" stop-opacity="0.20"/>
-      <stop offset="60%"  stop-color="{IVORY}" stop-opacity="0.05"/>
+      <stop offset="0%"   stop-color="{IVORY}" stop-opacity="0.26"/>
+      <stop offset="60%"  stop-color="{IVORY}" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="{IVORY}" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bloomB" cx="82%" cy="76%" r="46%">
-      <stop offset="0%"   stop-color="{OCEAN_HI}" stop-opacity="0.26"/>
+      <stop offset="0%"   stop-color="{OCEAN_HI}" stop-opacity="0.34"/>
       <stop offset="100%" stop-color="{OCEAN_HI}" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bloomC" cx="58%" cy="8%" r="38%">
-      <stop offset="0%"   stop-color="{WARM_GRAY}" stop-opacity="0.10"/>
+      <stop offset="0%"   stop-color="{WARM_GRAY}" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="{WARM_GRAY}" stop-opacity="0"/>
     </radialGradient>
 
@@ -77,16 +77,26 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
       <rect width="{W}" height="{H}" fill="url(#centerMask)"/>
     </mask>
 
-    <radialGradient id="vig" cx="50%" cy="46%" r="76%">
+    <radialGradient id="vig" cx="50%" cy="46%" r="78%">
       <stop offset="0%"   stop-color="#000" stop-opacity="0"/>
-      <stop offset="70%"  stop-color="#000" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#000" stop-opacity="0.42"/>
+      <stop offset="72%"  stop-color="#000" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.20"/>
+    </radialGradient>
+
+    <!-- Counter-lift: the brief asks for lighter, more dimensional edges, and a
+         vignette does the opposite. This adds a faint ivory rim so the corners
+         gain luminance and depth while the centre stays untouched. -->
+    <radialGradient id="edgeLift" cx="50%" cy="50%" r="74%">
+      <stop offset="0%"   stop-color="{IVORY}" stop-opacity="0"/>
+      <stop offset="58%"  stop-color="{IVORY}" stop-opacity="0"/>
+      <stop offset="86%"  stop-color="{IVORY}" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="{IVORY}" stop-opacity="0.10"/>
     </radialGradient>
 
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.070"/></feComponentTransfer>
     </filter>
 
     <filter id="soften"><feGaussianBlur stdDeviation="1.1"/></filter>
@@ -98,10 +108,10 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   <rect width="{W}" height="{H}" fill="url(#bloomC)"/>
 
   <!-- translucent organic strata -->
-  <g opacity="0.5" mask="url(#edgeBias)">
-    <ellipse cx="{int(W*0.14)}" cy="{int(H*0.82)}" rx="{int(W*0.42)}" ry="{int(H*0.30)}" fill="{DEEP_TEAL}" fill-opacity="0.30"/>
-    <ellipse cx="{int(W*0.92)}" cy="{int(H*0.16)}" rx="{int(W*0.34)}" ry="{int(H*0.26)}" fill="{OCEAN}" fill-opacity="0.24"/>
-    <ellipse cx="{int(W*0.62)}" cy="{int(H*1.02)}" rx="{int(W*0.40)}" ry="{int(H*0.24)}" fill="{MIDNIGHT}" fill-opacity="0.28"/>
+  <g opacity="0.66" mask="url(#edgeBias)">
+    <ellipse cx="{int(W*0.14)}" cy="{int(H*0.82)}" rx="{int(W*0.42)}" ry="{int(H*0.30)}" fill="{DEEP_TEAL}" fill-opacity="0.36"/>
+    <ellipse cx="{int(W*0.92)}" cy="{int(H*0.16)}" rx="{int(W*0.34)}" ry="{int(H*0.26)}" fill="{OCEAN}" fill-opacity="0.30"/>
+    <ellipse cx="{int(W*0.62)}" cy="{int(H*1.02)}" rx="{int(W*0.40)}" ry="{int(H*0.24)}" fill="{MIDNIGHT}" fill-opacity="0.32"/>
   </g>
 
   <g mask="url(#edgeBias)" filter="url(#soften)">
@@ -110,7 +120,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   </g>
 
   <rect width="{W}" height="{H}" fill="url(#vig)"/>
-  <rect width="{W}" height="{H}" filter="url(#grain)" opacity="0.55"/>
+  <rect width="{W}" height="{H}" fill="url(#edgeLift)"/>
+  <rect width="{W}" height="{H}" filter="url(#grain)" opacity="0.68"/>
 </svg>'''
 
 open('hero.svg', 'w').write(svg)

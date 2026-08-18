@@ -28,3 +28,25 @@ Two reasons this is vector-generated rather than photographic:
 
 Palette matches `app/globals.css`: midnight `#0a1b30`, deep teal `#0d3f47`,
 ocean `#1d5f78` / `#2b7c94`, ivory `#f2ece1`, warm gray `#a9a196`.
+
+## Presence tuning (2026-08-18)
+
+Second pass, after "elegant but almost too subtle": roughly +25% on the raw
+values to land ~10-15% more perceived presence.
+
+- contour stroke alpha `0.05 + 0.16t` -> `0.065 + 0.205t`, line width up
+- strata group `0.5` -> `0.66`, ellipse fills up ~20%
+- blooms up ~30%, grain `0.055/0.55` -> `0.070/0.68`
+- vignette relaxed `0.42` -> `0.20`, and a new `#edgeLift` adds a faint ivory
+  rim, because a vignette DARKENS exactly the edges the brief wants lifted
+
+Measured on the render (high-pass mean, centre = 1.00x):
+centre 1.27, left 1.68x, top 1.72x, right 0.96x, bottom 0.90x. The centre came
+out quieter than the previous version (1.27 vs 1.48) while the edges gained.
+White text on the panel over this: 10.10:1.
+
+⚠️ `gen.py` writes `contours.json` NEXT TO ITSELF and `build.py` reads it from
+the cwd. Run both from this directory. A `git checkout` of gen.py once restored
+an absolute scratch path, so gen wrote one place and build read a stale file
+elsewhere — the tell was an identical `svg bytes` count across two runs that had
+different contour counts.
