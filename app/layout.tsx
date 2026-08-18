@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { OFFICES, formatOffice, PHONE_DISPLAY, PHONE_TEL, FAX_DISPLAY, EMAIL_ADMIN, HOURS } from '@/lib/practice'
+import { SERVICES } from '@/lib/data/services'
+import { CONDITIONS } from '@/lib/data/conditions'
+import { NavDropdown } from '@/components/nav/NavDropdown'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400','500','600','700'], variable: '--font-cormorant' })
@@ -42,8 +45,17 @@ export default function RootLayout({
               Dr. Khanali's Neuropsychological Services
             </a>
             <nav className="hidden md:flex items-center gap-8">
-              <a href="/services" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Services</a>
-              <a href="/conditions" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Conditions</a>
+              <NavDropdown
+                label="Services"
+                href="/services"
+                items={SERVICES.map((s) => ({ href: `/services/${s.slug}`, label: s.title }))}
+              />
+              <NavDropdown
+                label="Conditions"
+                href="/conditions"
+                columns={2}
+                items={CONDITIONS.map((c) => ({ href: `/conditions/${c.slug}`, label: c.title }))}
+              />
               <a href="/about" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">About</a>
               <a href="/team" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Team</a>
               <a href="/contact" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Contact</a>

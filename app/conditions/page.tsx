@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { CONDITIONS } from '@/lib/data/conditions'
 
 export default function ConditionsPage() {
@@ -12,6 +13,7 @@ export default function ConditionsPage() {
     name: c.title,
     slug: c.slug,
     description: c.description,
+    image: c.heroImage,
   }))
 
   const warningSigns = [
@@ -35,7 +37,9 @@ export default function ConditionsPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
+      <section className="relative bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
+        <Image src="/images/pages/hub-conditions.jpg" alt="" aria-hidden="true" fill priority sizes="100vw" className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-dark)]/95 to-[var(--color-primary)]/85" aria-hidden="true" />
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="font-cormorant text-5xl font-light mb-6">Conditions We Treat</h1>
           <p className="text-xl text-white/90 leading-relaxed">
@@ -46,7 +50,7 @@ export default function ConditionsPage() {
 
       {/* Conditions Grid */}
       <section className="bg-[var(--color-cream)] py-24">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="relative max-w-7xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl text-[var(--color-ink)] text-center mb-4">
             Comprehensive Mental Health Care
           </h2>
@@ -56,24 +60,35 @@ export default function ConditionsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {conditions.map((condition, index) => (
-              <div
+              <Link
                 key={index}
-                className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300 animate-fade-up"
+                href={`/conditions/${condition.slug}`}
+                className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300 animate-fade-up"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)]">
-                  {condition.name}
-                </h3>
-                <p className="text-[var(--color-muted)] text-sm mt-3 leading-relaxed">
-                  {condition.description}
-                </p>
-                <Link
-                  href={`/conditions/${condition.slug}`}
-                  className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-4 hover:underline"
-                >
-                  Learn More →
-                </Link>
-              </div>
+                {condition.image && (
+                  <div className="relative h-44 w-full bg-[var(--color-light)]">
+                    <Image
+                      src={condition.image.src}
+                      alt={condition.image.alt}
+                      fill
+                      sizes="(min-width: 1024px) 22rem, (min-width: 768px) 50vw, 100vw"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                )}
+                <div className="flex flex-col flex-1 p-8">
+                  <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)]">
+                    {condition.name}
+                  </h3>
+                  <p className="text-[var(--color-muted)] text-sm mt-3 leading-relaxed flex-1">
+                    {condition.description}
+                  </p>
+                  <span className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-4 group-hover:underline">
+                    Learn More →
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -139,7 +154,7 @@ export default function ConditionsPage() {
 
       {/* CTA */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+        <div className="relative max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-cormorant text-4xl text-white font-light mb-6">
             Ready to Take the Next Step?
           </h2>

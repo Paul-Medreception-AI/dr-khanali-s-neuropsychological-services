@@ -6,6 +6,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "adhd-attention-deficit-hyperactivity-disorder",
+    heroImage: { src: "/images/pages/adhd-attention-deficit-hyperactivity-disorder.jpg", alt: "Young man in hoodie using laptop and headphones for online learning at home." },
     badge: "Conditions",
     title: "ADHD (Attention-Deficit/Hyperactivity Disorder)",
     metaTitle: "ADHD Treatment in Fredericksburg",
@@ -31,6 +32,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "anxiety-disorders",
+    heroImage: { src: "/images/pages/anxiety-disorders.jpg", alt: "A woman sits pensively by a window, expressing feelings of solitude and contemplation." },
     badge: "Conditions",
     title: "Anxiety Disorders",
     metaTitle: "Anxiety Disorders Treatment in Fredericksburg, VA",
@@ -56,6 +58,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "depression",
+    heroImage: { src: "/images/pages/depression.jpg", alt: "A woman sits alone by a window at night, depicting solitude and reflection." },
     badge: "Conditions",
     title: "Depression",
     metaTitle: "Depression Treatment in Fredericksburg, VA",
@@ -81,6 +84,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "trauma-and-ptsd",
+    heroImage: { src: "/images/pages/trauma-and-ptsd.jpg", alt: "Crop unrecognizable psychotherapist taking notes in journal while interacting with woman on chair during psych" },
     badge: "Conditions",
     title: "Trauma and PTSD",
     metaTitle: "Trauma and PTSD Treatment in Fredericksburg, VA",
@@ -103,6 +107,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "adjustment-disorders",
+    heroImage: { src: "/images/pages/adjustment-disorders.jpg", alt: "A young couple holding hands in front of a stack of cardboard boxes, possibly indicating moving or relocation." },
     badge: "Conditions",
     title: "Adjustment Disorders",
     metaTitle: "Adjustment Disorders Treatment in Fredericksburg, VA",
@@ -128,6 +133,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "grief-and-loss",
+    heroImage: { src: "/images/pages/grief-and-loss.jpg", alt: "Peaceful cemetery scene with candles and autumn leaves on gravestone." },
     badge: "Conditions",
     title: "Grief and Loss",
     metaTitle: "Grief and Loss Treatment in Fredericksburg, VA",
@@ -152,6 +158,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "learning-disabilities",
+    heroImage: { src: "/images/pages/learning-disabilities.jpg", alt: "Two girls attentively studying with a tutor in a classroom setting." },
     badge: "Conditions",
     title: "Learning Disabilities",
     metaTitle: "Learning Disabilities Treatment in Fredericksburg, VA",
@@ -177,6 +184,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "memory-problems",
+    heroImage: { src: "/images/pages/memory-problems.jpg", alt: "Thoughtful senior woman looking out a window, lost in reflection and quiet contemplation." },
     badge: "Conditions",
     title: "Memory Problems",
     metaTitle: "Memory Problems Treatment in Fredericksburg, VA",
@@ -202,6 +210,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "cognitive-decline",
+    heroImage: { src: "/images/pages/cognitive-decline.jpg", alt: "Elderly man concentrating on solving a Rubik's Cube, showcasing focus and mental agility." },
     badge: "Conditions",
     title: "Cognitive Decline",
     metaTitle: "Cognitive Decline Treatment in Fredericksburg, VA",
@@ -227,6 +236,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "executive-function-deficits",
+    heroImage: { src: "/images/pages/executive-function-deficits.jpg", alt: "A detailed planner with goals and colorful tabs on a wooden desk with pens." },
     badge: "Conditions",
     title: "Executive Function Deficits",
     metaTitle: "Executive Function Deficits Treatment Fredericksburg VA",
@@ -252,6 +262,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "traumatic-brain-injury",
+    heroImage: { src: "/images/pages/traumatic-brain-injury.jpg", alt: "Serious doctor in uniform massaging smiling female patients neck and stretching stiff neck muscles against gra" },
     badge: "Conditions",
     title: "Traumatic Brain Injury",
     metaTitle: "Traumatic Brain Injury Treatment in Fredericksburg, VA",
@@ -277,6 +288,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "stroke-recovery",
+    heroImage: { src: "/images/pages/stroke-recovery.jpg", alt: "Elderly man holding a colorful therapy ball indoors, promoting relaxation and health." },
     badge: "Conditions",
     title: "Stroke Recovery",
     metaTitle: "Stroke Recovery Treatment in Fredericksburg, VA",
@@ -302,6 +314,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "dementia-and-alzheimer-s-disease",
+    heroImage: { src: "/images/pages/dementia-and-alzheimer-s-disease.jpg", alt: "A caregiver holding the hands of an elderly woman in a wheelchair, emphasizing empathy and support." },
     badge: "Conditions",
     title: "Dementia and Alzheimer's Disease",
     metaTitle: "Dementia and Alzheimer's Disease Treatment in Fredericksburg, VA",
@@ -327,6 +340,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "autism-spectrum-disorder",
+    heroImage: { src: "/images/pages/autism-spectrum-disorder.jpg", alt: "From above view of anonymous cute little girl in casual clothes standing near table and playing with wooden bl" },
     badge: "Conditions",
     title: "Autism Spectrum Disorder",
     metaTitle: "Autism Spectrum Disorder Treatment Fredericksburg, VA",
@@ -352,6 +366,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "social-emotional-development-issues",
+    heroImage: { src: "/images/pages/social-emotional-development-issues.jpg", alt: "Children joyfully playing clapping games at a birthday party indoors." },
     badge: "Conditions",
     title: "Social-Emotional Development Issues",
     metaTitle: "Social-Emotional Development Support Fredericksburg, VA",
@@ -377,6 +392,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "behavioral-challenges",
+    heroImage: { src: "/images/pages/behavioral-challenges.jpg", alt: "A heartfelt interaction between father and son sitting on a wooden bench outdoors, promoting bonds and autism" },
     badge: "Conditions",
     title: "Behavioral Challenges",
     metaTitle: "Behavioral Challenges Treatment in Fredericksburg, VA",
@@ -402,6 +418,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "chronic-pain-and-medical-conditions",
+    heroImage: { src: "/images/pages/chronic-pain-and-medical-conditions.jpg", alt: "A man with a large tattoo on his back holds his lower back outdoors, showing discomfort." },
     badge: "Conditions",
     title: "Chronic Pain and Medical Conditions",
     metaTitle: "Chronic Pain and Medical Conditions Treatment in Fredericksburg, VA",
@@ -427,6 +444,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "pre-surgical-psychological-concerns",
+    heroImage: { src: "/images/pages/pre-surgical-psychological-concerns.jpg", alt: "Doctors and patients in a hospital environment, fostering care and companionship." },
     badge: "Conditions",
     title: "Pre-Surgical Psychological Concerns",
     metaTitle: "Pre-Surgical Psychological Evaluation Fredericksburg VA",
@@ -452,6 +470,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "acculturation-stress",
+    heroImage: { src: "/images/pages/acculturation-stress.jpg", alt: "Indonesian passport resting on a turquoise suitcase, symbolizing international travel." },
     badge: "Conditions",
     title: "Acculturation Stress",
     metaTitle: "Acculturation Stress Treatment in Fredericksburg, VA",
@@ -477,6 +496,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "cultural-identity-issues",
+    heroImage: { src: "/images/pages/cultural-identity-issues.jpg", alt: "A lively outdoor gathering with people interacting in a vibrant community setting." },
     badge: "Conditions",
     title: "Cultural Identity Issues",
     metaTitle: "Cultural Identity Issues Treatment in Fredericksburg, VA",
@@ -502,6 +522,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "workplace-stress",
+    heroImage: { src: "/images/pages/workplace-stress.jpg", alt: "Man looking stressed at laptop in a modern office with large windows." },
     badge: "Conditions",
     title: "Workplace Stress",
     metaTitle: "Workplace Stress Treatment in Fredericksburg, VA",
@@ -526,6 +547,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "relationship-problems",
+    heroImage: { src: "/images/pages/relationship-problems.jpg", alt: "Young black couple in casual outfit sitting on bed with sad face and thinking at home" },
     badge: "Conditions",
     title: "Relationship Problems",
     metaTitle: "Relationship Problems Treatment in Fredericksburg, VA",
@@ -551,6 +573,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "self-esteem-issues",
+    heroImage: { src: "/images/pages/self-esteem-issues.jpg", alt: "Two people sharing a reflective moment, captured through a mirror in an intimate setting." },
     badge: "Conditions",
     title: "Self-Esteem Issues",
     metaTitle: "Self-Esteem Issues Treatment in Fredericksburg, VA",
@@ -575,6 +598,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "neurodevelopmental-disorders",
+    heroImage: { src: "/images/pages/neurodevelopmental-disorders.jpg", alt: "A child enjoys playtime in a colorful indoor playground with toys and structures." },
     badge: "Conditions",
     title: "Neurodevelopmental Disorders",
     metaTitle: "Neurodevelopmental Disorders Treatment Fredericksburg VA",
@@ -601,6 +625,7 @@ export const CONDITIONS: ConditionPageContent[] = [
   {
     ...BASE,
     slug: "processing-speed-deficits",
+    heroImage: { src: "/images/pages/processing-speed-deficits.jpg", alt: "A flat lay image depicting stress and overwork with a help flag and clock on papers." },
     badge: "Conditions",
     title: "Processing Speed Deficits",
     metaTitle: "Processing Speed Deficits Fredericksburg",

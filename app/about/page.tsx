@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import { PROVIDERS } from '@/lib/practice'
 
 export const metadata = {
   title: 'About',
@@ -45,7 +47,27 @@ export default function AboutPage() {
             </div>
 
             {/* Sidebar */}
-            <aside className="lg:col-span-2">
+            <aside className="lg:col-span-2 space-y-8">
+              <figure className="bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] animate-fade-up">
+                <div className="relative h-[26rem] sm:h-[32rem] lg:h-[30rem] bg-[var(--color-light)]">
+                  <Image
+                    src={PROVIDERS[0].photo!.src}
+                    alt={PROVIDERS[0].photo!.alt}
+                    fill
+                    sizes="(min-width: 1024px) 28rem, 100vw"
+                    className="object-cover object-[center_18%]"
+                  />
+                </div>
+                <figcaption className="px-6 py-4">
+                  <p className="font-cormorant text-2xl text-[var(--color-ink)]">
+                    {PROVIDERS[0].name}<span className="text-[var(--color-muted)]">, {PROVIDERS[0].credentials}</span>
+                  </p>
+                  <p className="text-sm text-[var(--color-primary)] font-semibold uppercase tracking-wide mt-1">
+                    {PROVIDERS[0].role}
+                  </p>
+                </figcaption>
+              </figure>
+
               <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] animate-fade-up">
                 <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-6">
                   Credentials & Certifications
@@ -79,19 +101,19 @@ export default function AboutPage() {
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                       <path d="M20 6L9 17l-5-5" />
                     </svg>
-                    <span className="text-[var(--color-ink)]">Neuropsychological Assessment Specialist</span>
+                    <span className="text-[var(--color-ink)]">Neuropsychological, ADHD and disability evaluations</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                       <path d="M20 6L9 17l-5-5" />
                     </svg>
-                    <span className="text-[var(--color-ink)]">Evidence-Based Practice Certified</span>
+                    <span className="text-[var(--color-ink)]">Doctorate from the Chicago School of Professional Psychology</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                       <path d="M20 6L9 17l-5-5" />
                     </svg>
-                    <span className="text-[var(--color-ink)]">Cultural Competency Training</span>
+                    <span className="text-[var(--color-ink)]">Extensive experience with culturally diverse clients</span>
                   </li>
                 </ul>
               </div>

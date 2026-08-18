@@ -6,6 +6,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "neuropsychological-evaluations",
+    heroImage: { src: "/images/pages/neuropsychological-evaluations.jpg", alt: "Detailed brain MRI scans displayed on a lightbox, showcasing medical imaging techniques." },
     badge: "Services",
     title: "Neuropsychological Evaluations",
     metaTitle: "Neuropsychological Evaluations in Fredericksburg, VA",
@@ -87,6 +88,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "adhd-testing",
+    heroImage: { src: "/images/pages/adhd-testing.jpg", alt: "Boy using a calculator while studying at a desk with school supplies, focusing on mathematics." },
     badge: "Services",
     title: "ADHD Testing",
     metaTitle: "ADHD Testing in Fredericksburg, VA",
@@ -111,6 +113,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "disability-evaluations",
+    heroImage: { src: "/images/pages/disability-evaluations.jpg", alt: "Person in business attire signing a document at a wooden table in an office setting." },
     badge: "Services",
     title: "Disability Evaluations",
     metaTitle: "Disability Evaluations in Fredericksburg, VA",
@@ -134,6 +137,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "pre-bariatric-surgery-evaluations",
+    heroImage: { src: "/images/pages/pre-bariatric-surgery-evaluations.jpg", alt: "Female nutritionist in office holding broccoli, surrounded by fruits, promoting healthy lifestyle." },
     badge: "Services",
     title: "Pre-Bariatric Surgery Evaluations",
     metaTitle: "Pre-Bariatric Surgery Evaluations in Fredericksburg, VA",
@@ -156,6 +160,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "individual-therapy",
+    heroImage: { src: "/images/pages/individual-therapy.jpg", alt: "Therapist and patient in conversation during a counseling session indoors." },
     badge: "Services",
     title: "Individual Therapy",
     metaTitle: "Individual Therapy in Fredericksburg, VA",
@@ -180,6 +185,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "bilingual-services",
+    heroImage: { src: "/images/pages/bilingual-services.jpg", alt: "Two professionals in business attire engage in a thoughtful discussion sitting in a stylish, modern room." },
     badge: "Services",
     title: "Bilingual Services",
     metaTitle: "Bilingual Services in Fredericksburg, VA",
@@ -202,6 +208,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "medication-management",
+    heroImage: { src: "/images/pages/medication-management.jpg", alt: "Close-up of doctor writing prescription with medicines and stethoscope on desk." },
     badge: "Services",
     title: "Medication Management",
     metaTitle: "Medication Management for ADHD & Psychiatric Conditions",
@@ -271,6 +278,7 @@ export const SERVICES: ServicePageContent[] = [
   {
     ...BASE,
     slug: "ketamine-treatment",
+    heroImage: { src: "/images/pages/ketamine-treatment.jpg", alt: "Calm hospital room featuring infusion chairs and equipment for chemotherapy treatment." },
     badge: "Partner Service",
     title: "Ketamine Treatment",
     metaTitle: "Ketamine Treatment Partnership",

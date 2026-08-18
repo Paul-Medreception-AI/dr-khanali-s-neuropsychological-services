@@ -35,13 +35,13 @@ function Portrait({ provider }: { provider: (typeof PROVIDERS)[number] }) {
     )
   }
   return (
-    <div className="relative h-80 md:h-full md:min-h-[22rem] bg-[var(--color-light)]">
+    <div className="relative h-96 sm:h-[30rem] md:h-full md:min-h-[34rem] bg-[var(--color-light)]">
       <Image
         src={provider.photo.src}
         alt={provider.photo.alt}
         fill
-        sizes="(min-width: 768px) 16rem, 100vw"
-        className="object-cover object-top"
+        sizes="(min-width: 1024px) 24rem, (min-width: 768px) 20rem, 100vw"
+        className="object-cover object-[center_18%]"
       />
     </div>
   )
@@ -61,13 +61,13 @@ export default function TeamPage() {
       </section>
 
       <section className="bg-[var(--color-cream)] py-20">
-        <div className="max-w-5xl mx-auto px-6 space-y-12">
+        <div className="max-w-6xl mx-auto px-6 space-y-12">
           {PROVIDERS.map(p => (
             <article
               key={p.name}
               className="bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] hover:shadow-lg transition-shadow duration-200 md:flex"
             >
-              <div className="md:w-64 md:shrink-0">
+              <div className="md:w-80 lg:w-96 md:shrink-0">
                 <Portrait provider={p} />
               </div>
               <div className="p-8">
