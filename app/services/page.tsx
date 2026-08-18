@@ -29,7 +29,9 @@ export default function ServicesPage() {
             Comprehensive Care for Every Need
           </h2>
           <p className="text-[var(--color-muted)] text-center mb-16 max-w-2xl mx-auto">
-            Providing evidence-based assessments and therapy in English and Farsi to serve diverse communities across Fredericksburg, VA and beyond
+            Providing evidence-based assessments and therapy in English and Persian/Farsi at our
+            Fredericksburg and Woodbridge, Virginia and Philadelphia, Pennsylvania offices, with
+            secure telehealth also available
           </p>
 
           {/* Generated from lib/data/services.ts. The autobuild hardcoded six cards

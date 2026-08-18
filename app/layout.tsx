@@ -57,6 +57,7 @@ export default function RootLayout({
                 columns={2}
                 items={CONDITIONS.map((c) => ({ href: `/conditions/${c.slug}`, label: c.title }))}
               />
+              <a href="/insurance" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Insurance</a>
               <a href="/about" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">About</a>
               <a href="/team" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Team</a>
               <a href="/contact" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Contact</a>
@@ -84,6 +85,7 @@ export default function RootLayout({
                 <div className="flex flex-col gap-2">
                   <a href="/services" className="text-sm text-gray-300 hover:text-white transition-colors">Services</a>
                   <a href="/conditions" className="text-sm text-gray-300 hover:text-white transition-colors">Conditions</a>
+                  <a href="/insurance" className="text-sm text-gray-300 hover:text-white transition-colors">Insurance</a>
                   <a href="/about" className="text-sm text-gray-300 hover:text-white transition-colors">About</a>
                   <a href="/team" className="text-sm text-gray-300 hover:text-white transition-colors">Team</a>
                   <a href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>

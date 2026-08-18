@@ -1,11 +1,10 @@
-import { INSURANCE_GENERAL, INSURANCE_MEDICATION_MGMT } from '@/lib/practice'
+import { INSURANCE_POLICY, INSURANCE_NOT_ACCEPTED, OUT_OF_POCKET_SERVICES } from '@/lib/practice'
 import Link from 'next/link'
 
 export default function InsurancePage() {
-  // Real carrier list, transcribed from the practice's own site. The autobuild
-  // invented this array — it listed Humana, Tricare and Magellan (not accepted)
-  // and omitted 14 carriers that are.
-  const insuranceProviders = INSURANCE_GENERAL
+  // Insurance model updated 2026-08-18 direct from the practice: they accept
+  // almost all plans, so we name the three exceptions instead of maintaining a
+  // carrier list. Values live in lib/practice.ts.
 
   const billingSteps = [
     {
@@ -33,7 +32,7 @@ export default function InsurancePage() {
   const faqs = [
     {
       question: "Do you accept my insurance?",
-      answer: "The carriers listed above are the plans we accept. Coverage varies by plan, so we recommend contacting our office to verify your specific benefits. We will check your coverage before your first appointment and provide you with an estimate of any out-of-pocket costs."
+      answer: "We accept almost all insurance plans; the exceptions are listed above. Coverage varies by plan, so we recommend contacting our office to verify your specific benefits. We will check your coverage before your first appointment and provide you with an estimate of any out-of-pocket costs."
     },
     {
       question: "What if I don't have insurance or my plan isn't accepted?",
@@ -69,41 +68,52 @@ export default function InsurancePage() {
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-center text-[var(--color-ink)] mb-16">
-            Accepted Insurance Plans
+            Insurance We Accept
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {insuranceProviders.map((provider, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl p-6 text-center border border-[var(--color-border)] font-semibold text-[var(--color-ink)] hover:border-[var(--color-primary)] transition-all duration-300 animate-fade-up"
-                style={{ animationDelay: `${index * 50}ms` }}
-              >
-                {provider}
+          <div className="max-w-3xl mx-auto space-y-8">
+              <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)]">
+                <p className="text-2xl font-cormorant text-[var(--color-primary)] mb-3">
+                  {INSURANCE_POLICY}
+                </p>
+                <p className="text-[var(--color-ink)] leading-relaxed">
+                  Rather than list every carrier, it is simpler to name the plans we cannot bill.
+                  If your plan is not on the short list below, contact the office and we will verify
+                  your benefits before you schedule.
+                </p>
               </div>
-            ))}
-          </div>
-          {/* Medication management is credentialed with a narrower panel than
-              therapy and evaluation. Showing one merged list would misrepresent
-              coverage for anyone calling about prescribing. */}
-          <div className="mt-16 max-w-4xl mx-auto bg-[var(--color-cream)] rounded-2xl p-8 border border-[var(--color-border)]">
-            <h3 className="font-cormorant text-3xl text-[var(--color-primary)] mb-3">
-              Medication Management Plans
-            </h3>
-            <p className="text-[var(--color-ink)] mb-6">
-              Medication management for ADHD and other psychiatric conditions in Virginia is
-              credentialed with a narrower set of plans than therapy and evaluation:
-            </p>
-            <ul className="flex flex-wrap gap-3">
-              {INSURANCE_MEDICATION_MGMT.map((plan) => (
-                <li
-                  key={plan}
-                  className="bg-white border border-[var(--color-border)] rounded-lg px-4 py-2 text-sm font-medium text-[var(--color-ink)]"
-                >
-                  {plan}
-                </li>
-              ))}
-            </ul>
-          </div>
+
+              <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)]">
+                <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mb-4">
+                  Plans we are not able to accept
+                </h3>
+                <ul className="space-y-3">
+                  {INSURANCE_NOT_ACCEPTED.map((plan) => (
+                    <li key={plan} className="flex items-start gap-3 text-[var(--color-ink)]">
+                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[var(--color-muted)]" />
+                      <span>{plan}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="bg-[var(--color-cream)] rounded-2xl p-8 border border-[var(--color-border)]">
+                <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mb-4">
+                  Services billed out of pocket
+                </h3>
+                <p className="text-[var(--color-ink)] mb-4 leading-relaxed">
+                  These evaluations are not billed through insurance. We confirm the fee with you
+                  before anything is scheduled.
+                </p>
+                <ul className="space-y-3">
+                  {OUT_OF_POCKET_SERVICES.map((svc) => (
+                    <li key={svc} className="flex items-start gap-3 text-[var(--color-ink)]">
+                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[var(--color-accent)]" />
+                      <span>{svc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
 
           <p className="text-center text-[var(--color-muted)] mt-12 max-w-3xl mx-auto">
             Coverage and benefits vary by plan. Please contact our office to verify your specific insurance coverage and out-of-pocket costs before scheduling your appointment.

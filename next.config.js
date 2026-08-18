@@ -9,6 +9,11 @@ const nextConfig = {
       { source: '/terms', destination: '/terms-sms', permanent: true },
       { source: '/terms-of-service', destination: '/terms-sms', permanent: true },
       { source: '/sms-terms', destination: '/terms-sms', permanent: true },
+      // Conditions removed 2026-08-18 at the practice's request. Learning
+      // disability EVALUATIONS are still offered (out of pocket) — see
+      // /insurance — so that slug points at the evaluation service, not a 404.
+      { source: '/conditions/learning-disabilities', destination: '/services/neuropsychological-evaluations', permanent: true },
+      { source: '/conditions/autism-spectrum-disorder', destination: '/conditions/neurodevelopmental-disorders', permanent: true },
       // /reviews removed 2026-08-17: the practice has no published reviews and
       // almost no search footprint, so the page was an empty shell. Redirect
       // rather than 404 in case the preview URL was ever linked.

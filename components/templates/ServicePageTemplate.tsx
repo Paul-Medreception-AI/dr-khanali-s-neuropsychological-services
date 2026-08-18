@@ -27,6 +27,8 @@ export type ServicePageContent = {
   faqs?: FAQ[]
   relatedLinks?: RelatedLink[]
   metaTitle?: string
+  /** Billed out of pocket rather than through insurance. */
+  outOfPocket?: boolean
   heroSubhead?: string
   heroImage?: { src: string; alt: string }
   featuredVideo?: { videoId: string; title: string; heading?: string; subhead?: string }
@@ -118,6 +120,12 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
               </nav>
               <h1 className="text-4xl md:text-5xl font-semibold mb-6 leading-tight">{c.headline}</h1>
               <p className="text-xl opacity-95 max-w-3xl leading-relaxed">{c.heroSubhead || c.description}</p>
+            {c.outOfPocket && (
+              <p className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/35 bg-white/10 px-4 py-2 text-sm font-medium">
+                <span aria-hidden="true">•</span>
+                This evaluation is billed out of pocket, not through insurance
+              </p>
+            )}
             </div>
             {c.heroImage && (
               <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">

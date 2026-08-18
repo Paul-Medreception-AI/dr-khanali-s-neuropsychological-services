@@ -312,4 +312,45 @@ export const SERVICES: ServicePageContent[] = [
     ctaHeading: "Ask About a Referral",
     ctaBody: "If you would like to discuss whether ketamine treatment fits into your care, contact the office and we can talk through the referral.",
   },
+  {
+    ...BASE,
+    slug: "immigration-evaluations",
+    badge: "Services",
+    title: "Immigration Evaluations",
+    metaTitle: "Immigration Psychological Evaluations | Dr. Khanali, PsyD",
+    headline: "Immigration Psychological Evaluations",
+    description: "Immigration psychological evaluations in Fredericksburg and Woodbridge, VA and Philadelphia, PA. Conducted in English or Persian/Farsi. Billed out of pocket.",
+    heroSubhead: "Psychological evaluations prepared to support immigration proceedings, conducted by Dr. Khanali in English or Persian/Farsi. These evaluations are billed out of pocket rather than through insurance.",
+    outOfPocket: true,
+    heroImage: { src: "/images/pages/immigration-evaluations.jpg", alt: "Documents and paperwork on a desk during a consultation" },
+    introHeading: "What is an Immigration Evaluation?",
+    intro: [
+      "An immigration psychological evaluation is a written assessment prepared for use in an immigration matter. It documents an individual's psychological functioning and, where relevant, the emotional impact of the circumstances at issue, so that the record before the decision-maker reflects clinical findings rather than assertion alone.",
+      "The evaluation typically involves a clinical interview, review of any records you provide, and psychological testing selected to fit the referral question. The result is a comprehensive written report suitable for submission by your attorney.",
+      "Dr. Khanali conducts these evaluations in English or Persian/Farsi. Assessing someone in their first language matters here more than almost anywhere else: an account of distress given in a second language can understate what a person actually experienced."
+    ],
+    bullets: [
+      "Clinical interview covering personal, family, medical and immigration history",
+      "Psychological testing selected to fit the specific referral question",
+      "Review of records and documentation you or your attorney provide",
+      "Comprehensive written report prepared for submission",
+      "Conducted in English or Persian/Farsi",
+      "Billed out of pocket; we will confirm the fee before you schedule"
+    ],
+    benefits: [
+      { title: "Assessment in Your First Language", body: "Evaluations are available in Persian/Farsi as well as English, so the account you give is not filtered through a second language or an interpreter." },
+      { title: "Prepared for the Record", body: "The report is written to be usable by your attorney, setting out findings, the basis for them, and their clinical significance." },
+      { title: "Culturally Informed", body: "Dr. Khanali has extensive experience working with culturally diverse clients, including immigrant and refugee communities." },
+      { title: "Clear Cost Up Front", body: "Because this evaluation is out of pocket, we confirm the fee with you before anything is scheduled." }
+    ],
+    faqs: [
+      { q: "Does insurance cover an immigration evaluation?", a: "No. Immigration evaluations are billed out of pocket rather than through insurance. We will confirm the fee with you before you schedule." },
+      { q: "Can the evaluation be conducted in Persian/Farsi?", a: "Yes. Dr. Khanali is a bilingual clinical psychologist fluent in English and Persian/Farsi and conducts these evaluations in either language." },
+      { q: "Do I need an attorney to request one?", a: "Most referrals come through an attorney, who is best placed to say what the evaluation needs to address. You may contact the office directly to ask about the process." },
+      { q: "How long does it take?", a: "It depends on the referral question and the records involved. Contact the office and we will give you a realistic timeframe for your situation." },
+      { q: "Which office handles these?", a: "Evaluations are available at our Fredericksburg and Woodbridge, Virginia offices and our Philadelphia, Pennsylvania office." }
+    ],
+    ctaHeading: "Ask About an Immigration Evaluation",
+    ctaBody: "Contact the office to discuss your situation, the timeframe, and the fee before scheduling.",
+  },
 ]

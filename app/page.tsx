@@ -5,13 +5,15 @@ import { OFFICES } from '@/lib/practice'
 export default function HomePage() {
   return (
     <main>
-      {/* Hero — licensed Pexels photograph behind a dark gradient scrim so the
-          headline keeps its contrast. The prior site had no usable hero image;
-          the three real photographs it did have are provider headshots, which
-          are used on /team and /about rather than stretched full-bleed here. */}
+      {/* Hero — licensed Pexels photograph (pexels.com/photo/29060759), free for
+          commercial use. Swapped 2026-08-18 at the practice's request; the
+          previous consultation-room photo was also Pexels, not taken from
+          TherapyNotes or any other site. A calm water texture avoids depicting
+          patients, sits in the brand's blue family, and reads as deliberate
+          rather than as generic therapy stock. */}
       <section className="relative min-h-[90vh] flex items-center text-white">
         <Image
-          src="/images/hero-consultation.jpg"
+          src="/images/hero-calm-water.jpg"
           alt=""
           aria-hidden="true"
           fill
@@ -41,6 +43,8 @@ export default function HomePage() {
                 'Neuropsychological evaluations',
                 'Disability evaluations',
                 'Pre-bariatric surgery evaluations',
+                'Medication management',
+                'Immigration evaluations',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-white/95">
                   <svg

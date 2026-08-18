@@ -156,19 +156,26 @@ export const PROVIDERS: Provider[] = [
   },
 ]
 
-/** Insurance carriers, verbatim from the practice's own list. */
-export const INSURANCE_GENERAL = [
-  'Aetna', 'United Healthcare', 'Optum', 'Cigna', 'Sentara Health Plans (Virginia)',
-  'VA CCN', 'Innovation Health (Aetna)', 'CareFirst BC/BS', 'Cardinal Care',
-  'Carelon Behavioral Health', 'Oscar', 'UMR', 'Anthem HealthKeepers', 'Medicaid',
-  'Medicare (and supplemental plans)', 'Anthem BC/BS of Virginia', 'Beacon Health, Inc.',
-  'Uni-care', 'Emblem Health', 'Providence', 'Anthem Gatekeeper',
+/** ── Insurance ──────────────────────────────────────────────────────────────
+ *  Updated 2026-08-18 direct from the practice, and this SUPERSEDES the
+ *  ~22-carrier list transcribed from their old site: they accept almost all
+ *  plans, and it is the exclusions that are worth naming.
+ */
+export const INSURANCE_POLICY =
+  'We accept almost all insurance plans.'
+
+/** The only plans NOT accepted. Naming exclusions is more useful — and stays
+ *  accurate longer — than maintaining a list of every carrier. */
+export const INSURANCE_NOT_ACCEPTED = [
+  'PA Medicaid',
+  'Aetna Better Health of Virginia',
+  'Humana',
 ]
 
-/** Medication management is credentialed with a narrower list — keep it separate. */
-export const INSURANCE_MEDICATION_MGMT = [
-  'Cigna', 'Aetna', 'Optum (United Healthcare)', 'VA Medicaid',
-  'Sentara Health Plans', 'Cigna HealthSprings', 'VA CCN', 'Medicare',
+/** Services billed out of pocket rather than through insurance. */
+export const OUT_OF_POCKET_SERVICES = [
+  'Immigration evaluations',
+  'Learning disability evaluations',
 ]
 
 /** No social profiles exist on the practice site. Leave empty — do not invent. */
