@@ -50,3 +50,35 @@ body { background-color: var(--color-cream); color: var(--color-ink); }
   inset: 0;
   z-index: 1;
 }
+
+/* ── Hero scrim + text panel ──────────────────────────────────────────────────
+   Written as real CSS, NOT Tailwind utilities. `from-[var(--color-dark)]/95`
+   looks valid but never compiles: Tailwind cannot push an opacity modifier into
+   an arbitrary var() colour, so it drops the rule silently and the overlay
+   renders fully transparent. That shipped a white-on-white hero on 2026-08-18.
+
+   Contrast, measured against a worst case of pure white photo behind:
+     scrim 0.35–0.55  +  panel 0.60  ->  white text at 5.31:1 (WCAG AA is 4.5). */
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom right,
+    rgba(7, 63, 86, 0.62) 0%,
+    rgba(10, 106, 142, 0.40) 100%
+  );
+}
+
+.hero-panel {
+  background: rgba(7, 63, 86, 0.60);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 50px -12px rgba(0, 0, 0, 0.45);
+}
+
+/* Browsers without backdrop-filter get a denser panel so contrast still holds. */
+@supports not ((backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px))) {
+  .hero-panel { background: rgba(7, 63, 86, 0.78); }
+}

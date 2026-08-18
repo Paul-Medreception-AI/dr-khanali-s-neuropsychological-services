@@ -7,17 +7,19 @@ export default function ServicesPage() {
     <main>
       <section className="relative bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white text-center">
         <Image src="/images/pages/hub-services.jpg" alt="" aria-hidden="true" fill priority sizes="100vw" className="object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-dark)]/95 to-[var(--color-primary)]/85" aria-hidden="true" />
+        <div className="hero-scrim" aria-hidden="true" />
         <div className="relative max-w-7xl mx-auto px-6">
-          <div className="text-white/60 text-sm mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">›</span>
-            <span>Services</span>
+          <div className="hero-panel inline-block text-center px-8 py-10 sm:px-14 sm:py-12">
+            <div className="text-white/75 text-sm mb-6">
+              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <span className="mx-2">›</span>
+              <span>Services</span>
+            </div>
+            <h1 className="font-cormorant text-6xl font-light">Our Services</h1>
+            <p className="text-xl text-white/80 max-w-xl mx-auto mt-4">
+              Expert neuropsychological evaluations and therapy tailored to your unique needs
+            </p>
           </div>
-          <h1 className="font-cormorant text-6xl font-light">Our Services</h1>
-          <p className="text-xl text-white/80 max-w-xl mx-auto mt-4">
-            Expert neuropsychological evaluations and therapy tailored to your unique needs
-          </p>
         </div>
       </section>
 

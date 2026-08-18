@@ -39,12 +39,14 @@ export default function ConditionsPage() {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
         <Image src="/images/pages/hub-conditions.jpg" alt="" aria-hidden="true" fill priority sizes="100vw" className="object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-dark)]/95 to-[var(--color-primary)]/85" aria-hidden="true" />
-        <div className="max-w-4xl mx-auto px-6">
-          <h1 className="font-cormorant text-5xl font-light mb-6">Conditions We Treat</h1>
-          <p className="text-xl text-white/90 leading-relaxed">
-            Evidence-based care for a full range of mental health and behavioral health conditions
-          </p>
+        <div className="hero-scrim" aria-hidden="true" />
+        <div className="relative max-w-4xl mx-auto px-6">
+          <div className="hero-panel inline-block text-center px-8 py-10 sm:px-14 sm:py-12">
+            <h1 className="font-cormorant text-5xl font-light mb-6">Conditions We Treat</h1>
+            <p className="text-xl text-white/90 leading-relaxed">
+              Evidence-based care for a full range of mental health and behavioral health conditions
+            </p>
+          </div>
         </div>
       </section>
 

@@ -19,10 +19,11 @@ export default function HomePage() {
           className="object-cover"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-br from-[var(--color-dark)]/95 to-[var(--color-primary)]/85"
+          className="hero-scrim"
           aria-hidden="true"
         />
-        <div className="relative max-w-5xl mx-auto px-6 text-center py-20">
+        <div className="relative max-w-4xl mx-auto px-6 py-20">
+          <div className="hero-panel text-center px-6 py-12 sm:px-12 sm:py-14">
           <h1 className="font-cormorant text-6xl sm:text-7xl font-light tracking-tight leading-tight">
             Comprehensive Neuropsychological Evaluations and Therapy for Adolescents and Adults
           </h1>
@@ -39,6 +40,7 @@ export default function HomePage() {
             <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
               View Our Services
             </Link>
+            </div>
           </div>
         </div>
       </section>
