@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Therapy in Your Second Language: Challenges and Solutions | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Exploring the unique challenges of receiving therapy in a second language and evidence-based solutions to enhance therapeutic outcomes for multilingual clients in Arlington, VA.',
-  keywords: 'therapy second language, multilingual therapy, bilingual counseling, language barriers therapy, Arlington VA mental health, cross-cultural therapy',
+  title: 'Therapy in Your Second Language: Challenges and Solutions',
+  description: 'Exploring the unique challenges of receiving therapy in a second language and evidence-based solutions to enhance therapeutic outcomes for multilingual clients in Fredericksburg, VA.',
+  keywords: 'therapy second language, multilingual therapy, bilingual counseling, language barriers therapy, Fredericksburg VA mental health, cross-cultural therapy',
 }
 
 export default function BlogPost() {
@@ -45,11 +45,11 @@ export default function BlogPost() {
           <div className="text-[var(--color-ink)] leading-loose text-base space-y-6">
             
             <p className="text-xl leading-relaxed">
-              Imagine trying to describe your deepest fears, most painful memories, or subtle emotional nuances in a language that isn't your mother tongue. For millions of people seeking mental health care in the United States, this is not a hypothetical scenario—it's their reality. The language in which we receive therapy profoundly affects our ability to express ourselves, connect with our therapist, and ultimately, heal.
+              Imagine trying to describe your deepest fears, most painful memories, or subtle emotional nuances in a language that isn't your mother tongue. For many people seeking mental health care, this is not a hypothetical scenario—it's their reality. The language in which we receive therapy profoundly affects our ability to express ourselves, connect with our therapist, and ultimately, heal.
             </p>
 
             <p>
-              In diverse communities like Arlington, VA, where residents speak dozens of languages, the intersection of language and mental health care represents both a challenge and an opportunity for more culturally responsive treatment. Understanding the unique obstacles multilingual clients face—and the solutions available—is essential for anyone navigating therapy in their second language.
+              In diverse communities like Fredericksburg, VA, where residents speak dozens of languages, the intersection of language and mental health care represents both a challenge and an opportunity for more culturally responsive treatment. Understanding the unique obstacles multilingual clients face—and the solutions available—is essential for anyone navigating therapy in their second language.
             </p>
 
             <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">
@@ -103,7 +103,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              Some therapy practices, including those serving diverse communities like Arlington, VA, offer access to professional interpreters for mental health sessions. While not ideal—as the interpreter adds another person to the intimate therapeutic space—trained mental health interpreters can bridge significant language gaps while maintaining confidentiality and therapeutic rapport.
+              Some therapy practices, including those serving diverse communities like Fredericksburg, VA, offer access to professional interpreters for mental health sessions. While not ideal—as the interpreter adds another person to the intimate therapeutic space—trained mental health interpreters can bridge significant language gaps while maintaining confidentiality and therapeutic rapport.
             </p>
 
             <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">
@@ -207,7 +207,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              For communities with significant multilingual populations, like Arlington, VA, this means actively recruiting bilingual providers, offering interpreter services, and creating therapeutic spaces where linguistic diversity is valued rather than seen as a barrier to overcome.
+              For communities with significant multilingual populations, like Fredericksburg, VA, this means actively recruiting bilingual providers, offering interpreter services, and creating therapeutic spaces where linguistic diversity is valued rather than seen as a barrier to overcome.
             </p>
 
             <p>

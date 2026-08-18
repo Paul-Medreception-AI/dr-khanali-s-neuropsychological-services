@@ -1,4 +1,7 @@
 import { MetadataRoute } from 'next'
+import { SERVICES } from '@/lib/data/services'
+import { CONDITIONS } from '@/lib/data/conditions'
+import { OFFICES } from '@/lib/practice'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.drkhanalineuropsychologicalservicesllc.com'
@@ -21,42 +24,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms-sms`, priority: 0.3, changeFrequency: 'yearly' as const },
   ].map(p => ({ ...p, lastModified: now }))
 
-  const servicePages = [
-    { url: `${base}/services/neuropsychological-evaluations`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/adhd-testing`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/disability-evaluations`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/pre-bariatric-surgery-evaluations`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/individual-therapy`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/bilingual-services`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now }
-  ]
+  // Generated from lib/data/services.ts so the sitemap can never advertise a URL
+  // that has no page. The autobuild hardcoded this list and shipped
+  // /services/neuropsychological-evaluations while the page had been deleted.
+  const servicePages = SERVICES.map(s => ({
+    url: `${base}/services/${s.slug}`,
+    priority: 0.85,
+    changeFrequency: 'weekly' as const,
+    lastModified: now,
+  }))
 
-  const conditionPages = [
-    { url: `${base}/conditions/adhd-attention-deficit-hyperactivity-disorder`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/anxiety-disorders`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/depression`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/trauma-and-ptsd`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/adjustment-disorders`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/grief-and-loss`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/learning-disabilities`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/memory-problems`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/cognitive-decline`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/executive-function-deficits`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/traumatic-brain-injury`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/stroke-recovery`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/dementia-and-alzheimer-s-disease`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/autism-spectrum-disorder`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/social-emotional-development-issues`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/behavioral-challenges`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/chronic-pain-and-medical-conditions`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/pre-surgical-psychological-concerns`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/acculturation-stress`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/cultural-identity-issues`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/workplace-stress`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/relationship-problems`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/self-esteem-issues`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/neurodevelopmental-disorders`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/conditions/processing-speed-deficits`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now }
-  ]
+  const conditionPages = CONDITIONS.map(c => ({
+    url: `${base}/conditions/${c.slug}`,
+    priority: 0.85,
+    changeFrequency: 'weekly' as const,
+    lastModified: now,
+  }))
 
   const blogPages = [
     { url: `${base}/blog/what-to-expect-during-a-neuropsychological-evaluation`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
@@ -109,19 +92,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/compare/bilingual-therapy-vs-interpreter`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: now }
   ]
 
-  const locationPages = [
-    { url: `${base}/locations/arlington-va`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/locations/alexandria-va`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/locations/fairfax-va`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/locations/bethesda-md`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now }
-  ]
+  // Generated from the real office list so a sitemap entry can never outlive the
+  // page. The autobuild hardcoded arlington-va / alexandria-va / fairfax-va /
+  // bethesda-md — four cities the practice has no office in.
+  const locationPages = OFFICES.map(o => ({
+    url: `${base}/locations/${o.slug}`,
+    priority: 0.8,
+    changeFrequency: 'monthly' as const,
+    lastModified: now,
+  }))
 
-  const priorRecoveryPages = [
-    { url: `${base}/`, priority: 0.6, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/adh`, priority: 0.6, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/ketamine-treatment`, priority: 0.6, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/projects-6`, priority: 0.6, changeFrequency: 'monthly' as const, lastModified: now }
-  ]
+  // The legacy Wix URLs (/adh, /ketamine-treatment, /projects-6) are deliberately
+  // NOT listed here. They do not exist in this site and are 301'd in next.config.js;
+  // a redirecting URL in the sitemap is the "non-canonical page in sitemap" defect.
+  const priorRecoveryPages: typeof locationPages = []
 
   return [...corePages, ...servicePages, ...conditionPages, ...blogPages, ...comparePages, ...locationPages, ...priorRecoveryPages]
 }

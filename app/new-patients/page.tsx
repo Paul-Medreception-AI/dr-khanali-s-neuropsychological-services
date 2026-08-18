@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'New Patients | Dr. Khanali\'s Neuropsychological Services',
+  title: 'New Patients',
   description: 'Everything you need to know before your first visit. Learn about our intake process, what to bring, patient forms, telehealth services, and office policies.',
 }
 

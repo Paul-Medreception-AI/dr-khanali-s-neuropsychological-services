@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'When Memory Problems Signal Something More Serious | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn to recognize when memory lapses may indicate a serious neurological condition. Expert guidance from Dr. Khanali\'s Neuropsychological Services in Arlington, VA.',
-  keywords: 'memory problems, memory loss, cognitive decline, dementia warning signs, neuropsychological assessment, Arlington VA',
+  title: 'When Memory Problems Signal Something More Serious',
+  description: 'Learn to recognize when memory lapses may indicate a serious neurological condition. Expert guidance from Dr. Khanali\'s Neuropsychological Services in Fredericksburg, VA.',
+  keywords: 'memory problems, memory loss, cognitive decline, dementia warning signs, neuropsychological assessment, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -57,7 +57,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            Understanding the difference between normal age-related memory changes and warning signs of more serious cognitive decline is crucial for early intervention and optimal outcomes. As neuropsychological specialists serving Arlington, VA and surrounding communities, we help individuals and families navigate these concerns with comprehensive assessments and compassionate care.
+            Understanding the difference between normal age-related memory changes and warning signs of more serious cognitive decline is crucial for early intervention and optimal outcomes. As neuropsychological specialists serving Fredericksburg, VA and surrounding communities, we help individuals and families navigate these concerns with comprehensive assessments and compassionate care.
           </p>
 
           <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">
@@ -271,7 +271,7 @@ export default function BlogPost() {
               If you or a loved one are experiencing concerning memory changes, professional evaluation can provide answers, peace of mind, and a path forward. Dr. Khanali&apos;s Neuropsychological Services offers comprehensive assessments in a supportive, compassionate environment.
             </p>
             <p className="text-[var(--color-ink)] leading-relaxed mb-6">
-              Our team specializes in helping individuals and families navigate cognitive concerns with expertise, empathy, and evidence-based care. We serve Arlington, VA and surrounding communities with flexible appointment options to meet your needs.
+              Our team specializes in helping individuals and families navigate cognitive concerns with expertise, empathy, and evidence-based care. We serve Fredericksburg, VA and surrounding communities with flexible appointment options to meet your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 

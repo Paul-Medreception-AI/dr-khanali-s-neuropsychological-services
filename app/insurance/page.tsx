@@ -1,18 +1,11 @@
+import { INSURANCE_GENERAL, INSURANCE_MEDICATION_MGMT } from '@/lib/practice'
 import Link from 'next/link'
 
 export default function InsurancePage() {
-  const insuranceProviders = [
-    "Aetna",
-    "BlueCross BlueShield",
-    "Cigna",
-    "United Healthcare",
-    "Humana",
-    "Medicare",
-    "Medicaid",
-    "Tricare",
-    "Anthem",
-    "Magellan"
-  ]
+  // Real carrier list, transcribed from the practice's own site. The autobuild
+  // invented this array — it listed Humana, Tricare and Magellan (not accepted)
+  // and omitted 14 carriers that are.
+  const insuranceProviders = INSURANCE_GENERAL
 
   const billingSteps = [
     {
@@ -40,11 +33,11 @@ export default function InsurancePage() {
   const faqs = [
     {
       question: "Do you accept my insurance?",
-      answer: "We accept most major insurance plans including those listed above. Coverage varies by plan, so we recommend contacting our office to verify your specific benefits. We will check your coverage before your first appointment and provide you with an estimate of any out-of-pocket costs."
+      answer: "The carriers listed above are the plans we accept. Coverage varies by plan, so we recommend contacting our office to verify your specific benefits. We will check your coverage before your first appointment and provide you with an estimate of any out-of-pocket costs."
     },
     {
       question: "What if I don't have insurance or my plan isn't accepted?",
-      answer: "We offer self-pay options for clients without insurance or whose plans we don't accept. Our fees are competitive and we provide a Good Faith Estimate as required by the No Surprises Act. We also offer sliding scale fees based on financial need and flexible payment plans to make our services accessible."
+      answer: "Self-pay options are available for clients without insurance or whose plans we do not accept, and we provide a Good Faith Estimate as required by the No Surprises Act. Contact the office to discuss fees and payment options for your situation."
     },
     {
       question: "What is a co-payment and when is it due?",
@@ -89,6 +82,29 @@ export default function InsurancePage() {
               </div>
             ))}
           </div>
+          {/* Medication management is credentialed with a narrower panel than
+              therapy and evaluation. Showing one merged list would misrepresent
+              coverage for anyone calling about prescribing. */}
+          <div className="mt-16 max-w-4xl mx-auto bg-[var(--color-cream)] rounded-2xl p-8 border border-[var(--color-border)]">
+            <h3 className="font-cormorant text-3xl text-[var(--color-primary)] mb-3">
+              Medication Management Plans
+            </h3>
+            <p className="text-[var(--color-ink)] mb-6">
+              Medication management for ADHD and other psychiatric conditions in Virginia is
+              credentialed with a narrower set of plans than therapy and evaluation:
+            </p>
+            <ul className="flex flex-wrap gap-3">
+              {INSURANCE_MEDICATION_MGMT.map((plan) => (
+                <li
+                  key={plan}
+                  className="bg-white border border-[var(--color-border)] rounded-lg px-4 py-2 text-sm font-medium text-[var(--color-ink)]"
+                >
+                  {plan}
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <p className="text-center text-[var(--color-muted)] mt-12 max-w-3xl mx-auto">
             Coverage and benefits vary by plan. Please contact our office to verify your specific insurance coverage and out-of-pocket costs before scheduling your appointment.
           </p>
@@ -156,7 +172,7 @@ export default function InsurancePage() {
                   Payment Plans
                 </h4>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  For comprehensive evaluations, we can arrange payment plans to spread costs over time. Speak with our billing coordinator to set up a plan that works for your budget.
+                  For comprehensive evaluations, contact the office to discuss payment options before you schedule.
                 </p>
               </div>
               <div>

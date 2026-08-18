@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Patient Reviews | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Read patient feedback and share your experience with Dr. Khanali\'s bilingual neuropsychological services in Arlington, VA.',
+  title: 'Patient Reviews',
+  description: 'Read patient feedback and share your experience with Dr. Khanali\'s bilingual neuropsychological services in Fredericksburg, VA.',
 }
 
 export default function ReviewsPage() {

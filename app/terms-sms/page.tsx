@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms and Conditions - SMS | Dr. Khanali&apos;s Neuropsychological Services',
+  title: 'Terms and Conditions - SMS | Dr. Khanali, PsyD',
   description: 'Dr. Khanali&apos;s Neuropsychological Services Terms and Conditions, including SMS messaging terms and compliance.',
   alternates: { canonical: 'https://www.drkhanalineuropsychologicalservicesllc.com/terms-sms' },
 }

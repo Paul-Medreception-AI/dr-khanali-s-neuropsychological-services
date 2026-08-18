@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Cognitive Assessment Tools: What Tests Measure | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn about cognitive assessment tools used in neuropsychological evaluations, what they measure, and how they help diagnose and treat cognitive challenges in Arlington, VA.',
-  keywords: 'cognitive assessment, neuropsychological testing, cognitive tests, memory assessment, attention testing, Arlington VA, Dr. Khanali',
+  title: 'Cognitive Assessment Tools: What Tests Measure',
+  description: 'Learn about cognitive assessment tools used in neuropsychological evaluations, what they measure, and how they help diagnose and treat cognitive challenges in Fredericksburg, VA.',
+  keywords: 'cognitive assessment, neuropsychological testing, cognitive tests, memory assessment, attention testing, Fredericksburg VA, Dr. Khanali',
 }
 
 export default function BlogPost() {
@@ -69,7 +69,7 @@ export default function BlogPost() {
               Cognitive assessment tools are standardized tests designed to evaluate specific mental functions. Unlike informal observations, these instruments have been scientifically validated and normed against large populations, allowing clinicians to compare an individual's performance to others of similar age, education, and background.
             </p>
             <p className="mb-6">
-              A comprehensive neuropsychological evaluation in Arlington, VA typically includes multiple tests that examine different cognitive domains. Each tool is selected based on the referral question—whether that's assessing dementia risk, evaluating learning disabilities, measuring the impact of a traumatic brain injury, or understanding attention-deficit challenges.
+              A comprehensive neuropsychological evaluation in Fredericksburg, VA typically includes multiple tests that examine different cognitive domains. Each tool is selected based on the referral question—whether that's assessing dementia risk, evaluating learning disabilities, measuring the impact of a traumatic brain injury, or understanding attention-deficit challenges.
             </p>
             <p className="mb-6">
               These assessments can range from paper-and-pencil tasks to computerized tests, puzzle-like activities to verbal responses. The variety ensures a thorough understanding of how your brain processes information across different contexts and demands.
@@ -296,7 +296,7 @@ export default function BlogPost() {
               Cognitive assessment tools provide a vital bridge between subjective concerns and objective understanding. They transform questions into answers, uncertainty into direction, and challenges into opportunities for targeted support. Whether you're seeking clarity about memory changes, learning differences, or the impact of injury or illness, comprehensive evaluation offers the foundation for informed decisions and effective intervention.
             </p>
             <p className="mb-6">
-              If you're experiencing cognitive concerns or have questions about whether neuropsychological assessment might be helpful, reaching out to a qualified professional is an important first step. At Dr. Khanali's Neuropsychological Services in Arlington, VA, our team specializes in comprehensive cognitive assessment and compassionate, evidence-based care.
+              If you're experiencing cognitive concerns or have questions about whether neuropsychological assessment might be helpful, reaching out to a qualified professional is an important first step. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, our team specializes in comprehensive cognitive assessment and compassionate, evidence-based care.
             </p>
           </div>
 

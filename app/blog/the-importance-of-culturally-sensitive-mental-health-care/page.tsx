@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Importance of Culturally Sensitive Mental Health Care | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Discover why culturally sensitive mental health care is essential for effective treatment. Learn how cultural competence improves therapeutic outcomes and access to care in Arlington, VA.',
-  keywords: 'culturally sensitive mental health care, cultural competence, mental health Arlington VA, diverse mental health care, multicultural therapy, culturally informed treatment',
+  title: 'The Importance of Culturally Sensitive Mental Health Care',
+  description: 'Discover why culturally sensitive mental health care is essential for effective treatment. Learn how cultural competence improves therapeutic outcomes and access to care in Fredericksburg, VA.',
+  keywords: 'culturally sensitive mental health care, cultural competence, mental health Fredericksburg VA, diverse mental health care, multicultural therapy, culturally informed treatment',
   openGraph: {
     title: 'The Importance of Culturally Sensitive Mental Health Care',
     description: 'Discover why culturally sensitive mental health care is essential for effective treatment and improved therapeutic outcomes.',
@@ -74,7 +74,7 @@ export default function BlogPost() {
               Imagine walking into a therapist's office and feeling immediately understood—not just in your symptoms, but in your lived experience, your values, your worldview, and the cultural context that shapes how you see yourself and your challenges. This is the promise of culturally sensitive mental health care, and it can make the difference between treatment that truly heals and treatment that misses the mark entirely.
             </p>
             <p className="mb-6">
-              In our increasingly diverse communities like Arlington, VA, mental health providers must recognize that culture profoundly influences how individuals experience, express, and seek help for psychological distress. Yet despite growing awareness, many people from marginalized or minority backgrounds still face significant barriers to receiving care that honors their cultural identity and lived experience.
+              In our increasingly diverse communities like Fredericksburg, VA, mental health providers must recognize that culture profoundly influences how individuals experience, express, and seek help for psychological distress. Yet despite growing awareness, many people from marginalized or minority backgrounds still face significant barriers to receiving care that honors their cultural identity and lived experience.
             </p>
           </div>
 
@@ -326,7 +326,7 @@ export default function BlogPost() {
               As our communities become more diverse, the field of mental health must continue evolving to meet the needs of all individuals. This includes increasing workforce diversity, integrating cultural competence into training programs, conducting research with diverse populations, and advocating for policies that reduce systemic barriers to care.
             </p>
             <p className="mb-6">
-              For individuals seeking care in Arlington, VA and surrounding areas, finding a provider who values cultural sensitivity can be transformative. It's the difference between feeling like a diagnosis and feeling seen as a whole person—with a rich cultural history, unique strengths, and a path toward healing that honors who you are.
+              For individuals seeking care in Fredericksburg, VA and surrounding areas, finding a provider who values cultural sensitivity can be transformative. It's the difference between feeling like a diagnosis and feeling seen as a whole person—with a rich cultural history, unique strengths, and a path toward healing that honors who you are.
             </p>
           </div>
 
@@ -363,7 +363,7 @@ export default function BlogPost() {
                 Board-certified providers specializing in Mental Health
               </div>
               <p className="text-[var(--color-ink)] text-sm leading-relaxed">
-                Our multidisciplinary team is dedicated to providing evidence-based, culturally sensitive care to individuals and families throughout Arlington, VA. We are committed to advancing mental health equity and access for all.
+                Our multidisciplinary team is dedicated to providing evidence-based, culturally sensitive care to individuals and families throughout Fredericksburg, VA. We are committed to advancing mental health equity and access for all.
               </p>
             </div>
           </div>

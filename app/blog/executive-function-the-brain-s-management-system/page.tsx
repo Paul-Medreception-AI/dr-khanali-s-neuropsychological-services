@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Executive Function: The Brain\'s Management System | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn about executive function, the brain\'s management system that controls planning, organization, and decision-making. Expert insights from Arlington, VA neuropsychology specialists.',
-  keywords: 'executive function, cognitive control, planning skills, organization, working memory, Arlington VA, neuropsychology',
+  title: 'Executive Function: The Brain\'s Management System',
+  description: 'Learn about executive function, the brain\'s management system that controls planning, organization, and decision-making. Expert insights from Fredericksburg, VA neuropsychology specialists.',
+  keywords: 'executive function, cognitive control, planning skills, organization, working memory, Fredericksburg VA, neuropsychology',
 }
 
 export default function BlogPost() {
@@ -290,7 +290,7 @@ export default function BlogPost() {
               Treatment approaches might include cognitive rehabilitation therapy, which teaches compensatory strategies and strengthens executive skills through targeted practice. Executive function coaching helps individuals develop personalized systems for managing tasks and responsibilities. Medication may be appropriate for certain underlying conditions affecting executive function. Psychotherapy can address the emotional impacts of living with executive challenges and develop coping strategies.
             </p>
             <p>
-              In Arlington, VA, Dr. Khanali's Neuropsychological Services specializes in comprehensive evaluation and evidence-based treatment for executive function difficulties across the lifespan. Whether you're concerned about yourself or a loved one, professional support can make a meaningful difference in understanding and managing executive challenges.
+              In Fredericksburg, VA, Dr. Khanali's Neuropsychological Services specializes in comprehensive evaluation and evidence-based treatment for executive function difficulties across the lifespan. Whether you're concerned about yourself or a loved one, professional support can make a meaningful difference in understanding and managing executive challenges.
             </p>
           </div>
 
@@ -320,7 +320,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological evaluation and evidence-based treatment in Arlington, VA.
+                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological evaluation and evidence-based treatment in Fredericksburg, VA.
               </p>
             </div>
           </div>

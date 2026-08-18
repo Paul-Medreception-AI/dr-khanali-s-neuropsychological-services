@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medication and Cognitive Side Effects | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn about how medications can affect memory, attention, and thinking. Evidence-based guide to understanding and managing cognitive side effects in Arlington, VA.',
-  keywords: 'medication side effects, cognitive impairment, memory problems, medication management, neuropsychology Arlington VA',
+  title: 'Medication and Cognitive Side Effects',
+  description: 'Learn about how medications can affect memory, attention, and thinking. Evidence-based guide to understanding and managing cognitive side effects in Fredericksburg, VA.',
+  keywords: 'medication side effects, cognitive impairment, memory problems, medication management, neuropsychology Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -60,7 +60,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            You've been taking your prescribed medication faithfully, and it's helping manage your condition. But lately, you've noticed something troubling: you're forgetting appointments, struggling to find the right words, or having difficulty concentrating at work. You might wonder if you're imagining it, or worse, if something more serious is happening. The truth is, you could be experiencing cognitive side effects from your medication—a surprisingly common phenomenon that affects millions of people but is rarely discussed openly.
+            You've been taking your prescribed medication faithfully, and it's helping manage your condition. But lately, you've noticed something troubling: you're forgetting appointments, struggling to find the right words, or having difficulty concentrating at work. You might wonder if you're imagining it, or worse, if something more serious is happening. The truth is, you could be experiencing cognitive side effects from your medication—a common phenomenon that is rarely discussed openly.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -309,7 +309,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For individuals in Arlington and surrounding areas experiencing cognitive concerns related to medications, professional assessment provides clarity and direction. Understanding the specific nature and extent of cognitive changes enables more targeted interventions and better communication with all members of your healthcare team.
+            For individuals in Fredericksburg and surrounding areas experiencing cognitive concerns related to medications, professional assessment provides clarity and direction. Understanding the specific nature and extent of cognitive changes enables more targeted interventions and better communication with all members of your healthcare team.
           </p>
 
           {/* Closing */}
@@ -322,7 +322,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            If you've noticed changes in your memory, attention, or thinking since starting or adjusting medications, professional evaluation can provide answers and solutions. At Dr. Khanali's Neuropsychological Services in Arlington, VA, we specialize in comprehensive cognitive assessment that can clarify whether medications are affecting your thinking and guide recommendations for optimization. You don't have to choose between treating your condition and maintaining cognitive clarity—with the right assessment and collaboration with your medical team, you can achieve both.
+            If you've noticed changes in your memory, attention, or thinking since starting or adjusting medications, professional evaluation can provide answers and solutions. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we specialize in comprehensive cognitive assessment that can clarify whether medications are affecting your thinking and guide recommendations for optimization. You don't have to choose between treating your condition and maintaining cognitive clarity—with the right assessment and collaboration with your medical team, you can achieve both.
           </p>
         </div>
       </article>
@@ -341,7 +341,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological assessment and evidence-based care in Arlington, VA.
+                Board-certified providers specializing in Mental Health, offering comprehensive neuropsychological assessment and evidence-based care in Fredericksburg, VA.
               </p>
             </div>
           </div>

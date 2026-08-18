@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'ADHD Testing for Adults vs. Children: Key Assessment Differences | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Compare ADHD testing approaches for adults and children. Understand assessment differences, diagnostic criteria, and which evaluation is right for you in Arlington, VA.',
+  title: 'ADHD Testing for Adults vs. Children: Key Assessment Differences',
+  description: 'Compare ADHD testing approaches for adults and children. Understand assessment differences, diagnostic criteria, and which evaluation is right for you in Fredericksburg, VA.',
 }
 
 export default function AdultVsChildADHDTestingPage() {
@@ -22,7 +22,7 @@ export default function AdultVsChildADHDTestingPage() {
             ADHD Testing for Adults vs. Children:<br />Key Assessment Differences
           </h1>
           <p className="text-xl opacity-90 max-w-3xl mx-auto">
-            Understanding the unique approaches to ADHD evaluation across age groups in Arlington, VA
+            Understanding the unique approaches to ADHD evaluation across age groups in Fredericksburg, VA
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function AdultVsChildADHDTestingPage() {
 
             <div className="space-y-6 text-[var(--color-muted)] leading-relaxed">
               <p>
-                ADHD assessments for children in Arlington, VA require a comprehensive developmental lens that considers age-appropriate behaviors, academic expectations, and environmental factors. Unlike adult evaluations that rely heavily on self-report, child assessments integrate multiple informant perspectives including parents, teachers, and direct behavioral observation. The evaluation process examines symptom presentation across different settings—home, school, and social environments—to establish diagnostic validity according to DSM-5 criteria.
+                ADHD assessments for children in Fredericksburg, VA require a comprehensive developmental lens that considers age-appropriate behaviors, academic expectations, and environmental factors. Unlike adult evaluations that rely heavily on self-report, child assessments integrate multiple informant perspectives including parents, teachers, and direct behavioral observation. The evaluation process examines symptom presentation across different settings—home, school, and social environments—to establish diagnostic validity according to DSM-5 criteria.
               </p>
 
               <p>
@@ -136,7 +136,7 @@ export default function AdultVsChildADHDTestingPage() {
 
             <div className="space-y-6 text-[var(--color-muted)] leading-relaxed">
               <p>
-                Adult ADHD assessments in Arlington, VA focus on establishing childhood symptom onset (before age 12) while evaluating current functional impairments in work, relationships, and daily life management. The diagnostic process involves detailed clinical interviews exploring educational history, career patterns, relationship stability, and self-regulation challenges. Because adults develop compensatory strategies that mask symptoms, evaluators probe for evidence of persistent difficulties despite high intelligence or professional achievement—the "successful adult with untreated ADHD" presentation common in later-diagnosed individuals.
+                Adult ADHD assessments in Fredericksburg, VA focus on establishing childhood symptom onset (before age 12) while evaluating current functional impairments in work, relationships, and daily life management. The diagnostic process involves detailed clinical interviews exploring educational history, career patterns, relationship stability, and self-regulation challenges. Because adults develop compensatory strategies that mask symptoms, evaluators probe for evidence of persistent difficulties despite high intelligence or professional achievement—the "successful adult with untreated ADHD" presentation common in later-diagnosed individuals.
               </p>
 
               <p>
@@ -259,7 +259,7 @@ export default function AdultVsChildADHDTestingPage() {
 
             <div className="mt-12 p-6 bg-white rounded-xl border-l-4 border-[var(--color-accent)]">
               <p className="text-[var(--color-muted)] leading-relaxed">
-                <span className="font-semibold text-[var(--color-ink)]">Not sure which assessment is right?</span> Dr. Khanali offers consultation appointments to review your specific concerns, assess symptom history, and recommend the most appropriate evaluation pathway for your family in Arlington, VA.
+                <span className="font-semibold text-[var(--color-ink)]">Not sure which assessment is right?</span> Dr. Khanali offers consultation appointments to review your specific concerns, assess symptom history, and recommend the most appropriate evaluation pathway for your family in Fredericksburg, VA.
               </p>
             </div>
           </div>
@@ -318,7 +318,7 @@ export default function AdultVsChildADHDTestingPage() {
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                Insurance coverage for neuropsychological testing depends on your specific plan benefits, not the patient's age. Most insurance plans cover ADHD assessments for both children and adults when medically necessary and performed by an in-network provider. Educational testing for IEP purposes (assessing academic achievement and learning disabilities) may face different coverage rules than purely diagnostic ADHD evaluation. Dr. Khanali's practice provides detailed cost estimates, verifies benefits before testing, and supplies comprehensive documentation (diagnosis codes, treatment necessity letters) to support insurance claims for both pediatric and adult assessments in Arlington, VA.
+                Insurance coverage for neuropsychological testing depends on your specific plan benefits, not the patient's age. Most insurance plans cover ADHD assessments for both children and adults when medically necessary and performed by an in-network provider. Educational testing for IEP purposes (assessing academic achievement and learning disabilities) may face different coverage rules than purely diagnostic ADHD evaluation. Dr. Khanali's practice provides detailed cost estimates, verifies benefits before testing, and supplies comprehensive documentation (diagnosis codes, treatment necessity letters) to support insurance claims for both pediatric and adult assessments in Fredericksburg, VA.
               </div>
             </details>
 
@@ -330,7 +330,7 @@ export default function AdultVsChildADHDTestingPage() {
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                ADHD is a chronic condition that persists into adulthood in approximately 60-70% of cases. However, a childhood diagnosis alone may not suffice for adult accommodations (workplace, graduate school) because functional impairments change and previous testing becomes outdated. Young adults transitioning from pediatric to adult care often benefit from updated assessment that documents current executive function abilities, establishes continued impairment in adult responsibilities, and provides fresh recommendations for workplace or academic settings. The evaluation confirms diagnostic continuity while addressing age-appropriate challenges like career planning, independent living skills, and relationship management rather than classroom behavior.
+                ADHD is a chronic condition that frequently persists into adulthood. However, a childhood diagnosis alone may not suffice for adult accommodations (workplace, graduate school) because functional impairments change and previous testing becomes outdated. Young adults transitioning from pediatric to adult care often benefit from updated assessment that documents current executive function abilities, establishes continued impairment in adult responsibilities, and provides fresh recommendations for workplace or academic settings. The evaluation confirms diagnostic continuity while addressing age-appropriate challenges like career planning, independent living skills, and relationship management rather than classroom behavior.
               </div>
             </details>
           </div>
@@ -345,7 +345,7 @@ export default function AdultVsChildADHDTestingPage() {
               Discuss Your ADHD Assessment Options
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Schedule a consultation with Dr. Khanali to determine the most appropriate evaluation pathway for you or your child in Arlington, VA
+              Schedule a consultation with Dr. Khanali to determine the most appropriate evaluation pathway for you or your child in Fredericksburg, VA
             </p>
             <a 
               href="/contact" 
@@ -354,7 +354,7 @@ export default function AdultVsChildADHDTestingPage() {
               Schedule a Consultation
             </a>
             <p className="mt-6 text-sm opacity-75">
-              Serving children, adolescents, and adults throughout Arlington, Virginia
+              Serving children, adolescents, and adults throughout Fredericksburg, Virginia
             </p>
           </div>
         </div>

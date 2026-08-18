@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Role of Neuropsychology in Stroke Recovery | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Discover how neuropsychological assessment and rehabilitation support cognitive recovery after stroke. Expert guidance from Dr. Khanali\'s team in Arlington, VA.',
-  keywords: 'neuropsychology, stroke recovery, cognitive rehabilitation, brain injury, Arlington VA, Dr. Khanali',
+  title: 'The Role of Neuropsychology in Stroke Recovery',
+  description: 'Discover how neuropsychological assessment and rehabilitation support cognitive recovery after stroke. Expert guidance from Dr. Khanali\'s team in Fredericksburg, VA.',
+  keywords: 'neuropsychology, stroke recovery, cognitive rehabilitation, brain injury, Fredericksburg VA, Dr. Khanali',
 }
 
 export default function BlogPost() {
@@ -64,7 +64,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            This is where neuropsychology becomes an essential partner in stroke recovery. Neuropsychologists specialize in understanding how brain injuries affect thinking, behavior, and emotions—and more importantly, how to help people regain function and adapt to changes. For stroke survivors in Arlington, VA and beyond, neuropsychological services offer a roadmap for cognitive recovery that goes hand-in-hand with physical rehabilitation.
+            This is where neuropsychology becomes an essential partner in stroke recovery. Neuropsychologists specialize in understanding how brain injuries affect thinking, behavior, and emotions—and more importantly, how to help people regain function and adapt to changes. For stroke survivors in Fredericksburg, VA and beyond, neuropsychological services offer a roadmap for cognitive recovery that goes hand-in-hand with physical rehabilitation.
           </p>
 
           {/* Section 1 */}
@@ -77,7 +77,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            While physical rehabilitation addresses motor function and mobility, the cognitive consequences of stroke are equally significant. Research indicates that approximately 60-80% of stroke survivors experience some degree of cognitive impairment. These changes may include:
+            While physical rehabilitation addresses motor function and mobility, the cognitive consequences of stroke are equally significant. Research indicates that most stroke survivors experience some degree of cognitive impairment. These changes may include:
           </p>
 
           <ul className="space-y-3 mb-6">
@@ -264,7 +264,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            If you or a loved one is navigating life after stroke, know that you don't have to face cognitive challenges alone. Professional neuropsychological assessment and rehabilitation can make a meaningful difference in recovery, independence, and quality of life. At Dr. Khanali's Neuropsychological Services in Arlington, VA, our team specializes in helping stroke survivors understand their cognitive profile and develop personalized strategies for maximizing recovery and adaptation.
+            If you or a loved one is navigating life after stroke, know that you don't have to face cognitive challenges alone. Professional neuropsychological assessment and rehabilitation can make a meaningful difference in recovery, independence, and quality of life. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, our team specializes in helping stroke survivors understand their cognitive profile and develop personalized strategies for maximizing recovery and adaptation.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base">
@@ -287,7 +287,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, dedicated to delivering evidence-based neuropsychological assessment and rehabilitation services in Arlington, VA.
+                Board-certified providers specializing in Mental Health, dedicated to delivering evidence-based neuropsychological assessment and rehabilitation services in Fredericksburg, VA.
               </p>
             </div>
           </div>

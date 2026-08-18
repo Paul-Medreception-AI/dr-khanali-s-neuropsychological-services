@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'About | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn about our culturally sensitive neuropsychological care, bilingual services, and commitment to evidence-based assessment and therapy in Arlington, VA.',
+  title: 'About',
+  description: 'Learn about our culturally sensitive neuropsychological care, bilingual services, and commitment to evidence-based assessment and therapy in Fredericksburg, VA.',
 }
 
 export default function AboutPage() {

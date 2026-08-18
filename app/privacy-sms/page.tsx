@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Dr. Khanali&apos;s Neuropsychological Services',
+  title: 'Privacy Policy | Dr. Khanali, PsyD',
   description: 'Dr. Khanali&apos;s Neuropsychological Services - Privacy Policy, including SMS, TCPA and HIPAA disclosures.',
   alternates: { canonical: 'https://www.drkhanalineuropsychologicalservicesllc.com/privacy-sms' },
 }

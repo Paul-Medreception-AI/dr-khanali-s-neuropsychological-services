@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Processing Speed: Why Some Brains Work Slower | Dr. Khanali Neuropsychological Services',
-  description: 'Understanding processing speed differences in the brain. Learn why some people think slower, what affects cognitive processing, and when to seek help from a neuropsychologist in Arlington, VA.',
-  keywords: 'processing speed, cognitive processing, slow thinking, brain speed, neuropsychology, ADHD, learning disabilities, Arlington VA',
+  title: 'Processing Speed: Why Some Brains Work Slower',
+  description: 'Understanding processing speed differences in the brain. Learn why some people think slower, what affects cognitive processing, and when to seek help from a neuropsychologist in Fredericksburg, VA.',
+  keywords: 'processing speed, cognitive processing, slow thinking, brain speed, neuropsychology, ADHD, learning disabilities, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -167,7 +167,7 @@ export default function BlogPost() {
               <li>Specific recommendations for accommodations and interventions</li>
             </ul>
             <p className="mb-6">
-              At our Arlington practice, we conduct thorough evaluations that go beyond simply identifying slow processing speed. We look at the whole person—their history, their environment, their goals—and provide practical recommendations that make a real difference in daily functioning.
+              At our Fredericksburg practice, we conduct thorough evaluations that go beyond simply identifying slow processing speed. We look at the whole person—their history, their environment, their goals—and provide practical recommendations that make a real difference in daily functioning.
             </p>
           </div>
 
@@ -227,14 +227,14 @@ export default function BlogPost() {
               At Dr. Khanali Neuropsychological Services, we are committed to helping individuals and families understand cognitive differences like processing speed. Through comprehensive evaluation and personalized recommendations, we provide the clarity and support needed to move forward with confidence.
             </p>
             <p className="mb-6">
-              If you are in the Arlington, Virginia area and would like to learn more about your cognitive profile or discuss concerns about processing speed, we invite you to reach out. Understanding how your brain works is the first step toward creating a life that works for you.
+              If you are in the Fredericksburg, Virginia area and would like to learn more about your cognitive profile or discuss concerns about processing speed, we invite you to reach out. Understanding how your brain works is the first step toward creating a life that works for you.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white p-8 rounded-lg mt-12">
             <h3 className="font-cormorant text-2xl mb-4">Schedule a Consultation</h3>
             <p className="mb-6 text-white/90">
-              If you have questions about processing speed or would like to discuss a neuropsychological evaluation, contact our Arlington office to schedule a consultation with Dr. Khanali.
+              If you have questions about processing speed or would like to discuss a neuropsychological evaluation, contact our Fredericksburg office to schedule a consultation with Dr. Khanali.
             </p>
             <Link 
               href="/contact" 
@@ -253,7 +253,7 @@ export default function BlogPost() {
             Related Resources
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/blog/when-to-see-neuropsychologist" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-shadow">
+            <Link href="/blog/what-to-expect-during-a-neuropsychological-evaluation" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-shadow">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                 When to See a Neuropsychologist
               </h3>
@@ -261,7 +261,7 @@ export default function BlogPost() {
                 Learn about the signs that indicate a neuropsychological evaluation may be helpful.
               </p>
             </Link>
-            <Link href="/blog/understanding-adhd-in-adults" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-shadow">
+            <Link href="/blog/adhd-in-adults-signs-you-might-have-missed" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-shadow">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                 Understanding ADHD in Adults
               </h3>
@@ -269,7 +269,7 @@ export default function BlogPost() {
                 Explore how ADHD presents in adults and its impact on processing speed.
               </p>
             </Link>
-            <Link href="/services/neuropsychological-evaluation" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-shadow">
+            <Link href="/services/neuropsychological-evaluations" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-shadow">
               <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                 Neuropsychological Evaluation
               </h3>

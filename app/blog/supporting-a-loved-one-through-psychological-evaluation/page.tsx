@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Supporting a Loved One Through Psychological Evaluation | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn how to provide meaningful support when a family member or friend undergoes psychological evaluation. Expert guidance from Arlington\'s trusted neuropsychological team.',
-  keywords: 'psychological evaluation support, family support mental health, neuropsychological assessment Arlington VA, supporting loved ones therapy, mental health evaluation guide',
+  title: 'Supporting a Loved One Through Psychological Evaluation',
+  description: 'Learn how to provide meaningful support when a family member or friend undergoes psychological evaluation. Expert guidance from Fredericksburg\'s trusted neuropsychological team.',
+  keywords: 'psychological evaluation support, family support mental health, neuropsychological assessment Fredericksburg VA, supporting loved ones therapy, mental health evaluation guide',
 }
 
 export default function BlogPost() {
@@ -72,7 +72,7 @@ export default function BlogPost() {
               The evaluation process itself can be lengthy and mentally taxing. Sessions may last several hours and involve challenging cognitive tasks, personal questions about symptoms and history, and standardized questionnaires about sensitive topics. It&apos;s normal for someone to feel exhausted, emotionally drained, or even temporarily more symptomatic after intensive testing sessions.
             </p>
             <p>
-              In Arlington and the surrounding Northern Virginia communities, we see individuals from all backgrounds seeking clarity about cognitive and emotional concerns. The decision to pursue evaluation often comes after months or years of struggling, making this a significant milestone that deserves recognition and support.
+              In Fredericksburg and the surrounding Northern Virginia communities, we see individuals from all backgrounds seeking clarity about cognitive and emotional concerns. The decision to pursue evaluation often comes after months or years of struggling, making this a significant milestone that deserves recognition and support.
             </p>
           </div>
 
@@ -266,7 +266,7 @@ export default function BlogPost() {
             </p>
             
             <p className="mb-4">
-              In Arlington and the broader Northern Virginia area, we&apos;re fortunate to have access to excellent mental health resources, educational support services, and medical specialists who can help implement evaluation recommendations. Your role may evolve from providing immediate emotional support during the evaluation process to being a consistent presence as they navigate treatment, accommodations, or lifestyle adjustments.
+              In Fredericksburg and the broader Northern Virginia area, we&apos;re fortunate to have access to excellent mental health resources, educational support services, and medical specialists who can help implement evaluation recommendations. Your role may evolve from providing immediate emotional support during the evaluation process to being a consistent presence as they navigate treatment, accommodations, or lifestyle adjustments.
             </p>
             
             <p className="mb-4">
@@ -281,7 +281,7 @@ export default function BlogPost() {
           <div className="bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-dark)] text-white p-8 rounded-lg mt-12">
             <h3 className="font-cormorant text-2xl mb-4">Need Guidance for Your Situation?</h3>
             <p className="mb-6 text-white/90 leading-relaxed">
-              If you&apos;re supporting someone through psychological evaluation or considering assessment for yourself or a family member, Dr. Khanali&apos;s Neuropsychological Services provides comprehensive evaluations in a compassionate, professional environment. Our Arlington practice serves individuals across Northern Virginia with expertise in ADHD, learning disabilities, cognitive concerns, and mental health assessment.
+              If you&apos;re supporting someone through psychological evaluation or considering assessment for yourself or a family member, Dr. Khanali&apos;s Neuropsychological Services provides comprehensive evaluations in a compassionate, professional environment. Our Fredericksburg practice serves individuals across Northern Virginia with expertise in ADHD, learning disabilities, cognitive concerns, and mental health assessment.
             </p>
             <a 
               href="/contact" 

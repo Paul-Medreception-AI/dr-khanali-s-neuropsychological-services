@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Brain Injury: Long-Term Cognitive Effects | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding the lasting cognitive impacts of brain injury and how neuropsychological assessment can guide recovery and rehabilitation in Arlington, VA.',
-  keywords: 'brain injury, cognitive effects, TBI, neuropsychology, memory problems, executive function, Arlington VA',
+  title: 'Brain Injury: Long-Term Cognitive Effects',
+  description: 'Understanding the lasting cognitive impacts of brain injury and how neuropsychological assessment can guide recovery and rehabilitation in Fredericksburg, VA.',
+  keywords: 'brain injury, cognitive effects, TBI, neuropsychology, memory problems, executive function, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -261,7 +261,7 @@ export default function BlogPost() {
               If you or a loved one has experienced a brain injury and are noticing persistent cognitive difficulties, a comprehensive neuropsychological evaluation can provide clarity, validation, and a roadmap for moving forward. Even years after an injury, assessment and intervention can lead to meaningful improvements in functioning and quality of life.
             </p>
             <p className="mb-6">
-              At Dr. Khanali's Neuropsychological Services in Arlington, VA, we specialize in the assessment and treatment of cognitive changes following brain injury. Our comprehensive evaluations provide detailed insights into cognitive strengths and challenges, and our evidence-based recommendations guide effective rehabilitation and support strategies.
+              At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we specialize in the assessment and treatment of cognitive changes following brain injury. Our comprehensive evaluations provide detailed insights into cognitive strengths and challenges, and our evidence-based recommendations guide effective rehabilitation and support strategies.
             </p>
             <p className="mb-6">
               You don't have to navigate this journey alone. Whether you're struggling with memory problems, attention difficulties, executive function challenges, or emotional changes following brain injury, professional support can make a significant difference. Recovery is possible, adaptation is achievable, and hope is real.
@@ -285,7 +285,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, dedicated to providing compassionate, evidence-based neuropsychological assessment and treatment in Arlington, VA.
+                Board-certified providers specializing in Mental Health, dedicated to providing compassionate, evidence-based neuropsychological assessment and treatment in Fredericksburg, VA.
               </p>
             </div>
           </div>

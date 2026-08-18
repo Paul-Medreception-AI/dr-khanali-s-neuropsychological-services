@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Social Anxiety: Beyond Shyness | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding social anxiety disorder goes beyond simple shyness. Learn about symptoms, impacts, and evidence-based approaches to managing social anxiety in Arlington, VA.',
-  keywords: 'social anxiety, social anxiety disorder, shyness, mental health, anxiety treatment, Arlington VA, neuropsychology',
+  title: 'Social Anxiety: Beyond Shyness',
+  description: 'Understanding social anxiety disorder goes beyond simple shyness. Learn about symptoms, impacts, and evidence-based approaches to managing social anxiety in Fredericksburg, VA.',
+  keywords: 'social anxiety, social anxiety disorder, shyness, mental health, anxiety treatment, Fredericksburg VA, neuropsychology',
 }
 
 export default function BlogPost() {
@@ -55,7 +55,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-[var(--color-ink)] leading-loose text-lg mb-8">
             <p className="mb-6">
-              Your heart races as you walk into a crowded room. Your palms sweat before giving a presentation. You rehearse a simple phone call dozens of times in your head before dialing. If these experiences sound familiar, you might assume you&apos;re just shy—but what if it&apos;s something more? Social anxiety disorder affects millions of people, yet it often goes unrecognized and untreated because it&apos;s dismissed as mere shyness or introversion.
+              Your heart races as you walk into a crowded room. Your palms sweat before giving a presentation. You rehearse a simple phone call dozens of times in your head before dialing. If these experiences sound familiar, you might assume you&apos;re just shy—but what if it&apos;s something more? Social anxiety disorder is common, yet it often goes unrecognized and untreated because it&apos;s dismissed as mere shyness or introversion.
             </p>
             <p>
               Understanding the difference between everyday nervousness and social anxiety disorder is the first step toward getting the support you need. This isn&apos;t about changing your personality—it&apos;s about reclaiming your life from fear that has grown too large.
@@ -82,7 +82,7 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-4">
-              Social anxiety disorder is one of the most common mental health conditions in the United States, affecting approximately 12% of adults at some point in their lives. It typically begins in the early to mid-teenage years, though it can develop in childhood or adulthood as well. Without treatment, social anxiety tends to be chronic and can lead to other complications including depression, substance abuse, and isolation.
+              Social anxiety disorder is one of the most common mental health conditions in the United States, affecting many adults at some point in their lives. It typically begins in the early to mid-teenage years, though it can develop in childhood or adulthood as well. Without treatment, social anxiety tends to be chronic and can lead to other complications including depression, substance abuse, and isolation.
             </p>
             <p className="mb-4">
               The impact extends far beyond uncomfortable moments. People with social anxiety may struggle to pursue education, advance in careers, form romantic relationships, or maintain friendships. They might avoid medical appointments, turn down promotions that require presentations, or miss important life events. The disorder doesn&apos;t just limit opportunities—it can fundamentally alter the course of someone&apos;s life.

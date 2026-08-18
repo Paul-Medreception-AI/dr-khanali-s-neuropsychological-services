@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Chronic Pain and Cognitive Function | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Explore the complex relationship between chronic pain and cognitive function. Learn how persistent pain affects memory, attention, and mental clarity, and discover strategies for managing cognitive symptoms in Arlington, VA.',
-  keywords: 'chronic pain, cognitive function, mental health, pain management, memory problems, brain fog, Arlington VA, neuropsychology',
+  title: 'Chronic Pain and Cognitive Function',
+  description: 'Explore the complex relationship between chronic pain and cognitive function. Learn how persistent pain affects memory, attention, and mental clarity, and discover strategies for managing cognitive symptoms in Fredericksburg, VA.',
+  keywords: 'chronic pain, cognitive function, mental health, pain management, memory problems, brain fog, Fredericksburg VA, neuropsychology',
 }
 
 export default function ChronicPainCognitiveFunctionPage() {
@@ -67,7 +67,7 @@ export default function ChronicPainCognitiveFunctionPage() {
             </p>
             
             <p className="mb-6">
-              For millions of Americans living with chronic pain, the physical discomfort is only part of the story. Research increasingly shows that persistent pain doesn't just hurt—it changes how our brains function. Understanding this connection is crucial for anyone navigating the challenges of chronic pain, and it's an essential component of comprehensive pain management in Arlington, VA and beyond.
+              For people living with chronic pain, the physical discomfort is only part of the story. Research increasingly shows that persistent pain doesn't just hurt—it changes how our brains function. Understanding this connection is crucial for anyone navigating the challenges of chronic pain, and it's an essential component of comprehensive pain management in Fredericksburg, VA and beyond.
             </p>
           </div>
 
@@ -267,7 +267,7 @@ export default function ChronicPainCognitiveFunctionPage() {
             </p>
             
             <p className="mb-6">
-              At Dr. Khanali's Neuropsychological Services in Arlington, VA, we specialize in understanding the complex relationship between chronic pain and cognitive function. Our comprehensive approach addresses both the physical and cognitive aspects of chronic pain, providing patients with evidence-based strategies for managing symptoms and optimizing mental clarity.
+              At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we specialize in understanding the complex relationship between chronic pain and cognitive function. Our comprehensive approach addresses both the physical and cognitive aspects of chronic pain, providing patients with evidence-based strategies for managing symptoms and optimizing mental clarity.
             </p>
             
             <p className="mb-6">

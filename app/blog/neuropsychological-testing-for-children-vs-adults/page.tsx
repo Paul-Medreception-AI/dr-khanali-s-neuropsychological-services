@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Neuropsychological Testing for Children vs. Adults | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn the key differences between neuropsychological testing for children and adults, including assessment approaches, interpretation, and what to expect during evaluation in Arlington, VA.',
-  keywords: 'neuropsychological testing, child neuropsychology, adult neuropsychology, cognitive assessment, psychological evaluation, Arlington VA',
+  title: 'Neuropsychological Testing for Children vs. Adults',
+  description: 'Learn the key differences between neuropsychological testing for children and adults, including assessment approaches, interpretation, and what to expect during evaluation in Fredericksburg, VA.',
+  keywords: 'neuropsychological testing, child neuropsychology, adult neuropsychology, cognitive assessment, psychological evaluation, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -214,7 +214,7 @@ export default function BlogPost() {
               While neuropsychological testing differs significantly between children and adults in methodology and focus, both serve the same essential purpose: understanding how the brain supports thinking, learning, and behavior. Whether identifying a learning disability in childhood or tracking cognitive change in adulthood, these comprehensive assessments provide roadmaps for intervention and support.
             </p>
             <p>
-              If you're considering neuropsychological testing for yourself or your child in Arlington, VA, our team can help you understand what to expect and how the evaluation process can provide answers and direction. Reach out today to discuss whether neuropsychological assessment might be beneficial for your situation.
+              If you're considering neuropsychological testing for yourself or your child in Fredericksburg, VA, our team can help you understand what to expect and how the evaluation process can provide answers and direction. Reach out today to discuss whether neuropsychological assessment might be beneficial for your situation.
             </p>
           </div>
 

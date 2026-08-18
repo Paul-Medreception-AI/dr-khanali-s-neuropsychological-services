@@ -2,16 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Palette derived from the practice's OWN logo mark, whose brand colour is the
+   cyan #36c0ee. The autobuild shipped its default corporate blue (#0070c0) with
+   accent === primary, because colour extraction returned nothing and it fell
+   back ("Colors from default" in the build log).
+
+   #36c0ee itself only reaches 2.11:1 against white, so it can never sit behind
+   white button text. It is kept as --color-brand for decorative marks only; the
+   interactive colours are darkened into the same hue until they pass WCAG AA:
+     --color-accent  #0d7ba3 → 4.80:1 white-on-it   (AA normal text)
+     --color-primary #0a6a8e → 6.06:1 on white      (AA headings + body)
+     --color-dark    #073f56 → deep end of gradients */
 :root {
-  --color-primary: #0070c0;
-  --color-dark: #00497d;
-  --color-light: #d9eaf6;
-  --color-ink: #1a2030;
-  --color-cream: #f7fbfd;
-  --color-muted: #64748b;
-  --color-border: #cce5f7;
-  --color-accent: #0070c0;
-  --color-accent-dark: #00497d;
+  --color-brand: #36c0ee;        /* real logo cyan — decorative use ONLY */
+  --color-primary: #0a6a8e;
+  --color-dark: #073f56;
+  --color-light: #d6f1fc;
+  --color-ink: #14202a;
+  --color-cream: #f5fcfe;
+  --color-muted: #5b7383;
+  --color-border: #b8e6f8;
+  --color-accent: #0d7ba3;       /* CTAs, links, icons — never a large section bg */
+  --color-accent-dark: #095c7c;  /* hover */
 }
 
 * { box-sizing: border-box; }

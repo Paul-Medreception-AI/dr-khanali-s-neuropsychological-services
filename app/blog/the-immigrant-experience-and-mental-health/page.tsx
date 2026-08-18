@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Immigrant Experience and Mental Health | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding the unique mental health challenges faced by immigrants, including cultural adjustment, identity, trauma, and resilience. Expert guidance from Dr. Khanali\'s team in Arlington, VA.',
-  keywords: 'immigrant mental health, cultural adjustment, acculturation stress, immigration trauma, bicultural identity, refugee mental health, Arlington VA',
+  title: 'The Immigrant Experience and Mental Health',
+  description: 'Understanding the unique mental health challenges faced by immigrants, including cultural adjustment, identity, trauma, and resilience. Expert guidance from Dr. Khanali\'s team in Fredericksburg, VA.',
+  keywords: 'immigrant mental health, cultural adjustment, acculturation stress, immigration trauma, bicultural identity, refugee mental health, Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -53,7 +53,7 @@ export default function BlogPost() {
           </p>
           
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Whether you're a first-generation immigrant, a refugee, an international student, or someone supporting a loved one through this journey, recognizing these challenges is the first step toward healing and resilience. At Dr. Khanali's Neuropsychological Services in Arlington, VA, we honor the strength it takes to rebuild life in a new land while addressing the mental health needs that often accompany this transition.
+            Whether you're a first-generation immigrant, a refugee, an international student, or someone supporting a loved one through this journey, recognizing these challenges is the first step toward healing and resilience. At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we honor the strength it takes to rebuild life in a new land while addressing the mental health needs that often accompany this transition.
           </p>
 
           {/* Section 1 */}
@@ -323,7 +323,7 @@ export default function BlogPost() {
           </ul>
           
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            At Dr. Khanali's Neuropsychological Services in Arlington, VA, we provide culturally sensitive mental health care that honors your unique background and experiences. Whether you're navigating acculturative stress, processing trauma, or seeking support for family dynamics, we're here to help you build resilience and thrive in your new home.
+            At Dr. Khanali's Neuropsychological Services in Fredericksburg, VA, we provide culturally sensitive mental health care that honors your unique background and experiences. Whether you're navigating acculturative stress, processing trauma, or seeking support for family dynamics, we're here to help you build resilience and thrive in your new home.
           </p>
 
           {/* Closing */}
@@ -348,7 +348,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, offering compassionate, evidence-based care to the Arlington, VA community.
+                Board-certified providers specializing in Mental Health, offering compassionate, evidence-based care to the Fredericksburg, VA community.
               </p>
             </div>
           </div>

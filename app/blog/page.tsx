@@ -37,7 +37,7 @@ export default function BlogPage() {
               </p>
             </div>
             <Link 
-              href="/blog/understanding-neuropsychological-evaluations"
+              href="/blog/what-to-expect-during-a-neuropsychological-evaluation"
               className="inline-block mt-8 text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-medium transition-colors"
             >
               Read More →
@@ -58,7 +58,7 @@ export default function BlogPage() {
                 Adult ADHD often goes undiagnosed because symptoms can look different than in children. Learn about the subtle signs of attention difficulties, executive dysfunction, and how proper assessment can lead to life-changing support.
               </p>
               <Link 
-                href="/blog/adhd-in-adults"
+                href="/blog/adhd-in-adults-signs-you-might-have-missed"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -77,7 +77,7 @@ export default function BlogPage() {
                 Cognitive concerns can arise from many sources—injury, illness, aging, or developmental conditions. Discover when a comprehensive neuropsychological evaluation can provide the answers you need.
               </p>
               <Link 
-                href="/blog/when-to-consider-evaluation"
+                href="/blog/what-to-expect-during-a-neuropsychological-evaluation"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -96,7 +96,7 @@ export default function BlogPage() {
                 Cultural background shapes how we experience and express mental health concerns. Learn why working with a bilingual, culturally competent therapist can make all the difference in your healing journey.
               </p>
               <Link 
-                href="/blog/culturally-sensitive-therapy"
+                href="/blog/the-importance-of-culturally-sensitive-mental-health-care"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -115,7 +115,7 @@ export default function BlogPage() {
                 Pre-surgical psychological evaluations are an important step in preparing for weight loss surgery. Understand what to expect and how this assessment supports your long-term success.
               </p>
               <Link 
-                href="/blog/bariatric-surgery-evaluation"
+                href="/blog/preparing-for-pre-bariatric-surgery-psychological-evaluation"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -134,7 +134,7 @@ export default function BlogPage() {
                 Grief is a universal experience, yet everyone's journey is unique. Explore the different stages of grief, how cultural factors influence mourning, and when professional support can help.
               </p>
               <Link 
-                href="/blog/navigating-grief"
+                href="/blog/finding-meaning-after-loss-the-grief-journey"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -153,7 +153,7 @@ export default function BlogPage() {
                 Disability evaluations provide essential documentation for accommodations and benefits. Learn what's involved in the assessment process and how to advocate for your needs effectively.
               </p>
               <Link 
-                href="/blog/disability-evaluations"
+                href="/blog/disability-evaluations-understanding-the-process"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -172,7 +172,7 @@ export default function BlogPage() {
                 Anxiety can feel overwhelming, especially during periods of change or stress. Discover practical, research-supported techniques to reduce anxiety and regain a sense of control in your daily life.
               </p>
               <Link 
-                href="/blog/managing-anxiety"
+                href="/blog/anxiety-disorders-more-than-just-worry"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -191,7 +191,7 @@ export default function BlogPage() {
                 Virtual therapy and assessments offer convenience without compromising quality. Learn how PSYPACT licensure enables access to care across 38 states and why telehealth might be right for you.
               </p>
               <Link 
-                href="/blog/telehealth-advantages"
+                href="/blog/telehealth-psychology-quality-care-from-anywhere"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →
@@ -210,7 +210,7 @@ export default function BlogPage() {
                 Trauma can have lasting effects on mental health and daily functioning. Explore evidence-based approaches to trauma therapy and how specialized support can facilitate healing and resilience.
               </p>
               <Link 
-                href="/blog/healing-from-trauma"
+                href="/blog/trauma-and-the-brain-how-ptsd-affects-cognition"
                 className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] text-sm font-medium transition-colors"
               >
                 Read More →

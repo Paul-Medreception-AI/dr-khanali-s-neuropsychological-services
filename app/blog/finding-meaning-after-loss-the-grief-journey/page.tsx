@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Finding Meaning After Loss: The Grief Journey | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Explore the grief journey and discover how to find meaning after loss. Evidence-based guidance on processing grief, honoring memories, and moving forward with compassion in Arlington, VA.',
-  keywords: 'grief counseling, loss, bereavement, grief therapy, meaning making, grief process, mental health Arlington VA',
+  title: 'Finding Meaning After Loss: The Grief Journey',
+  description: 'Explore the grief journey and discover how to find meaning after loss. Evidence-based guidance on processing grief, honoring memories, and moving forward with compassion in Fredericksburg, VA.',
+  keywords: 'grief counseling, loss, bereavement, grief therapy, meaning making, grief process, mental health Fredericksburg VA',
 }
 
 export default function BlogPost() {
@@ -101,7 +101,7 @@ export default function BlogPost() {
               Depression, by contrast, tends to be more pervasive and constant. It colors everything with a sense of worthlessness, hopelessness, and emotional numbness. When grief becomes complicated or prolonged—lasting intensely for more than a year without signs of gradual adaptation—it may develop into what clinicians call "persistent complex bereavement disorder," which benefits from professional intervention.
             </p>
             <p className="mb-6">
-              In Arlington, VA, and throughout the region, mental health professionals increasingly recognize the importance of distinguishing between normal grief reactions and those requiring specialized treatment. If you find yourself unable to function in daily life, experiencing suicidal thoughts, or feeling stuck in intense grief for an extended period, reaching out for support is crucial.
+              In Fredericksburg, VA, and throughout the region, mental health professionals increasingly recognize the importance of distinguishing between normal grief reactions and those requiring specialized treatment. If you find yourself unable to function in daily life, experiencing suicidal thoughts, or feeling stuck in intense grief for an extended period, reaching out for support is crucial.
             </p>
           </div>
 
@@ -201,7 +201,7 @@ export default function BlogPost() {
               Evidence-based approaches like Complicated Grief Treatment (CGT), Meaning Reconstruction Therapy, and EMDR have shown significant effectiveness in helping people move through grief. These therapies don't aim to eliminate pain or make you "get over" your loss. Instead, they help you integrate the loss into your life story, reduce distress, and find ways to move forward while honoring what you've lost.
             </p>
             <p className="mb-6">
-              In Arlington, VA, mental health professionals understand that grief is both universal and unique. The right therapist will meet you where you are, respect your individual timeline, and provide culturally sensitive, compassionate care tailored to your specific needs and circumstances.
+              In Fredericksburg, VA, mental health professionals understand that grief is both universal and unique. The right therapist will meet you where you are, respect your individual timeline, and provide culturally sensitive, compassionate care tailored to your specific needs and circumstances.
             </p>
           </div>
 
@@ -244,7 +244,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </div>
               <div className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Mental Health, serving the Arlington, VA community with evidence-based, compassionate care.
+                Board-certified providers specializing in Mental Health, serving the Fredericksburg, VA community with evidence-based, compassionate care.
               </div>
             </div>
           </div>

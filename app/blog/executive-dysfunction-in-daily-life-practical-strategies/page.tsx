@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Executive Dysfunction in Daily Life: Practical Strategies | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn evidence-based strategies to manage executive dysfunction in everyday tasks. Expert guidance from Arlington, VA neuropsychology specialists on improving planning, organization, and time management.',
-  keywords: 'executive dysfunction, executive function disorder, ADHD strategies, cognitive strategies, neuropsychology Arlington VA, time management, organization skills, working memory',
+  title: 'Executive Dysfunction in Daily Life: Practical Strategies',
+  description: 'Learn evidence-based strategies to manage executive dysfunction in everyday tasks. Expert guidance from Fredericksburg, VA neuropsychology specialists on improving planning, organization, and time management.',
+  keywords: 'executive dysfunction, executive function disorder, ADHD strategies, cognitive strategies, neuropsychology Fredericksburg VA, time management, organization skills, working memory',
   openGraph: {
     title: 'Executive Dysfunction in Daily Life: Practical Strategies',
     description: 'Evidence-based strategies to manage executive dysfunction and improve daily functioning.',
@@ -50,7 +50,7 @@ export default function BlogPost() {
           
           <div className="text-[var(--color-ink)] leading-loose text-base">
             <p className="text-xl leading-relaxed mb-6">
-              You walk into the kitchen with a clear purpose, then suddenly find yourself staring blankly, wondering what you came for. Your desk is covered with half-finished tasks. You know you have an important appointment tomorrow, but you can't quite remember when. If these scenarios sound familiar, you're not alone—and you're not simply "forgetful" or "lazy." You may be experiencing executive dysfunction, a cognitive challenge that affects millions of people every day.
+              You walk into the kitchen with a clear purpose, then suddenly find yourself staring blankly, wondering what you came for. Your desk is covered with half-finished tasks. You know you have an important appointment tomorrow, but you can't quite remember when. If these scenarios sound familiar, you're not alone—and you're not simply "forgetful" or "lazy." You may be experiencing executive dysfunction, a cognitive challenge many people face every day.
             </p>
             
             <p className="mb-6">
@@ -346,7 +346,7 @@ export default function BlogPost() {
             </p>
             
             <p className="mb-6">
-              If you're in Arlington, VA or the surrounding area and feel that executive dysfunction is affecting your quality of life, professional support can make a meaningful difference. A comprehensive evaluation can clarify what's happening and create a roadmap for effective intervention. You don't have to navigate this alone.
+              If you're in Fredericksburg, VA or the surrounding area and feel that executive dysfunction is affecting your quality of life, professional support can make a meaningful difference. A comprehensive evaluation can clarify what's happening and create a roadmap for effective intervention. You don't have to navigate this alone.
             </p>
 
           </div>
@@ -439,7 +439,7 @@ export default function BlogPost() {
             Ready to Take the Next Step?
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Our team in Arlington, VA is here to help you understand and manage executive dysfunction.
+            Our team in Fredericksburg, VA is here to help you understand and manage executive dysfunction.
           </p>
           <a 
             href="/contact" 

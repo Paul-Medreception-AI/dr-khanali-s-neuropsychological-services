@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Adjustment Disorders: When Life Changes Overwhelm | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Understanding adjustment disorders, their symptoms, and how to cope when life changes become overwhelming. Expert guidance from Dr. Khanali\'s team in Arlington, VA.',
-  keywords: 'adjustment disorder, life changes, stress, coping strategies, mental health, Arlington VA, neuropsychological services',
+  title: 'Adjustment Disorders: When Life Changes Overwhelm',
+  description: 'Understanding adjustment disorders, their symptoms, and how to cope when life changes become overwhelming. Expert guidance from Dr. Khanali\'s team in Fredericksburg, VA.',
+  keywords: 'adjustment disorder, life changes, stress, coping strategies, mental health, Fredericksburg VA, neuropsychological services',
 }
 
 export default function BlogPost() {
@@ -48,7 +48,7 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-lg mb-8">
             <p className="mb-6">
-              Life rarely unfolds according to plan. A sudden job loss, the end of a relationship, a cross-country move, a medical diagnosis—these experiences can shake our foundation and leave us struggling to find our footing. While it's normal to feel stressed during major transitions, sometimes the emotional impact becomes so overwhelming that it interferes with daily life. This is when an adjustment disorder may develop, a condition that affects millions of people yet often goes unrecognized and untreated.
+              Life rarely unfolds according to plan. A sudden job loss, the end of a relationship, a cross-country move, a medical diagnosis—these experiences can shake our foundation and leave us struggling to find our footing. While it's normal to feel stressed during major transitions, sometimes the emotional impact becomes so overwhelming that it interferes with daily life. This is when an adjustment disorder may develop, a condition that often goes unrecognized and untreated.
             </p>
             <p>
               Understanding adjustment disorders is crucial because they represent a unique intersection between normal stress responses and more serious mental health conditions. They remind us that our reactions to life changes exist on a spectrum, and seeking help isn't a sign of weakness—it's a practical step toward reclaiming balance and well-being.
@@ -162,7 +162,7 @@ export default function BlogPost() {
               <strong>Developmental transitions:</strong> Adolescents and young adults navigating identity formation and life changes are particularly susceptible, as are older adults facing retirement, health changes, or loss of loved ones.
             </p>
             <p>
-              It's important to note that adjustment disorders are common—research suggests they affect 5-20% of people seeking outpatient mental health treatment. In Arlington, VA and surrounding communities, many individuals experience adjustment difficulties related to career transitions, relocations, relationship changes, and family dynamics.
+              It's important to note that adjustment disorders are common—they are frequently seen among people seeking outpatient mental health treatment. In Fredericksburg, VA and surrounding communities, many individuals experience adjustment difficulties related to career transitions, relocations, relationship changes, and family dynamics.
             </p>
           </div>
 
@@ -255,7 +255,7 @@ export default function BlogPost() {
               Many people hesitate to seek help for adjustment disorders because they feel their struggles aren't "serious enough" or that they should be able to handle life changes on their own. This mindset can prolong suffering unnecessarily. Professional support isn't reserved for severe mental illness—it's a practical resource for navigating difficult life transitions more effectively.
             </p>
             <p>
-              In Arlington, VA, mental health professionals specializing in adjustment disorders can provide assessment, diagnosis, and evidence-based treatment tailored to your specific situation. Early intervention not only speeds recovery but can also prevent the development of more chronic mental health conditions.
+              In Fredericksburg, VA, mental health professionals specializing in adjustment disorders can provide assessment, diagnosis, and evidence-based treatment tailored to your specific situation. Early intervention not only speeds recovery but can also prevent the development of more chronic mental health conditions.
             </p>
           </div>
 
@@ -285,7 +285,7 @@ export default function BlogPost() {
                 Written by the Dr. Khanali's Neuropsychological Services Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Mental Health, dedicated to providing evidence-based, compassionate care to individuals and families in Arlington, VA and surrounding communities.
+                Board-certified providers specializing in Mental Health, dedicated to providing evidence-based, compassionate care to individuals and families in Fredericksburg, VA and surrounding communities.
               </p>
             </div>
           </div>

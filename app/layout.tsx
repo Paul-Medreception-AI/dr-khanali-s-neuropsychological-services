@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { OFFICES, formatOffice, PHONE_DISPLAY, PHONE_TEL, FAX_DISPLAY, EMAIL_ADMIN, HOURS } from '@/lib/practice'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400','500','600','700'], variable: '--font-cormorant' })
@@ -11,7 +12,9 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.drkhanalineuropsychologicalservicesllc.com'),
-  title: "Dr. Khanali's Neuropsychological Services | Expert Neuropsychological Care in English and Farsi",
+  // 60 chars. The previous value was 100 and was truncated on every page that
+  // inherited it, which was 6 of them.
+  title: "Neuropsychological Evaluations & Therapy | Dr. Khanali",
   description: "Dr. Khanali's practice offers bilingual clinical psychology services including ADHD assessments, disability evaluations, and pre-bariatric surgery evaluations. We provide culturally sensitive care with expertise in serving diverse communities across multiple states.",
   icons: {
     icon: [
@@ -76,12 +79,29 @@ export default function RootLayout({
               
               <div>
                 <h3 className="font-semibold text-white mb-4">Contact Information</h3>
-                {/* TODO(optimize): fill real footer NAP before launch */}
                 <div className="flex flex-col gap-2 text-sm text-gray-300">
-                  <p>[Address to be added]</p>
-                  <p>[Phone to be added]</p>
-                  <p>[Email to be added]</p>
-                  <p className="mt-2">[Hours to be added]</p>
+                  {OFFICES.map(o => (
+                    <a
+                      key={o.slug}
+                      href={`/locations/${o.slug}`}
+                      className="hover:text-white transition-colors"
+                    >
+                      {formatOffice(o)}
+                    </a>
+                  ))}
+                  <p className="mt-2">
+                    Tel: <a href={`tel:${PHONE_TEL}`} className="hover:text-white transition-colors">{PHONE_DISPLAY}</a>
+                    <span className="text-gray-500"> · </span>
+                    Fax: {FAX_DISPLAY}
+                  </p>
+                  <p className="break-all">
+                    <a href={`mailto:${EMAIL_ADMIN}`} className="hover:text-white transition-colors">{EMAIL_ADMIN}</a>
+                  </p>
+                  <div className="mt-2">
+                    {HOURS.map(h => (
+                      <p key={h.days}>{h.days}: {h.hours}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

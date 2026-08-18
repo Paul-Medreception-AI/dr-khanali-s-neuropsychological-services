@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Age-Related Cognitive Changes: What\'s Normal? | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn what cognitive changes are normal with aging and when to seek professional evaluation. Expert guidance from Dr. Khanali\'s Neuropsychological Services in Arlington, VA.',
-  keywords: 'age-related cognitive changes, normal aging, memory changes, cognitive decline, neuropsychology, Arlington VA, mental health',
+  title: 'Age-Related Cognitive Changes: What\'s Normal?',
+  description: 'Learn what cognitive changes are normal with aging and when to seek professional evaluation. Expert guidance from Dr. Khanali\'s Neuropsychological Services in Fredericksburg, VA.',
+  keywords: 'age-related cognitive changes, normal aging, memory changes, cognitive decline, neuropsychology, Fredericksburg VA, mental health',
 }
 
 export default function BlogPost() {
@@ -395,7 +395,7 @@ export default function BlogPost() {
               Related Resources
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/blog/understanding-neuropsychological-assessment" className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow">
+              <a href="/blog/what-to-expect-during-a-neuropsychological-evaluation" className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                   Understanding Neuropsychological Assessment
                 </h3>
@@ -403,7 +403,7 @@ export default function BlogPost() {
                   Learn what to expect during a comprehensive cognitive evaluation.
                 </p>
               </a>
-              <a href="/blog/supporting-loved-one-memory-concerns" className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow">
+              <a href="/blog/supporting-a-loved-one-through-psychological-evaluation" className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                   Supporting a Loved One with Memory Concerns
                 </h3>
@@ -411,7 +411,7 @@ export default function BlogPost() {
                   Practical guidance for family members and caregivers.
                 </p>
               </a>
-              <a href="/blog/brain-health-lifestyle-factors" className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow">
+              <a href="/blog/the-connection-between-sleep-and-cognitive-performance" className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-cormorant text-xl text-[var(--color-ink)] mb-2">
                   Brain Health: Key Lifestyle Factors
                 </h3>

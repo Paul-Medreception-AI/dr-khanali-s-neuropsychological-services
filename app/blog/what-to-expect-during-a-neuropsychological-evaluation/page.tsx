@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What to Expect During a Neuropsychological Evaluation | Dr. Khanali\'s Neuropsychological Services',
-  description: 'Learn what happens during a neuropsychological evaluation, how to prepare, and what the results mean. Expert guidance from Dr. Khanali\'s Neuropsychological Services in Arlington, VA.',
-  keywords: 'neuropsychological evaluation, cognitive testing, brain function assessment, neuropsychology, Arlington VA, mental health evaluation',
+  title: 'What to Expect During a Neuropsychological Evaluation',
+  description: 'Learn what happens during a neuropsychological evaluation, how to prepare, and what the results mean. Expert guidance from Dr. Khanali\'s Neuropsychological Services in Fredericksburg, VA.',
+  keywords: 'neuropsychological evaluation, cognitive testing, brain function assessment, neuropsychology, Fredericksburg VA, mental health evaluation',
 }
 
 export default function BlogPost() {
