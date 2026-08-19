@@ -6,6 +6,7 @@ import { OFFICES, formatOffice, PHONE_DISPLAY, PHONE_TEL, FAX_DISPLAY, EMAIL_ADM
 import { SERVICES } from '@/lib/data/services'
 import { CONDITIONS } from '@/lib/data/conditions'
 import { NavDropdown } from '@/components/nav/NavDropdown'
+import { MobileNav } from '@/components/nav/MobileNav'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400','500','600','700'], variable: '--font-cormorant' })
@@ -63,6 +64,8 @@ export default function RootLayout({
               <a href="/contact" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Contact</a>
               <a href="/contact" className="ml-2 xl:ml-6 whitespace-nowrap bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Schedule an Evaluation</a>
             </nav>
+
+            <MobileNav />
           </div>
         </header>
         

@@ -98,3 +98,8 @@ h1, h2, h3, h4 {
   overflow-wrap: break-word;
   hyphens: auto;
 }
+
+/* <details>-based menus: hide the native disclosure triangle. Tailwind's
+   list-none sets list-style, but WebKit needs this pseudo-element too. */
+summary::-webkit-details-marker { display: none; }
+summary::marker { content: ''; }
