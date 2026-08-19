@@ -16,6 +16,7 @@ const dmSans = DM_Sans({ subsets: ['latin'], weight: ['300','400','500','600'], 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
+  verification: { google: 'VbJ0DuYxwoR6SUKOKcLinCkon73615u6Boew9vzDQcg' },
   metadataBase: new URL('https://www.drkhanalineuropsychologicalservicesllc.com'),
   // 60 chars. The previous value was 100 and was truncated on every page that
   // inherited it, which was 6 of them.
