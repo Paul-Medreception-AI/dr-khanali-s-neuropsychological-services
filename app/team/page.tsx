@@ -6,7 +6,7 @@ import { PROVIDERS, PRACTICE_SHORT, SITE_URL, POPULATION } from '@/lib/practice'
 export const metadata: Metadata = {
   title: `Meet Our Team | ${PRACTICE_SHORT}`,
   description:
-    'Meet Dr. Roya Khanali, PsyD, Dr. Nicole Carey, PsyD, and Anais Schultz, MSN. Bilingual psychological care in English, Persian/Farsi and Spanish for adolescents and adults.',
+    'Meet Dr. Roya Khanali, PsyD, and Anais Schultz, MSN. Bilingual psychological care in English, Persian/Farsi and Spanish for adolescents and adults.',
   alternates: { canonical: `${SITE_URL}/team` },
 }
 

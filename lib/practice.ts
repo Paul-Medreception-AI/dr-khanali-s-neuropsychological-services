@@ -130,18 +130,6 @@ export const PROVIDERS: Provider[] = [
     ],
   },
   {
-    name: 'Dr. Nicole Carey',
-    credentials: 'PsyD',
-    role: 'Post-Doctoral Fellow in Clinical Psychology',
-    photo: { src: '/images/dr-nicole-carey.png', alt: 'Dr. Nicole Carey, PsyD, Post-Doctoral Fellow in Clinical Psychology' },
-    bio: [
-      'Dr. Nicole Carey, PsyD, is a clinical psychology post-doctoral resident with over 15 years of experience providing psychological services and assessment to children, adolescents, adults, and families. She specializes in the treatment of trauma, anxiety, depression, grief, adjustment concerns, behavioral challenges, and social-emotional development.',
-      'Dr. Carey has extensive experience conducting individual, family, play, and group therapy, as well as neuropsychological assessments. She has worked in community mental health settings, private practice, military research programs, and independent schools, allowing her to support individuals from diverse cultural, socioeconomic, and educational backgrounds.',
-      'Dr. Carey earned her Doctorate in Clinical Psychology from the American School of Professional Psychology, an APA-accredited program. She also holds a Master of Education in Community Counseling from Howard University, a Master of Arts in Developmental Psychology from Teachers College, Columbia University, and a Bachelor of Arts in Child Development with a minor in Ethnic Studies from Mills College.',
-      'Dr. Carey believes that every individual possesses unique strengths and resilience. She works collaboratively with clients to foster insight, build coping skills, strengthen relationships, and create lasting positive change.',
-    ],
-  },
-  {
     name: 'Anais Schultz',
     credentials: 'MSN',
     role: 'Board-Certified Psychiatric Nurse Practitioner',
