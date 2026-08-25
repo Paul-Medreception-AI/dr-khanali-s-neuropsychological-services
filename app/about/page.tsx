@@ -33,7 +33,7 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-5 gap-12">
             {/* Main Text */}
             <div className="lg:col-span-3 lg:pr-12">
-              <div className="space-y-6 text-lg text-[var(--color-ink)]/80 leading-relaxed">
+              <div className="space-y-6 text-lg text-[color-mix(in_srgb,var(--color-ink)_80%,transparent)] leading-relaxed">
                 <p>
                   Dr. Khanali's Neuropsychological Services was founded on the principle that mental health care should be accessible, culturally sensitive, and grounded in rigorous scientific training. Our practice specializes in comprehensive psychological and neuropsychological evaluations, along with evidence-based therapy for adolescents and adults. With expertise in serving culturally diverse populations, we understand the unique challenges faced by individuals from different backgrounds and provide care that honors each person's cultural identity and values.
                 </p>
@@ -137,7 +137,7 @@ export default function AboutPage() {
               <h3 className="font-cormorant text-xl font-semibold text-[var(--color-ink)] mb-3">
                 Evidence-Based Practice
               </h3>
-              <p className="text-[var(--color-ink)]/70 leading-relaxed">
+              <p className="text-[color-mix(in_srgb,var(--color-ink)_70%,transparent)] leading-relaxed">
                 We utilize scientifically validated assessment tools and therapeutic approaches backed by rigorous research. Our commitment to evidence-based practice ensures you receive interventions proven to be effective for your specific concerns.
               </p>
             </div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
               <h3 className="font-cormorant text-xl font-semibold text-[var(--color-ink)] mb-3">
                 Cultural Sensitivity
               </h3>
-              <p className="text-[var(--color-ink)]/70 leading-relaxed">
+              <p className="text-[color-mix(in_srgb,var(--color-ink)_70%,transparent)] leading-relaxed">
                 We honor the diverse backgrounds and cultural identities of our clients through bilingual services and culturally informed care. Our practice recognizes that cultural context shapes mental health experiences and treatment needs.
               </p>
             </div>
@@ -163,7 +163,7 @@ export default function AboutPage() {
               <h3 className="font-cormorant text-xl font-semibold text-[var(--color-ink)] mb-3">
                 Comprehensive Understanding
               </h3>
-              <p className="text-[var(--color-ink)]/70 leading-relaxed">
+              <p className="text-[color-mix(in_srgb,var(--color-ink)_70%,transparent)] leading-relaxed">
                 We take the time to thoroughly understand your cognitive strengths, challenges, and unique circumstances through detailed assessment. This comprehensive approach allows us to provide personalized recommendations tailored to your specific situation.
               </p>
             </div>
