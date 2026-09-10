@@ -152,6 +152,37 @@ export const PROVIDERS: Provider[] = [
 export const INSURANCE_POLICY =
   'We accept almost all insurance plans.'
 
+/** Examples of accepted carriers — NOT an exhaustive list, and the page says so.
+ *  Names are the practice's own, carried over from the ~22-carrier list on their
+ *  old site, plus Curative Direct + added 2026-09-10. The exclusion model above
+ *  is still the source of truth; these are here because patients look for their
+ *  own carrier by name before they will believe "almost all plans". Alphabetical
+ *  so no carrier reads as ranked. */
+export const INSURANCE_NAMED_PLANS = [
+  'Aetna',
+  'Anthem BC/BS of Virginia',
+  'Anthem Gatekeeper',
+  'Anthem HealthKeepers',
+  'Beacon Health, Inc.',
+  'Cardinal Care',
+  'CareFirst BC/BS',
+  'Carelon Behavioral Health',
+  'Cigna',
+  'Curative Direct + (All Plans)',
+  'Emblem Health',
+  'Innovation Health (Aetna)',
+  'Medicaid',
+  'Medicare (and supplemental plans)',
+  'Optum',
+  'Oscar',
+  'Providence',
+  'Sentara Health Plans (Virginia)',
+  'UMR',
+  'Uni-care',
+  'United Healthcare',
+  'VA CCN',
+]
+
 /** The only plans NOT accepted. Naming exclusions is more useful — and stays
  *  accurate longer — than maintaining a list of every carrier. */
 export const INSURANCE_NOT_ACCEPTED = [

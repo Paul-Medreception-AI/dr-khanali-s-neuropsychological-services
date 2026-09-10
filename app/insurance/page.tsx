@@ -1,4 +1,4 @@
-import { INSURANCE_POLICY, INSURANCE_NOT_ACCEPTED, OUT_OF_POCKET_SERVICES } from '@/lib/practice'
+import { INSURANCE_POLICY, INSURANCE_NAMED_PLANS, INSURANCE_NOT_ACCEPTED, OUT_OF_POCKET_SERVICES } from '@/lib/practice'
 import Link from 'next/link'
 
 export default function InsurancePage() {
@@ -77,9 +77,28 @@ export default function InsurancePage() {
                 </p>
                 <p className="text-[var(--color-ink)] leading-relaxed">
                   Rather than list every carrier, it is simpler to name the plans we cannot bill.
-                  If your plan is not on the short list below, contact the office and we will verify
-                  your benefits before you schedule.
+                  Commonly asked-about carriers are shown below as examples, followed by the short
+                  list of exclusions. If your plan appears on neither, contact the office and we
+                  will verify your benefits before you schedule.
                 </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)]">
+                <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mb-4">
+                  Plans we are credentialed with
+                </h3>
+                <p className="text-[var(--color-ink)] mb-6 leading-relaxed">
+                  These are examples, not a complete list. If your carrier is not shown, that does
+                  not mean we cannot bill it — only the plans in the next section are excluded.
+                </p>
+                <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
+                  {INSURANCE_NAMED_PLANS.map((plan) => (
+                    <li key={plan} className="flex items-start gap-3 text-[var(--color-ink)]">
+                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[var(--color-primary)]" />
+                      <span>{plan}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)]">
