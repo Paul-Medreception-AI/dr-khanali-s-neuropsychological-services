@@ -48,7 +48,7 @@ export function ContactForm() {
           phone: data.get('phone'),
           service: data.get('service'),
           message: data.get('message'),
-          company_website: data.get('company_website'),
+          hp_leave_blank: data.get('hp_leave_blank'),
           timeElapsedMs: Date.now() - mountedAt.current,
           pageUrl: window.location.href,
         }),
@@ -146,10 +146,11 @@ export function ContactForm() {
             <textarea id="message" name="message" rows={5} required className={inputClass}></textarea>
           </div>
 
+          {/* Never name this trap after a real field: Chrome autofilled "company_website" for real people, and the form dropped them behind a fake success (2026-09-16). */}
           {/* Honeypot. Hidden from people and from screen readers; only bots fill it. */}
           <div className="hidden" aria-hidden="true">
-            <label htmlFor="company_website">Company website</label>
-            <input type="text" id="company_website" name="company_website" tabIndex={-1} autoComplete="off" />
+            <label htmlFor="hp_leave_blank">Leave this empty</label>
+            <input type="text" id="hp_leave_blank" name="hp_leave_blank" data-1p-ignore data-lpignore="true" data-bwignore tabIndex={-1} autoComplete="off" />
           </div>
 
           {status === 'error' && (

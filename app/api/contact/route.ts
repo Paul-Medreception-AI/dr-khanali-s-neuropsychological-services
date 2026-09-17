@@ -41,7 +41,7 @@ type ContactBody = {
   message?: string
   pageUrl?: string
   // Hidden in the UI. Real users never fill this; bots that stuff every input do.
-  company_website?: string
+  hp_leave_blank?: string
   // Milliseconds between form mount and submit.
   timeElapsedMs?: number
 }
@@ -62,7 +62,8 @@ export async function POST(request: NextRequest) {
 
   // 1) Honeypot. Return a fake success so the bot does not learn it was caught
   //    and retry with the field cleared.
-  if (body.company_website && body.company_website.trim()) {
+  // Not company_website: Chrome autofilled that for real people and they were dropped as bots (2026-09-16).
+  if (body.hp_leave_blank && body.hp_leave_blank.trim()) {
     console.warn('[contact] honeypot triggered — dropped')
     return NextResponse.json({ success: true }, { status: 200 })
   }
