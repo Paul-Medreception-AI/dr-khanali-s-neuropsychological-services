@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import { SERVICES } from '@/lib/data/services'
 import { CONDITIONS } from '@/lib/data/conditions'
 import { OFFICES } from '@/lib/practice'
+import { FARSI_EN_PATH, FARSI_FA_PATH, FARSI_LANGUAGE_ALTERNATES } from '@/lib/farsi'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.drkhanalineuropsychologicalservicesllc.com'
@@ -106,5 +107,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // a redirecting URL in the sitemap is the "non-canonical page in sitemap" defect.
   const priorRecoveryPages: typeof locationPages = []
 
-  return [...corePages, ...servicePages, ...conditionPages, ...blogPages, ...comparePages, ...locationPages, ...priorRecoveryPages]
+  // The English and Persian landing pages for Farsi-speaking patients, each
+  // listing the other as its hreflang alternate (lib/farsi.ts).
+  const farsiPages = [FARSI_EN_PATH, FARSI_FA_PATH].map(path => ({
+    url: `${base}${path}`,
+    priority: 0.8,
+    changeFrequency: 'monthly' as const,
+    lastModified: now,
+    alternates: { languages: FARSI_LANGUAGE_ALTERNATES },
+  }))
+
+  return [...corePages, ...servicePages, ...conditionPages, ...blogPages, ...comparePages, ...locationPages, ...farsiPages, ...priorRecoveryPages]
 }

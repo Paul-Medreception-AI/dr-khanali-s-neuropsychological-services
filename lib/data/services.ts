@@ -218,6 +218,10 @@ export const SERVICES: ServicePageContent[] = [
       { q: "Is medication management available in Persian/Farsi?", a: "Medication management is provided by Anais Schultz, MSN, who is fluent in English and Spanish." },
       { q: "How do I ask for an appointment in Persian/Farsi?", a: "Call the office or send us a message through the contact form, and tell us you would like your appointment in Persian/Farsi." }
     ],
+    relatedLinks: [
+      { href: "/farsi-speaking-psychologist", label: "Farsi-Speaking Psychologist", eyebrow: "English", body: "Who Dr. Khanali sees in Persian/Farsi, where, and how to book." },
+      { href: "/fa/farsi-speaking-psychologist", label: "روانشناس فارسی‌زبان", eyebrow: "فارسی", body: "همین اطلاعات به زبان فارسی" }
+    ],
     ctaHeading: "Book in English or Persian/Farsi",
     ctaBody: "Contact the office and tell us which language you would like to use.",
   },

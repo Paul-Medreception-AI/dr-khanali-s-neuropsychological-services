@@ -95,7 +95,15 @@ export default function AboutPage() {
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                       <path d="M20 6L9 17l-5-5" />
                     </svg>
-                    <span className="text-[var(--color-ink)]">Bilingual Provider - English & Farsi</span>
+                    <span className="text-[var(--color-ink)]">
+                      <Link href="/farsi-speaking-psychologist" className="underline decoration-[var(--color-border)] underline-offset-4 hover:text-[var(--color-primary)] hover:decoration-[var(--color-primary)]">
+                        Bilingual Provider - English & Farsi
+                      </Link>
+                      {' '}
+                      <Link href="/fa/farsi-speaking-psychologist" hrefLang="fa" lang="fa" dir="rtl" className="text-[var(--color-primary)] hover:underline">
+                        (فارسی)
+                      </Link>
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>

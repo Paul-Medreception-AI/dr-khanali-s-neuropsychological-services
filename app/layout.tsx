@@ -93,6 +93,8 @@ export default function RootLayout({
                   <a href="/about" className="text-sm text-gray-300 hover:text-white transition-colors">About</a>
                   <a href="/team" className="text-sm text-gray-300 hover:text-white transition-colors">Team</a>
                   <a href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
+                  <a href="/farsi-speaking-psychologist" className="text-sm text-gray-300 hover:text-white transition-colors">Farsi-Speaking Psychologist</a>
+                  <a href="/fa/farsi-speaking-psychologist" hrefLang="fa" lang="fa" dir="rtl" className="self-start text-sm text-gray-300 hover:text-white transition-colors">خدمات به زبان فارسی</a>
                 </div>
               </div>
               
