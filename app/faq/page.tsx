@@ -39,7 +39,7 @@ export default function FAQPage() {
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                Yes, Dr. Khanali's practice is currently accepting new patients for neuropsychological evaluations, ADHD testing, disability evaluations, pre-bariatric surgery assessments, and individual therapy. We welcome adolescents and adults seeking comprehensive psychological services. Our practice offers bilingual services in English and Persian/Farsi, and we are licensed to provide telehealth services in 38 states through PSYPACT. To schedule your initial consultation, please contact our office directly through our contact page or by phone.
+                Yes, Dr. Khanali's practice is currently accepting new patients for neuropsychological evaluations, ADHD testing, disability evaluations, pre-bariatric surgery assessments, and individual therapy. We welcome adolescents and adults seeking comprehensive psychological services. Our practice offers bilingual services in English and Persian/Farsi, and we are licensed to provide telehealth services in participating states through PSYPACT. To schedule your initial consultation, please contact our office directly through our contact page or by phone.
               </div>
             </details>
 
@@ -91,7 +91,7 @@ export default function FAQPage() {
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                Yes, we offer secure telehealth services for eligible patients. Dr. Khanali is licensed through PSYPACT, which allows us to provide telepsychology services to clients in 38 participating states. Telehealth is available for individual therapy sessions and initial consultations. However, some types of neuropsychological testing require in-person administration to ensure validity and accuracy of results. During your initial consultation, we will discuss whether telehealth is appropriate for your specific needs or if in-person visits are necessary. All telehealth sessions are conducted through a HIPAA-compliant video platform to protect your privacy and confidentiality.
+                Yes, we offer secure telehealth services for eligible patients. Dr. Khanali is licensed through PSYPACT, which allows us to provide telepsychology services to clients in participating states. Telehealth is available for individual therapy sessions and initial consultations. However, some types of neuropsychological testing require in-person administration to ensure validity and accuracy of results. During your initial consultation, we will discuss whether telehealth is appropriate for your specific needs or if in-person visits are necessary. All telehealth sessions are conducted through a HIPAA-compliant video platform to protect your privacy and confidentiality.
               </div>
             </details>
 
@@ -286,7 +286,7 @@ export default function FAQPage() {
                 </svg>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                Dr. Khanali's practice is based in Fredericksburg, VA, serving the greater Washington, D.C. metropolitan area. We offer both in-person and telehealth services depending on the type of evaluation or therapy being provided. Through PSYPACT licensure, Dr. Khanali is authorized to provide telepsychology services to clients in 38 participating states, which expands access to our bilingual neuropsychological and therapy services for clients who may not be able to travel to our Fredericksburg office. When you contact our office to schedule services, we will provide detailed location information for in-person appointments or technical instructions for telehealth sessions. We strive to make our services accessible and convenient for all clients we serve.
+                Dr. Khanali's practice is based in Fredericksburg, VA, serving the greater Washington, D.C. metropolitan area. We offer both in-person and telehealth services depending on the type of evaluation or therapy being provided. Through PSYPACT licensure, Dr. Khanali is authorized to provide telepsychology services to clients in participating states, which expands access to our bilingual neuropsychological and therapy services for clients who may not be able to travel to our Fredericksburg office. When you contact our office to schedule services, we will provide detailed location information for in-person appointments or technical instructions for telehealth sessions. We strive to make our services accessible and convenient for all clients we serve.
               </div>
             </details>
 

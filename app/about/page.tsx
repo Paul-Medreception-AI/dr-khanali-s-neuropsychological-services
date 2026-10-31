@@ -38,7 +38,7 @@ export default function AboutPage() {
                   Dr. Khanali's Neuropsychological Services was founded on the principle that mental health care should be accessible, culturally sensitive, and grounded in rigorous scientific training. Our practice specializes in comprehensive psychological and neuropsychological evaluations, along with evidence-based therapy for adolescents and adults. With expertise in serving culturally diverse populations, we understand the unique challenges faced by individuals from different backgrounds and provide care that honors each person's cultural identity and values.
                 </p>
                 <p>
-                  Our team is led by Dr. Roya Khanali, a bilingual clinical psychologist who brings extensive training from an APA-accredited program and a unique background in English-Farsi translation. This linguistic expertise allows us to provide seamless services in both languages, ensuring that language is never a barrier to receiving quality mental health care. Through PSYPACT authorization, we are able to serve clients across 38 states via secure telehealth platforms, expanding access to specialized neuropsychological services for individuals who might otherwise face geographic limitations.
+                  Our team is led by Dr. Roya Khanali, a bilingual clinical psychologist who brings extensive training from an APA-accredited program and a unique background in English-Farsi translation. This linguistic expertise allows us to provide seamless services in both languages, ensuring that language is never a barrier to receiving quality mental health care. Through PSYPACT authorization, we are able to serve clients in participating PSYPACT states via secure telehealth platforms, expanding access to specialized neuropsychological services for individuals who might otherwise face geographic limitations.
                 </p>
                 <p>
                   We believe that thorough assessment is the foundation of effective treatment. Our neuropsychological evaluations go beyond simple testing to provide a comprehensive understanding of cognitive strengths and challenges, informing personalized treatment recommendations. Whether conducting ADHD assessments, disability evaluations, pre-surgical psychological clearances, or providing therapy for mental health concerns, we approach each client with compassion, respect, and a commitment to delivering the highest standard of care. Our practice is dedicated to helping individuals understand their cognitive and emotional functioning so they can make informed decisions about their health and well-being.
@@ -89,7 +89,7 @@ export default function AboutPage() {
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                       <path d="M20 6L9 17l-5-5" />
                     </svg>
-                    <span className="text-[var(--color-ink)]">PSYPACT Authorization - 38 States</span>
+                    <span className="text-[var(--color-ink)]">PSYPACT Authorization</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>

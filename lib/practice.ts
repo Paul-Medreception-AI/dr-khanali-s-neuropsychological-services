@@ -95,9 +95,11 @@ export const LICENSED_STATES = ['Virginia', 'Pennsylvania', 'New York']
 /** PSYPACT E-Passport, taken verbatim from the practice site. */
 export const PSYPACT = {
   mobilityNumber: '8709',
+  /** PENDING CONFIRMATION (2026-10-31): NOT shown publicly. Every page says
+   *  "participating PSYPACT states" until the practice confirms the count. */
   stateCount: 38,
   blurb:
-    'Dr. Khanali is authorized under PSYPACT (E-Passport, Mobility Number 8709) to provide tele-psychological services across 38 states.',
+    'Dr. Khanali is authorized under PSYPACT (E-Passport, Mobility Number 8709) to provide tele-psychological services in participating PSYPACT states.',
 }
 
 /** Who the practice actually treats — verbatim from the site. */
@@ -126,7 +128,7 @@ export const PROVIDERS: Provider[] = [
     bio: [
       'Dr. Roya Khanali, PsyD, is a bilingual clinical psychologist fluent in English and Persian/Farsi. She provides therapy and psychological, ADHD, neuropsychological, disability, and pre-bariatric surgery evaluations to adolescents and adults in both Persian/Farsi and English.',
       'Dr. Khanali has extensive experience working with culturally diverse clients. She holds a bachelor’s degree in science in English-Farsi Translation, and completed her doctorate at the APA-accredited program at the Chicago School of Professional Psychology in Washington, DC.',
-      'Dr. Khanali is authorized under PSYPACT (E-Passport, Mobility Number 8709) to provide tele-psychological services across 38 states.',
+      'Dr. Khanali is authorized under PSYPACT (E-Passport, Mobility Number 8709) to provide tele-psychological services in participating PSYPACT states.',
     ],
   },
   {

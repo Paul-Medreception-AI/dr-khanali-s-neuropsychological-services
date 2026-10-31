@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Telehealth Services',
-  description: 'Expert neuropsychological evaluations and therapy available via secure telehealth. Serving clients across 38 states through PSYPACT with bilingual English and Farsi services.',
+  description: 'Expert neuropsychological evaluations and therapy available via secure telehealth. Serving clients in participating PSYPACT states, with bilingual English and Farsi services.',
 }
 
 export default function TelehealthPage() {
@@ -124,14 +124,14 @@ export default function TelehealthPage() {
                 </svg>
                 <div>
                   <h4 className="font-semibold text-[var(--color-ink)] mb-1">Bilingual Services</h4>
-                  <p className="text-sm text-[var(--color-muted)]">All services available in English and Persian/Farsi</p>
+                  <p className="text-sm text-[var(--color-muted)]">Dr. Khanali’s services are available in English and Persian/Farsi</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-12 pt-8 border-t border-[var(--color-border)]">
               <p className="text-[var(--color-muted)] text-sm text-center">
-                <strong className="text-[var(--color-ink)]">Note:</strong> Full neuropsychological evaluations requiring in-person cognitive testing are not available via telehealth but can be scheduled at our office location.
+                <strong className="text-[var(--color-ink)]">Note:</strong> Some evaluations can be completed by video: Dr. Khanali holds virtual evaluations on alternating Saturdays. Memory evaluations for patients 65 and older, and evaluations referred by Mary Washington Hospital or a neurologist, take place in person at our office. Ask the office which applies to you.
               </p>
             </div>
           </div>
@@ -148,7 +148,7 @@ export default function TelehealthPage() {
               <div className="bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-dark)] text-white rounded-2xl p-10 shadow-lg">
                 <h3 className="font-cormorant text-3xl font-semibold mb-6">PSYPACT Authorization</h3>
                 <p className="text-white/90 leading-relaxed mb-6">
-                  Dr. Khanali is authorized through PSYPACT (Psychology Interjurisdictional Compact) to provide telepsychology services to clients in 38 participating states.
+                  Dr. Khanali is authorized through PSYPACT (Psychology Interjurisdictional Compact) to provide telepsychology services to clients in participating states.
                 </p>
                 <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
                   <p className="text-sm text-white/80 mb-4">This means you can receive expert neuropsychological services regardless of your location in participating states, without Dr. Khanali needing separate licenses in each state.</p>

@@ -42,7 +42,7 @@ export default function NewPatientsPage() {
               <div className="font-cormorant text-6xl font-light text-[var(--color-accent)] mb-4">02</div>
               <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mb-3">Complete Paperwork</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Arrive 15 minutes early to complete intake forms, or request them in advance. Forms are available in English and Farsi.
+                Arrive 15 minutes early to complete intake forms, or request them in advance.
               </p>
             </div>
 
@@ -202,11 +202,6 @@ export default function NewPatientsPage() {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-white rounded-lg border border-[var(--color-border)]">
-              <p className="text-[var(--color-muted)]">
-                <strong className="text-[var(--color-ink)]">Language Options:</strong> All forms are available in both English and Persian/Farsi. Please let us know your preference when scheduling your appointment.
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -219,7 +214,7 @@ export default function NewPatientsPage() {
               Telehealth Services
             </h2>
             <p className="text-xl text-center text-[var(--color-muted)] mb-16 animate-fade-up">
-              We offer secure video appointments available in 38 states through PSYPACT
+              We offer secure video appointments in participating states through PSYPACT
             </p>
 
             <div className="grid md:grid-cols-2 gap-12 mb-12">

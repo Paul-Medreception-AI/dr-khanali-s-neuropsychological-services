@@ -108,7 +108,7 @@ export default function ContactPage() {
                 </svg>
                 <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">Telehealth Available</h3>
                 <p className="text-[var(--color-ink)]">
-                  Dr. Khanali is licensed via PSYPACT and can provide telehealth services in 38 states. Ask about virtual evaluation and therapy options when you contact us.
+                  Dr. Khanali is licensed via PSYPACT and can provide telehealth services in participating PSYPACT states. Ask about virtual evaluation and therapy options when you contact us.
                 </p>
               </div>
             </div>

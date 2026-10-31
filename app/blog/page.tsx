@@ -188,7 +188,7 @@ export default function BlogPage() {
                 The Advantages of Telehealth for Psychological Services
               </h3>
               <p className="text-sm text-[var(--color-muted)] leading-relaxed mb-6">
-                Virtual therapy and assessments offer convenience without compromising quality. Learn how PSYPACT licensure enables access to care across 38 states and why telehealth might be right for you.
+                Virtual therapy and assessments offer convenience without compromising quality. Learn how PSYPACT licensure enables access to care across participating states and why telehealth might be right for you.
               </p>
               <Link 
                 href="/blog/telehealth-psychology-quality-care-from-anywhere"

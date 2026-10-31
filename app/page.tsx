@@ -125,7 +125,7 @@ export default function HomePage() {
               <svg stroke="currentColor" strokeWidth={2} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span className="font-bold text-sm text-[var(--color-ink)]">Telehealth Available in 38 States</span>
+              <span className="font-bold text-sm text-[var(--color-ink)]">Telehealth Appointments Available</span>
             </div>
           </div>
         </div>
@@ -204,7 +204,7 @@ export default function HomePage() {
                 Dr. Khanali's Neuropsychological Services was founded on the principle that mental health care should be accessible, culturally sensitive, and grounded in rigorous scientific training. Our practice specializes in comprehensive psychological and neuropsychological evaluations, along with evidence-based therapy for adolescents and adults. With expertise in serving culturally diverse populations, we understand the unique challenges faced by individuals from different backgrounds and provide care that honors each person's cultural identity and values.
               </p>
               <p className="text-[var(--color-muted)] leading-relaxed mb-6">
-                Our team is led by Dr. Roya Khanali, a bilingual clinical psychologist who brings extensive training from an APA-accredited program and a unique background in English-Farsi translation. This linguistic expertise allows us to provide seamless services in both languages, ensuring that language is never a barrier to receiving quality mental health care. Through PSYPACT authorization, we are able to serve clients across 38 states via secure telehealth platforms, expanding access to specialized neuropsychological services for individuals who might otherwise face geographic limitations.
+                Our team is led by Dr. Roya Khanali, a bilingual clinical psychologist who brings extensive training from an APA-accredited program and a unique background in English-Farsi translation. This linguistic expertise allows us to provide seamless services in both languages, ensuring that language is never a barrier to receiving quality mental health care. Through PSYPACT authorization, we are able to serve clients in participating PSYPACT states via secure telehealth platforms, expanding access to specialized neuropsychological services for individuals who might otherwise face geographic limitations.
               </p>
               <Link href="/team" className="inline-block text-[var(--color-primary)] font-semibold hover:underline transition-all">
                 Meet Our Team →
