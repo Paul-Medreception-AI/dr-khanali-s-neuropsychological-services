@@ -35,8 +35,8 @@ export default function HomePage() {
             {/* The headline already names the service, so the supporting line
                 does positioning work instead: "Specialized" signals that this is
                 not a general counselling practice. */}
-            <h1 className="font-cormorant text-3xl sm:text-4xl md:text-5xl font-light tracking-tight leading-[1.15] [hyphens:auto] break-words">
-              <span className="block">Neuropsychological Evaluations &amp; Therapy</span>
+            <h1 className="font-cormorant text-3xl sm:text-4xl md:text-5xl font-light tracking-tight leading-[1.15] [hyphens:auto] break-words text-balance">
+              <span className="block">Neuropsychological Evaluations &amp; Medication Management</span>
               <span className="block">for Adolescents and Adults</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
